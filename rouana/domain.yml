@@ -1,7 +1,13 @@
 intents:
+  - cumprimentar
+  - despedida
+
+  - captacao
+  - captacao_quando_captar
+  - captacao_como_captar
+
   - o_que_eh
   - processo_situacao_processo
-  - cumprimentar
   - afirmar_curiosidades
   - afirmar_projeto
   - submissao_de_projeto
@@ -23,18 +29,22 @@ intents:
   - duvida_sobre_contexto
   - oqueEhSalicRouana
   - oqueEhSalicLeiRouanet
-  - oqueEhSalicMinc
-  - oqueEhSalicSefic
-  - oqueEhSalicProjeto
-  - oqueEhSalicProposta
-  - oqueEhSalicProponente
+  
+  - definicao_tais
+  - definicao_minc
+  - definicao_sefic
+  - definicao_projeto
+  - definicao_proposta
+  - definicao_proponente
+  - definicao_salic
+  - definicao_vinculada
+  
   - oqueEhSalicPreenchimento
   - oqueEhSalicAdmissibilidade
   - oqueEhSalicAprovacao
   - oqueEhSalicExecucao
   - oqueEhSalicPrestacaoDeContas
-  - oqueEhSalic
-  - oqueEhSalicVinculada
+
 
 slots:
   situacao_processo:
@@ -645,7 +655,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 56
 
-  utter_oqueEhSalicRouana:
+  utter_definicao_tais:
     - text: |
           Uma assistente virtual é um programa de computador 
           
@@ -679,13 +689,20 @@ templates:
 
           artístico-culturais.
 
-  utter_oqueEhSalicMinc:
+  # TO DO        
+  utter_definicao:
+    - text: |
+          Sei conceituar sobre o que é o MinC, Salic, Sefic, proposta, projeto e proponente,
+          
+          assim como falar sobre mim.
+
+  utter_definicao_minc:
     - text: |
           O Ministério da Cultura (MinC) é o responsável pela aprovação e
 
           monitoramento dos projetos submetidos.
 
-  utter_oqueEhSalicSefic:
+  utter_definicao_sefic:
     - text: |
           A (Secretaria de Fomento e Incentivo à Cultura) planeja,
 
@@ -693,17 +710,17 @@ templates:
 
           monitoramento e prestação de contas de projetos culturais.
 
-  utter_oqueEhSalicProjeto:
+  utter_definicao_projeto:
     - text: |
           Projeto é o termo dado para a proposta aprovada no SALIC.
 
-  utter_oqueEhSalicProposta:
+  utter_definicao_proposta:
     - text: |
           Proposta é o conjunto de formulários que explicam o projeto
 
           cultural que pode ser incentivado pela Lei Rouanet.
 
-  utter_oqueEhSalicProponente:
+  utter_definicao_proponente:
     - text: |
           Proponente é o agente responsável por propor e participar
 
@@ -739,7 +756,7 @@ templates:
 
                                      a fim de provar os gastos do projeto.
 
-  utter_oqueEhSalic:
+  utter_definicao_salic:
     - text: |
           Sistema de Apoio às Leis de Incentivo à Cultura (SALIC) é o
 
@@ -749,24 +766,24 @@ templates:
 
           Acesse: *salic.cultura.gov.br*
 
-  utter_oqueEhSalicVinculada:
+  utter_definicao_vinculada:
     - text: |
           As vinculadas são órgãos associados ao MinC
-          
+
           que avaliam o orçamento e adequação do projeto.
 
-  utter_geralCumprimentar:
-  
+  utter_cumprimentar:
+
     - text: |
         Olá, meu  nome é Taís, sou assistente virtual do MinC
 
         Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
-    
+
     - text: |
         Oi, eu sou a Taís, assistente virtual do MinC
 
         Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
-      
+
     - text: |
         Oi, sou assistente virtual do MinC, me chamo Taís
 
@@ -819,14 +836,6 @@ templates:
         Você quer esclarecer dúvidas sobre *captação de verba*
 
         para execução de um projeto?
-
-  utter_geralDespedir:
-    - text: |
-        Foi um prazer te ajudar! 
-
-        Sempre que tiver alguma dúvida, volte aqui!
-
-        Até logo!
 
   utter_geralDefinirContexto:
     - text: |
@@ -1410,9 +1419,9 @@ templates:
     - text: |
           Você já possui uma proposta preenchida?
 
-  utter_despedir:
+  utter_despedida:
     - text: |
-        Foi um prazer te ajudar! 
+        Foi um prazer te ajudar!
 
         Sempre que tiver alguma dúvida, volte aqui!
 
@@ -1420,17 +1429,17 @@ templates:
 
     - text: |
         Foi um prazer te ajudar!
-       
+
         Sempre que precisar, volte aqui!
-       
+
         Até a próxima!
-        
+
     - text: |
         Foi um prazer te ajudar!
 
         Quando surgir alguma dúvida, volte aqui!
 
-        Até mais!   
+        Até mais!
 
 
   utter_nova_proposta:
@@ -1702,6 +1711,25 @@ templates:
     - text: |
         Que bom! Espero estar ajudando
 
+  utter_captacao:
+    - text: |
+        Em captação, eu sei falar sobre quando captar e sobre como captar
+
+        O que você deseja saber?
+
+  utter_captacao_quando_captar:
+    - text: |
+        A captação só pode começar depois que o projeto passa pela fase de
+        enquadramento, pela análise documental e pela publicação.
+
+        Assim que o projeto é publicado no Diário Oficial da União você pode
+        começar a captar recursos.
+
+  #TODO
+  utter_captacao_como_captar:
+    - text: |
+        Para captar os recursos você deve achar incetivadores
+
 actions:
   - utter_default
   - utter_restart
@@ -1771,27 +1799,28 @@ actions:
   - utter_oqueEhSalic_E78
   - utter_oqueEhSalic_E47
   - utter_oqueEhSalic_L06
-  - utter_oqueEhSalicRouana
+  - utter_definicao
+  - utter_definicao_tais
   - utter_oqueEhSalicLeiRouanet
-  - utter_oqueEhSalicMinc
-  - utter_oqueEhSalicSefic
-  - utter_oqueEhSalicProjeto
-  - utter_oqueEhSalicProposta
-  - utter_oqueEhSalicProponente
+  - utter_definicao_minc
+  - utter_definicaoefic
+  - utter_definicao_projeto
+  - utter_definicao_proposta
+  - utter_definicao_proponente
   - utter_oqueEhSalicPreenchimento
   - utter_oqueEhSalicAdmissibilidade
   - utter_oqueEhSalicAprovacao
   - utter_oqueEhSalicExecucao
   - utter_oqueEhSalicPrestacaoDeContas
-  - utter_oqueEhSalic
-  - utter_oqueEhSalicVinculada
-  - utter_geralCumprimentar
+  - utter_cumprimentar
+  - utter_definicao_salic
+  - utter_definicao_vinculada
   - utter_geralDefinirPerfil
   - utter_geralExplicarDefinicaoPerfil
   - utter_geralNovaProposta
   - utter_geralDuvidaExecucao
   - utter_geralCadastroSalic
-  - utter_geralDespedir
+  - utter_despedida
   - utter_geralDefinirContexto
   - utter_geralSubmissaoDeProjetos
   - utter_geralAviso
@@ -1849,7 +1878,6 @@ actions:
   - utter_curiosidades_mais_nao
   - utter_curiosidades_falar_sobre_projetos
   - utter_aviso
-  - utter_despedir
   - utter_nova_proposta
   - utter_conhece_processo
   - utter_o_que_eh
@@ -1874,3 +1902,6 @@ actions:
   - utter_explicar_contextos
   - utter_mais_alguma_pergunta
   - utter_mais_perguntas_afirmativa
+  - utter_captacao
+  - utter_captacao_quando_captar
+  - utter_captacao_como_captar
