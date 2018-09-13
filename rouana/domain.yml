@@ -1,7 +1,13 @@
 intents:
+  - cumprimentar
+  - despedida
+
+  - captacao
+  - captacao_quando_captar
+  - captacao_como_captar
+
   - o_que_eh
   - processo_situacao_processo
-  - cumprimentar
   - afirmar_curiosidades
   - afirmar_projeto
   - submissao_de_projeto
@@ -752,21 +758,21 @@ templates:
   utter_oqueEhSalicVinculada:
     - text: |
           As vinculadas são órgãos associados ao MinC
-          
+
           que avaliam o orçamento e adequação do projeto.
 
-  utter_geralCumprimentar:
-  
+  utter_cumprimentar:
+
     - text: |
         Olá, meu  nome é Taís, sou assistente virtual do MinC
 
         Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
-    
+
     - text: |
         Oi, eu sou a Taís, assistente virtual do MinC
 
         Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
-      
+
     - text: |
         Oi, sou assistente virtual do MinC, me chamo Taís
 
@@ -819,14 +825,6 @@ templates:
         Você quer esclarecer dúvidas sobre *captação de verba*
 
         para execução de um projeto?
-
-  utter_geralDespedir:
-    - text: |
-        Foi um prazer te ajudar! 
-
-        Sempre que tiver alguma dúvida, volte aqui!
-
-        Até logo!
 
   utter_geralDefinirContexto:
     - text: |
@@ -1410,9 +1408,9 @@ templates:
     - text: |
           Você já possui uma proposta preenchida?
 
-  utter_despedir:
+  utter_despedida:
     - text: |
-        Foi um prazer te ajudar! 
+        Foi um prazer te ajudar!
 
         Sempre que tiver alguma dúvida, volte aqui!
 
@@ -1420,17 +1418,17 @@ templates:
 
     - text: |
         Foi um prazer te ajudar!
-       
+
         Sempre que precisar, volte aqui!
-       
+
         Até a próxima!
-        
+
     - text: |
         Foi um prazer te ajudar!
 
         Quando surgir alguma dúvida, volte aqui!
 
-        Até mais!   
+        Até mais!
 
 
   utter_nova_proposta:
@@ -1702,6 +1700,25 @@ templates:
     - text: |
         Que bom! Espero estar ajudando
 
+  utter_captacao:
+    - text: |
+        Em captação, eu sei falar sobre quando captar e sobre como captar
+
+        O que você deseja saber?
+
+  utter_captacao_quando_captar:
+    - text: |
+        A captação só pode começar depois que o projeto passa pela fase de
+        enquadramento, pela análise documental e pela publicação.
+
+        Assim que o projeto é publicado no Diário Oficial da União você pode
+        começar a captar recursos.
+
+  #TODO
+  utter_captacao_como_captar:
+    - text: |
+        Para captar os recursos você deve achar incetivadores
+
 actions:
   - utter_default
   - utter_restart
@@ -1785,13 +1802,13 @@ actions:
   - utter_oqueEhSalicPrestacaoDeContas
   - utter_oqueEhSalic
   - utter_oqueEhSalicVinculada
-  - utter_geralCumprimentar
+  - utter_cumprimentar
   - utter_geralDefinirPerfil
   - utter_geralExplicarDefinicaoPerfil
   - utter_geralNovaProposta
   - utter_geralDuvidaExecucao
   - utter_geralCadastroSalic
-  - utter_geralDespedir
+  - utter_despedida
   - utter_geralDefinirContexto
   - utter_geralSubmissaoDeProjetos
   - utter_geralAviso
@@ -1849,7 +1866,6 @@ actions:
   - utter_curiosidades_mais_nao
   - utter_curiosidades_falar_sobre_projetos
   - utter_aviso
-  - utter_despedir
   - utter_nova_proposta
   - utter_conhece_processo
   - utter_o_que_eh
@@ -1874,3 +1890,6 @@ actions:
   - utter_explicar_contextos
   - utter_mais_alguma_pergunta
   - utter_mais_perguntas_afirmativa
+  - utter_captacao
+  - utter_captacao_quando_captar
+  - utter_captacao_como_captar
