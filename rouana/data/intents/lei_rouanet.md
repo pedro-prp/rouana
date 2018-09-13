@@ -1,10 +1,14 @@
 <!-- Lei Rouanet -->
 
 ## intent:lei_rouanet 
+- quero falar sobre a lei rouanet
+- lei rouanet
+- me fale sobre a lei rouanet
 
 ## intent:lei_rouanet_o_que_eh
-- o que é LeiRouanet
-- o que significa LeiRouanet
+- o que é Lei Rouanet
+- o que significa Lei Rouanet
+- Explique a lei rouanet
 
 ## intent:lei_rouanet_quem_pode_ser_proponente
 - quem pode se inscrever na lei rouanet?
@@ -31,7 +35,7 @@
 - o dinheiro da lei rouanet é público?
 - Porque os cidadãos tem que pagar pelos projetos da lei rouanet?
 - quem pode contribuir para um projeto da lei rouanet?
-- eu como cidadão posso contribuir para um projeto
+- cidadão pode contribuir para um projeto
 - pessoa física pode contribuir
 - o dinheiro da lei é privado ou público
 - é o cidadão que paga pelos projetos da lei rouanet
@@ -44,7 +48,6 @@
 - quanto dinheiro a lei rouanet já arrecadou?
 - quanto a lei ja arrecadou?
 - qto a lei já arrecadou?
-
 
 ## intent:lei_rouanet_beneficios_incentivo_projetos_culturais
 - Qual o benefício de incentivar projetos culturais ?
@@ -134,7 +137,7 @@
 - meus familiares podem incentivar meu projeto?
 - a família pode incentivar projetos?
 
-## intent:curiosidades_lei_rouanet_denuncia
+## intent:lei_rouanet_denuncia
 - quero denunciar um projeto
 - como faço uma denúncia
 - tem um projeto usando o dinheiro da lei de forma indevida
