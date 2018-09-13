@@ -1,6 +1,6 @@
 intents:
   - o_que_eh
-  - oqueeh_estadoSalic
+  - processo_situacao_processo
   - cumprimentar
   - afirmar_curiosidades
   - afirmar_projeto
@@ -37,7 +37,7 @@ intents:
   - oqueEhSalicVinculada
 
 slots:
-  estadoSalic:
+  situacao_processo:
     type: "categorical"
     values:
       - "A12"

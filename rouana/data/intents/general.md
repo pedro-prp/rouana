@@ -1,282 +1,33 @@
+<!-- Saudação -->
 ## intent:cumprimentar
-- oi
-- olá
 - oi Taís
 - olá Taís
-- olá Taís, como vai?
+- olá como vai?
 - como vai?
 - bom dia
 - boa tarde
 - boa noite
 - oi, tudo bem?
-- oi, tudo bom?
 - oi, como vai você?
 - como vão as coisas?
 - alô
 - eae
 - eai
 - yo
-- com licença
-- tudo bom?
-- posso falar com você?
+- opa tudo bem
 - pode me tirar uma dúvida?
 
-## intent:afirmar
-- sim
-- claro que sim
-- posso sim
-- quero saber mais
-- quero sim
-- quero
-- por favor
-- se voce puder
-- quero mais detalhes
-- quero mais
-- tudo bem
-- pode falar
-- já sim
-- já preenchi
-- já conheço
-- ja conheco
-- conheço
-- conheco
-- sei bastante
-- preenchi sim
-- já preenchi uma proposta
-- sim, preenchi minha proposta
-- Tá
-- tá
-- Tá bom
-- tá bom
-- Okay
-- okay
-- Ok
-- ok
-- claro
-- por favor
-- se não for incomodo
-
-## intent:negar
-- não
-- não quero saber mais
-- quero falar sobre outra coisa
-- não, ainda não
-- não preenchi
-- nao preenchi
-- nunca preenchi
-- nunca fiz
-- nunca
-- nao fiz
-- não está
-- não tem nada a ver
-- não é nada disso
-- ainda não
-- não sei
-- não conheço
-- nao conheco
-- quero nao
-- nao quero
-- não, tudo bem
-- nada
-- não quero saber de mais nada
-- não era isso, me enganei
-- não era isso
-- não é nada disso
-- não sei onde se encaixa
-- não sei dizer
-- não sei bem
-- não sei onde a minha pergunta se encaixa
-- não tenho certeza
-- escolhi errado
-- falei errado
-- hmm não sei
-- nao sei minha duvida
-- não sei o que perguntar
-- não sei o que quero saber
-- sei lá
-- tanto faz
-- nao sei o que perguntar
-- nao sei o que questionar
-- nao sei o que quero saber
-- ainda nao sei
-- ainda nao sei escolher um tópico
-- ainda não pensei sobre isso
-- não sei do que quero falar
-- não sei do que quero conversar
-
-## intent:afirmar_curiosidades
-- quero aprender mais sobre a lei
-- quero saber mais sobre a lei
-- pretendo saber mais sobre a lei
-- gostaria de aprender mais sobre a lei
-- gostaria de saber mais sobre a lei
-- quero falar sobre a lei
-- mais sobre a lei
-- Mais sobre a Lei Rouanet
-- vamos falar sobre a lei
-- sobre a lei
-- a lei
-- lei
-- lei rouanet
-- Rouanet
-- rouanet
-- curiosidades
-- gostaria de falar mais sobre a lei
-- tenho duvidas na lei rouanet
-- possuo curiosidades sobre a lei rouanet
-- sobre a Lei eu acho
-- creio que sobre a lei rouanet
-- o que é a lei
-- O que é a lei
-
-## intent:afirmar_projeto
-- prefiro conversar sobre criação e andamento de projetos
-- prefiro conversar sobre proposta
-- prefiro conversar sobre projetos
-- prefiro falar sobre criação e andamento de projetos
-- prefiro falar sobre proposta
-- prefiro falar sobre projetos
-- quero conversar sobre projetos
-- quero conversar sobre criação e andamento de projetos
-- quero conversar sobre proposta
-- quero conversar sobre projetos
-- quero falar sobre proposta
-- quero falar sobre projetos
-- projetos
-- projeto
-- proposta
-- propostas
-- sobre proposta
-- sobre projetos
-- sobre a criação
-- sobre a criacao
-- sobre o andamento
-- andamento
-- criação
-- criacao
-- criação de projetos
-- criação de projeto
-- andamento de projetos
-
-## intent:o_que_eh
-- o que é um projeto?
-- o que é a cnic?
-- o que é proposta?
-- o que e proponente?
-- o que é isso?
-- o que preenchimento quer dizer?
-- o que lei rouanet significa?
-- oq é Lei Rouanet?
-- oq é a Lei Rouanet?
-- pode conceituar salic?
-- pode conceituar o salic?
-- pode explicar execução?
-- pode me explicar a fase de preenchimento?
-- pode me explicar a lei rouanet?
-- pode me dar o conceito do salic
-- não faço ideia do que seja proponente
-- não sei bem o que você quer dizer com sefic
-- Não sei o que é  e90
-- me explique prestação de contas
-- me explica o que é a cnic
-- me explica o que é o salic
-- me explique melhor o conceito de projeto
-- me explique melhor o que é um proponente
-- qual o conceito de sefic?
-- qual o significado de a12?
-- como funciona a prestação de contas
-- como funciona a fase de preenchimento
-- o que significa e90?
-- o que significa o estado e90?
-- o que eh A12?
-- você pode me explicar sobre prestação de contas
-- você pode me explicar o que é e90
-- O que significa cnic?
-- defina cnic
-- explique cnic
-- me explique a fase de preenchimento
-- me explique a fase de prestação de contas
-
-## intent:duvida_sobre_contexto
-- 5
-- se encaixa na 5
-- acho que seria a 5
-- na quinta alternativa
-- alternativa 5
-- se encaixa na 5
-- acho que seria a 5
-- quinta opção
-- opção cinco
-- cinco
-
-##intent:extra
-- Bacana
-- legal
-- Entendi
-- Compreendi
-- Saquei
-- Daora
-- Tá
-- Tá bom
-- Bom
-- Okay
-- Ok
-- Muito bom
-- Muito bem
-- Gostei
-- Massa
-- Maneiro
-- Interessante
-- Joia
-- Formidável
-- Excelente
-- Ótimo
-- Extraordinário
-- Excepcional
-- Notável
-- Top
-- Perfeito
-- Certo
-
-## intent:curiosidades_quantidade_projetos
-- Quantos projetos já participaram da lei rouanet?
-- Quantos projetos já foram agraciados pela lei rouanet?
-- Quantos projetos usam da lei rouanet?
-- Quantos são os projetos usam da lei rouanet?
-- Quantos projetos existem?
-- Qual a média de projetos por ano?
-- Qual o número de projetos?
-- Você tem a estatistica sobre projetos participantes?
-- Qual a quantidade de projetos que já usou a lei?
-- número de projetos incetivados pela lei até agora
-- quantos projetos já tiveram incentivo da lei?
-- qual a quantidade de projetos a lei rouanet possui?
-- qual a quantidade de projetos que a lei rouanet tem?
-- qtos projetos a lei rouanet tem?
 
 
-## intent:curiosidades_beneficios_incentivo_projetos_culturais
-- Qual o benefício de incentivar projetos culturais ?
-- Há benefício para incentivar projetos culturais ?
-- O que ganho investindo em projetos culturais ?
-- Investimento e projetos culturais, tem benefícios?
-- O que se ganha ao incentivar projetos culturais ?
-- Incentivo a projetos culturais há benefícios ?
-- Tem algum beneficio para incetivar projetos?
-- Tem algum beneficio em incentivar projetos?
-- Existem algum incentivo para quem contribui para os projetos culturais
-- Quero contribuir para um projeto, o que ganho com isso?
-- o que eu ganho ao incentivar um projeto?
-- que tipo de benefícios alguém recebe ao incentivar um projeto?
-- se eu incentivar algum projeto, recebo algum beneficio?
-- ganho algum beneficio por incentivar algum projeto?
-- tem algum beneficio para quem incentiva um projeto?
-- um incentivador pode receber algum beneficio?
-- Que tipo de beneficios alguem recebe se incentivar um projeto
-- se eu incentivar o projeto, o que recebo?
-- que benefícios tem pra quem incentivar um projeto?
+<!-- Lei Rouanet -->
 
-## intent:curiosidades_lei_rouanet_elegibilidade
+## intent:lei_rouanet 
+
+## intent:lei_rouanet_o_que_eh
+- o que é LeiRouanet
+- o que significa LeiRouanet
+
+## intent:lei_rouanet_quem_pode_ser_proponente
 - quem pode se inscrever na lei rouanet?
 - quem pode participar?
 - como eu me inscrevo na lei rouanet?
@@ -293,7 +44,7 @@
 - quais são os critérios de elegibilidade?
 - quais as regras para pariticipar?
 
-## intent:curiosidades_lei_rouanet_arrecadamento
+## intent:lei_rouanet_origem_do_dinheiro
 - quanto dinheiro a lei movimenta?
 - quanto dinheiro a lei rouanet arrecada?
 - De onde vem o dinheiro da lei rouanet?
@@ -315,6 +66,94 @@
 - quanto a lei ja arrecadou?
 - qto a lei já arrecadou?
 
+
+## intent:lei_rouanet_beneficios_incentivo_projetos_culturais
+- Qual o benefício de incentivar projetos culturais ?
+- Há benefício para incentivar projetos culturais ?
+- O que ganho investindo em projetos culturais ?
+- Investimento e projetos culturais, tem benefícios?
+- O que se ganha ao incentivar projetos culturais ?
+- Incentivo a projetos culturais há benefícios ?
+- Tem algum beneficio para incetivar projetos?
+- Tem algum beneficio em incentivar projetos?
+- Existem algum incentivo para quem contribui para os projetos culturais
+- Quero contribuir para um projeto, o que ganho com isso?
+- o que eu ganho ao incentivar um projeto?
+- que tipo de benefícios alguém recebe ao incentivar um projeto?
+- se eu incentivar algum projeto, recebo algum beneficio?
+- ganho algum beneficio por incentivar algum projeto?
+- tem algum beneficio para quem incentiva um projeto?
+- um incentivador pode receber algum beneficio?
+- Que tipo de beneficios alguem recebe se incentivar um projeto
+- se eu incentivar o projeto, o que recebo?
+- que benefícios tem pra quem incentivar um projeto?
+- Quanto o incentivador de projetos culturais pode deduzir de seu imposto de renda?
+- Incentivadores de projetos podem deduzir quanto de impostos de renda ?
+- Quanto de imposto de renda incentivadores conseguem deduzir de impostos ?
+- Qual valor um incentivador consegue deduzir de imposto de renda ?
+- Caso eu incentive um projeto quanto eu vou abater do meu IR
+- Quanto é o abatimento no IR caso haja algum incentivo
+- Quanto eu ganho de desconto no imposto de renda incentivando projeto culturais
+- Qual a porcentagem do imposto que vou abater após incentivar projetos?
+- qual é o desconto que recebo no IR ao incentivar um projeto
+- Se eu incentivar eu vou ter dedução no meu imposto de renda
+- qual a dedução de imposto de renda para incentivadores?
+- qual a dedução de impostos para incentivadores?
+- qual a dedução de imposto de renda para incentivadores?
+- sou incentivador, quanto posso receber como dedução de imposto de renda??
+
+## intent:lei_rouanet_quantidade_de_projetos
+- Quantos projetos já participaram da lei rouanet?
+- Quantos projetos já foram agraciados pela lei rouanet?
+- Quantos projetos usam da lei rouanet?
+- Quantos são os projetos usam da lei rouanet?
+- Quantos projetos existem?
+- Qual a média de projetos por ano?
+- Qual o número de projetos?
+- Você tem a estatistica sobre projetos participantes?
+- Qual a quantidade de projetos que já usou a lei?
+- número de projetos incetivados pela lei até agora
+- quantos projetos já tiveram incentivo da lei?
+- qual a quantidade de projetos a lei rouanet possui?
+- qual a quantidade de projetos que a lei rouanet tem?
+- qtos projetos a lei rouanet tem?
+
+## intent:lei_rouanet_quem_pode_incentivar
+- Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais?
+- Quais empresas podem se beneficiar ao apoiar projetos culturais?
+- Que tipos de empresas podem se beneficiar ao apoiar projetos culturais?
+- Apoiando projetos culturais, qualquer empresa se beneficia?
+- Empresas que se beneficiam ao apoiar projeto culturais?
+- Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso?
+- qual o critério de elegibilidade para pessoas jurídicas
+- toda empresa pode usar a lei rouanet?
+- tem alguma execeção para uma empresa não utilizar a lei rouanet
+- quais a regras de elegibilidade no caso de empresas
+- qual a minha elegibilidade como pessoa juridica para participar da lei
+- qual a minha elegibilidade como cnpj para participar da lei
+- qualquer empresa pode participar da lei Rouanet?
+- que empresa pode participar?
+- que tipo de empresa pode participar?
+- Meus parentes podem incentivar meu projeto ?
+- Meus pais e tios podem incentivar meu projeto ?
+- Tem problema parentes incentivarem projetos ?
+- Tenho parentes que desejam incentivar meus projetos, tem alguma restrição ?
+- Parentes incentivando meus projetos. Tem problema ?
+- Tem problema meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar meus projetos ?
+- Minha irmã quer incetivar meu projeto, tem problema?
+- Minha filha possui uma empresa e quer incentivar um dos meus projetos
+- Possuo um tio que quer me incentivar na cultura
+- Tenho um primo que quer me dar dinheiro pela lei rouanet
+- Algum parente meu pode incentivar meu projeto?
+- Meu projeto pode ser incentivado pela minha família?
+- minha família pode incentivar meu projeto?
+- Queria saber se a minha família pode ajudar a bancar o meu projeto
+- Quero saber se a minha família pode financiar o meu projeto
+- Quero saber se meus parentes podem ajudar a financiar o meu projeto
+- A minha família pode colocar dinheiro no meu projeto?
+- quero saber se meus parentes podem ser beneficiados
+- meus familiares podem incentivar meu projeto?
+- a família pode incentivar projetos?
 
 ## intent:curiosidades_lei_rouanet_denuncia
 - quero denunciar um projeto
@@ -338,433 +177,574 @@
 - queria saber se é possivel fazer uma denuncia
 - se eu quiser fazer uma denuncia, como faço?
 
-## intent:curiosidades_elegibilidade_de_empresa_para_beneficios
-- Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais?
-- Quais empresas podem se beneficiar ao apoiar projetos culturais?
-- Que tipos de empresas podem se beneficiar ao apoiar projetos culturais?
-- Apoiando projetos culturais, qualquer empresa se beneficia?
-- Empresas que se beneficiam ao apoiar projeto culturais?
-- Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso?
-- qual o critério de elegibilidade para pessoas jurídicas
-- toda empresa pode usar a lei rouanet?
-- tem alguma execeção para uma empresa não utilizar a lei rouanet
-- quais a regras de elegibilidade no caso de empresas
-- qual a minha elegibilidade como pessoa juridica para participar da lei
-- qual a minha elegibilidade como cnpj para participar da lei
-- qualquer empresa pode participar da lei Rouanet?
-- que empresa pode participar?
-- que tipo de empresa pode participar?
 
 
-## intent:curiosidades_receber_incetivo_de_parentes
-- Meus parentes podem incentivar meu projeto ?
-- Meus pais e tios podem incentivar meu projeto ?
-- Tem problema parentes incentivarem projetos ?
-- Tenho parentes que desejam incentivar meus projetos, tem alguma restrição ?
-- Parentes incentivando meus projetos. Tem problema ?
-- Tem problema meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar meus projetos ?
-- Minha irmã quer incetivar meu projeto, tem problema?
-- Minha filha possui uma empresa e quer incentivar um dos meus projetos
-- Possuo um tio que quer me incentivar na cultura
-- Tenho um primo que quer me dar dinheiro pela lei rouanet
-- Algum parente meu pode incentivar meu projeto?
-- Meu projeto pode ser incentivado pela minha família?
-- minha família pode incentivar meu projeto?
-- Queria saber se a minha família pode ajudar a bancar o meu projeto
-- Quero saber se a minha família pode financiar o meu projeto
-- Quero saber se meus parentes podem ajudar a financiar o meu projeto
-- A minha família pode colocar dinheiro no meu projeto?
-- quero saber se meus parentes podem ser beneficiados
-- meus familiares podem incentivar meu projeto?
-- a família pode incentivar projetos?
+<!-- Processo -->
 
+## intent:processo_situacao_processo
+- o que significa [A12](situacao_processo)
+- o que significa [A14](situacao_processo)
+- tenho dúvida sobre o estado [A14](situacao_processo)
+- o que é estado [A14](situacao_processo)
+- onde posso saber mais sobre o estado [A14](situacao_processo)
+- o que significa [A20](situacao_processo)
+- tenho dúvida sobre o estado [A20](situacao_processo)
+- o que é estado [A20](situacao_processo)
+- onde posso saber mais sobre o estado [A20](situacao_processo)
+- o que significa [A23](situacao_processo)
+- tenho dúvida sobre o estado [A23](situacao_processo)
+- o que é estado [A23](situacao_processo)
+- onde posso saber mais sobre o estado [A23](situacao_processo)
+- o que significa [B01](situacao_processo)
+- tenho dúvida sobre o estado [B01](situacao_processo)
+- o que é estado [B01](situacao_processo)
+- onde posso saber mais sobre o estado [B01](situacao_processo)
+- o que significa [B14](situacao_processo)
+- tenho dúvida sobre o estado [B14](situacao_processo)
+- o que é estado [B14](situacao_processo)
+- onde posso saber mais sobre o estado [B14](situacao_processo)
+- o que significa [A13](situacao_processo)
+- tenho dúvida sobre o estado [A13](situacao_processo)
+- o que é estado [A13](situacao_processo)
+- onde posso saber mais sobre o estado [A13](situacao_processo)
+- o que significa [A16](situacao_processo)
+- tenho dúvida sobre o estado [A16](situacao_processo)
+- o que é estado [A16](situacao_processo)
+- onde posso saber mais sobre o estado [A16](situacao_processo)
+- o que significa [A17](situacao_processo)
+- tenho dúvida sobre o estado [A17](situacao_processo)
+- o que é estado [A17](situacao_processo)
+- onde posso saber mais sobre o estado [A17](situacao_processo)
+- o que significa [A42](situacao_processo)
+- tenho dúvida sobre o estado [A42](situacao_processo)
+- o que é estado [A42](situacao_processo)
+- onde posso saber mais sobre o estado [A42](situacao_processo)
+- o que significa [B11](situacao_processo)
+- tenho dúvida sobre o estado [B11](situacao_processo)
+- o que é estado [B11](situacao_processo)
+- onde posso saber mais sobre o estado [B11](situacao_processo)
+- o que significa [B20](situacao_processo)
+- tenho dúvida sobre o estado [B20](situacao_processo)
+- o que é estado [B20](situacao_processo)
+- onde posso saber mais sobre o estado [B20](situacao_processo)
+- o que significa [C09](situacao_processo)
+- tenho dúvida sobre o estado [C09](situacao_processo)
+- o que é estado [C09](situacao_processo)
+- onde posso saber mais sobre o estado [C09](situacao_processo)
+- o que significa [C10](situacao_processo)
+- tenho dúvida sobre o estado [C10](situacao_processo)
+- o que é estado [C10](situacao_processo)
+- onde posso saber mais sobre o estado [C10](situacao_processo)
+- o que significa [C20](situacao_processo)
+- tenho dúvida sobre o estado [C20](situacao_processo)
+- o que é estado [C20](situacao_processo)
+- onde posso saber mais sobre o estado [C20](situacao_processo)
+- o que significa [C26](situacao_processo)
+- tenho dúvida sobre o estado [C26](situacao_processo)
+- o que é estado [C26](situacao_processo)
+- onde posso saber mais sobre o estado [C26](situacao_processo)
+- o que significa [C30](situacao_processo)
+- tenho dúvida sobre o estado [C30](situacao_processo)
+- o que é estado [C30](situacao_processo)
+- onde posso saber mais sobre o estado [C30](situacao_processo)
+- o que significa [D03](situacao_processo)
+- tenho dúvida sobre o estado [D03](situacao_processo)
+- o que é estado [D03](situacao_processo)
+- onde posso saber mais sobre o estado [D03](situacao_processo)
+- o que significa [D14](situacao_processo)
+- tenho dúvida sobre o estado [D14](situacao_processo)
+- o que é estado [D14](situacao_processo)
+- onde posso saber mais sobre o estado [D14](situacao_processo)
+- o que significa [D20](situacao_processo)
+- tenho dúvida sobre o estado [D20](situacao_processo)
+- o que é estado [D20](situacao_processo)
+- onde posso saber mais sobre o estado [D20](situacao_processo)
+- o que significa [D25](situacao_processo)
+- tenho dúvida sobre o estado [D25](situacao_processo)
+- o que é estado [D25](situacao_processo)
+- onde posso saber mais sobre o estado [D25](situacao_processo)
+- o que significa [D27](situacao_processo)
+- tenho dúvida sobre o estado [D27](situacao_processo)
+- o que é estado [D27](situacao_processo)
+- onde posso saber mais sobre o estado [D27](situacao_processo)
+- o que significa [E25](situacao_processo)
+- tenho dúvida sobre o estado [E25](situacao_processo)
+- o que é estado [E25](situacao_processo)
+- onde posso saber mais sobre o estado [E25](situacao_processo)
+- o que significa [E62](situacao_processo)
+- tenho dúvida sobre o estado [E62](situacao_processo)
+- o que é estado [E62](situacao_processo)
+- onde posso saber mais sobre o estado [E62](situacao_processo)
+- o que significa [E66](situacao_processo)
+- tenho dúvida sobre o estado [E66](situacao_processo)
+- o que é estado [E66](situacao_processo)
+- onde posso saber mais sobre o estado [E66](situacao_processo)
+- o que significa [E20](situacao_processo)
+- tenho dúvida sobre o estado [E20](situacao_processo)
+- o que é estado [E20](situacao_processo)
+- onde posso saber mais sobre o estado [E20](situacao_processo)
+- o que significa [E27](situacao_processo)
+- tenho dúvida sobre o estado [E27](situacao_processo)
+- o que é estado [E27](situacao_processo)
+- onde posso saber mais sobre o estado [E27](situacao_processo)
+- o que significa [E30](situacao_processo)
+- tenho dúvida sobre o estado [E30](situacao_processo)
+- o que é estado [E30](situacao_processo)
+- onde posso saber mais sobre o estado [E30](situacao_processo)
+- o que significa [E68](situacao_processo)
+- tenho dúvida sobre o estado [E68](situacao_processo)
+- o que é estado [E68](situacao_processo)
+- onde posso saber mais sobre o estado [E68](situacao_processo)
+- o que significa [E77](situacao_processo)
+- tenho dúvida sobre o estado [E77](situacao_processo)
+- o que é estado [E77](situacao_processo)
+- onde posso saber mais sobre o estado [E77](situacao_processo)
+- o que significa [L03](situacao_processo)
+- tenho dúvida sobre o estado [L03](situacao_processo)
+- o que é estado [L03](situacao_processo)
+- onde posso saber mais sobre o estado [L03](situacao_processo)
+- o que significa [L05](situacao_processo)
+- tenho dúvida sobre o estado [L05](situacao_processo)
+- o que é estado [L05](situacao_processo)
+- onde posso saber mais sobre o estado [L05](situacao_processo)
+- o que significa [L08](situacao_processo)
+- tenho dúvida sobre o estado [L08](situacao_processo)
+- o que é estado [L08](situacao_processo)
+- onde posso saber mais sobre o estado [L08](situacao_processo)
+- o que significa [L10](situacao_processo)
+- tenho dúvida sobre o estado [L10](situacao_processo)
+- o que é estado [L10](situacao_processo)
+- onde posso saber mais sobre o estado [L10](situacao_processo)
+- o que significa [L11](situacao_processo)
+- tenho dúvida sobre o estado [L11](situacao_processo)
+- o que é estado [L11](situacao_processo)
+- onde posso saber mais sobre o estado [L11](situacao_processo)
+- o que significa [D22](situacao_processo)
+- tenho dúvida sobre o estado [D22](situacao_processo)
+- o que é estado [D22](situacao_processo)
+- onde posso saber mais sobre o estado [D22](situacao_processo)
+- o que significa [D28](situacao_processo)
+- tenho dúvida sobre o estado [D28](situacao_processo)
+- o que é estado [D28](situacao_processo)
+- onde posso saber mais sobre o estado [D28](situacao_processo)
+- o que significa [D29](situacao_processo)
+- tenho dúvida sobre o estado [D29](situacao_processo)
+- o que é estado [D29](situacao_processo)
+- onde posso saber mais sobre o estado [D29](situacao_processo)
+- o que significa [E10](situacao_processo)
+- tenho dúvida sobre o estado [E10](situacao_processo)
+- o que é estado [E10](situacao_processo)
+- onde posso saber mais sobre o estado [E10](situacao_processo)
+- o que significa [E11](situacao_processo)
+- tenho dúvida sobre o estado [E11](situacao_processo)
+- o que é estado [E11](situacao_processo)
+- onde posso saber mais sobre o estado [E11](situacao_processo)
+- o que significa [E12](situacao_processo)
+- tenho dúvida sobre o estado [E12](situacao_processo)
+- o que é estado [E12](situacao_processo)
+- onde posso saber mais sobre o estado [E12](situacao_processo)
+- o que significa [E13](situacao_processo)
+- tenho dúvida sobre o estado [E13](situacao_processo)
+- o que é estado [E13](situacao_processo)
+- onde posso saber mais sobre o estado [E13](situacao_processo)
+- o que significa [E15](situacao_processo)
+- tenho dúvida sobre o estado [E15](situacao_processo)
+- o que é estado [E15](situacao_processo)
+- onde posso saber mais sobre o estado [E15](situacao_processo)
+- o que significa [E16](situacao_processo)
+- tenho dúvida sobre o estado [E16](situacao_processo)
+- o que é estado [E16](situacao_processo)
+- onde posso saber mais sobre o estado [E16](situacao_processo)
+- o que significa [E23](situacao_processo)
+- tenho dúvida sobre o estado [E23](situacao_processo)
+- o que é estado [E23](situacao_processo)
+- onde posso saber mais sobre o estado [E23](situacao_processo)
+- o que significa [E24](situacao_processo)
+- tenho dúvida sobre o estado [E24](situacao_processo)
+- o que é estado [E24](situacao_processo)
+- onde posso saber mais sobre o estado [E24](situacao_processo)
+- o que significa [E36](situacao_processo)
+- tenho dúvida sobre o estado [E36](situacao_processo)
+- o que é estado [E36](situacao_processo)
+- onde posso saber mais sobre o estado [E36](situacao_processo)
+- o que significa [E59](situacao_processo)
+- tenho dúvida sobre o estado [E59](situacao_processo)
+- o que é estado [E59](situacao_processo)
+- onde posso saber mais sobre o estado [E59](situacao_processo)
+- o que significa [E63](situacao_processo)
+- tenho dúvida sobre o estado [E63](situacao_processo)
+- o que é estado [E63](situacao_processo)
+- onde posso saber mais sobre o estado [E63](situacao_processo)
+- o que significa [E64](situacao_processo)
+- tenho dúvida sobre o estado [E64](situacao_processo)
+- o que é estado [E64](situacao_processo)
+- onde posso saber mais sobre o estado [E64](situacao_processo)
+- o que significa [E65](situacao_processo)
+- tenho dúvida sobre o estado [E65](situacao_processo)
+- o que é estado [E65](situacao_processo)
+- onde posso saber mais sobre o estado [E65](situacao_processo)
+- o que significa [E75](situacao_processo)
+- tenho dúvida sobre o estado [E75](situacao_processo)
+- o que é estado [E75](situacao_processo)
+- onde posso saber mais sobre o estado [E75](situacao_processo)
+- o que significa [E79](situacao_processo)
+- tenho dúvida sobre o estado [E79](situacao_processo)
+- o que é estado [E79](situacao_processo)
+- onde posso saber mais sobre o estado [E79](situacao_processo)
+- o que significa [E80](situacao_processo)
+- tenho dúvida sobre o estado [E80](situacao_processo)
+- o que é estado [E80](situacao_processo)
+- onde posso saber mais sobre o estado [E80](situacao_processo)
+- o que significa [E81](situacao_processo)
+- tenho dúvida sobre o estado [E81](situacao_processo)
+- o que é estado [E81](situacao_processo)
+- onde posso saber mais sobre o estado [E81](situacao_processo)
+- o que significa [E60](situacao_processo)
+- tenho dúvida sobre o estado [E60](situacao_processo)
+- o que é estado [E60](situacao_processo)
+- onde posso saber mais sobre o estado [E60](situacao_processo)
+- o que significa [E72](situacao_processo)
+- tenho dúvida sobre o estado [E72](situacao_processo)
+- o que é estado [E72](situacao_processo)
+- onde posso saber mais sobre o estado [E72](situacao_processo)
+- o que significa [E50](situacao_processo)
+- tenho dúvida sobre o estado [E50](situacao_processo)
+- o que é estado [E50](situacao_processo)
+- onde posso saber mais sobre o estado [E50](situacao_processo)
+- o que significa [L09](situacao_processo)
+- tenho dúvida sobre o estado [L09](situacao_processo)
+- o que é estado [L09](situacao_processo)
+- onde posso saber mais sobre o estado [L09](situacao_processo)
+- o que significa [D38](situacao_processo)
+- tenho dúvida sobre o estado [D38](situacao_processo)
+- o que é estado [D38](situacao_processo)
+- onde posso saber mais sobre o estado [D38](situacao_processo)
+- o que significa [E22](situacao_processo)
+- tenho dúvida sobre o estado [E22](situacao_processo)
+- o que é estado [E22](situacao_processo)
+- onde posso saber mais sobre o estado [E22](situacao_processo)
+- o que significa [E73](situacao_processo)
+- tenho dúvida sobre o estado [E73](situacao_processo)
+- o que é estado [E73](situacao_processo)
+- onde posso saber mais sobre o estado [E73](situacao_processo)
+- o que significa [E78](situacao_processo)
+- tenho dúvida sobre o estado [E78](situacao_processo)
+- o que é estado [E78](situacao_processo)
+- onde posso saber mais sobre o estado [E78](situacao_processo)
+- o que significa [E47](situacao_processo)
+- tenho dúvida sobre o estado [E47](situacao_processo)
+- o que é estado [E47](situacao_processo)
+- onde posso saber mais sobre o estado [E47](situacao_processo)
+- o que significa [L06](situacao_processo)
+- tenho dúvida sobre o estado [L06](situacao_processo)
+- o que é estado [L06](situacao_processo)
+- onde posso saber mais sobre o estado [L06](situacao_processo)
 
+## intent:processo_como_funciona
+- como funciona o processo
+- como faço para enviar um projeto
+- como é o processo de envio de projeto
+- como criar um projeto
 
-## intent:curiosidades_deducao_imposto_de_renda_incentivador
-- Quanto o incentivador de projetos culturais pode deduzir de seu imposto de renda?
-- Incentivadores de projetos podem deduzir quanto de impostos de renda ?
-- Quanto de imposto de renda incentivadores conseguem deduzir de impostos ?
-- Qual valor um incentivador consegue deduzir de imposto de renda ?
-- Caso eu incentive um projeto quanto eu vou abater do meu IR
-- Quanto é o abatimento no IR caso haja algum incentivo
-- Quanto eu ganho de desconto no imposto de renda incentivando projeto culturais
-- Qual a porcentagem do imposto que vou abater após incentivar projetos?
-- qual é o desconto que recebo no IR ao incentivar um projeto
-- Se eu incentivar eu vou ter dedução no meu imposto de renda
-- qual a dedução de imposto de renda para incentivadores?
-- qual a dedução de impostos para incentivadores?
-- qual a dedução de imposto de renda para incentivadores?
-- sou incentivador, quanto posso receber como dedução de imposto de renda??
+## intent:processo_definicao_etapas
+- quantas etapas tem o processo?
+- quais são as etapas do processo
+- me fale sobre as etapas
 
-## intent:oqueeh_estadoSalic
-- o que significa [A12](estadoSalic)
-- o que significa [A14](estadoSalic)
-- tenho dúvida sobre o estado [A14](estadoSalic)
-- o que é estado [A14](estadoSalic)
-- onde posso saber mais sobre o estado [A14](estadoSalic)
-- o que significa [A20](estadoSalic)
-- tenho dúvida sobre o estado [A20](estadoSalic)
-- o que é estado [A20](estadoSalic)
-- onde posso saber mais sobre o estado [A20](estadoSalic)
-- o que significa [A23](estadoSalic)
-- tenho dúvida sobre o estado [A23](estadoSalic)
-- o que é estado [A23](estadoSalic)
-- onde posso saber mais sobre o estado [A23](estadoSalic)
-- o que significa [B01](estadoSalic)
-- tenho dúvida sobre o estado [B01](estadoSalic)
-- o que é estado [B01](estadoSalic)
-- onde posso saber mais sobre o estado [B01](estadoSalic)
-- o que significa [B14](estadoSalic)
-- tenho dúvida sobre o estado [B14](estadoSalic)
-- o que é estado [B14](estadoSalic)
-- onde posso saber mais sobre o estado [B14](estadoSalic)
-- o que significa [A13](estadoSalic)
-- tenho dúvida sobre o estado [A13](estadoSalic)
-- o que é estado [A13](estadoSalic)
-- onde posso saber mais sobre o estado [A13](estadoSalic)
-- o que significa [A16](estadoSalic)
-- tenho dúvida sobre o estado [A16](estadoSalic)
-- o que é estado [A16](estadoSalic)
-- onde posso saber mais sobre o estado [A16](estadoSalic)
-- o que significa [A17](estadoSalic)
-- tenho dúvida sobre o estado [A17](estadoSalic)
-- o que é estado [A17](estadoSalic)
-- onde posso saber mais sobre o estado [A17](estadoSalic)
-- o que significa [A42](estadoSalic)
-- tenho dúvida sobre o estado [A42](estadoSalic)
-- o que é estado [A42](estadoSalic)
-- onde posso saber mais sobre o estado [A42](estadoSalic)
-- o que significa [B11](estadoSalic)
-- tenho dúvida sobre o estado [B11](estadoSalic)
-- o que é estado [B11](estadoSalic)
-- onde posso saber mais sobre o estado [B11](estadoSalic)
-- o que significa [B20](estadoSalic)
-- tenho dúvida sobre o estado [B20](estadoSalic)
-- o que é estado [B20](estadoSalic)
-- onde posso saber mais sobre o estado [B20](estadoSalic)
-- o que significa [C09](estadoSalic)
-- tenho dúvida sobre o estado [C09](estadoSalic)
-- o que é estado [C09](estadoSalic)
-- onde posso saber mais sobre o estado [C09](estadoSalic)
-- o que significa [C10](estadoSalic)
-- tenho dúvida sobre o estado [C10](estadoSalic)
-- o que é estado [C10](estadoSalic)
-- onde posso saber mais sobre o estado [C10](estadoSalic)
-- o que significa [C20](estadoSalic)
-- tenho dúvida sobre o estado [C20](estadoSalic)
-- o que é estado [C20](estadoSalic)
-- onde posso saber mais sobre o estado [C20](estadoSalic)
-- o que significa [C26](estadoSalic)
-- tenho dúvida sobre o estado [C26](estadoSalic)
-- o que é estado [C26](estadoSalic)
-- onde posso saber mais sobre o estado [C26](estadoSalic)
-- o que significa [C30](estadoSalic)
-- tenho dúvida sobre o estado [C30](estadoSalic)
-- o que é estado [C30](estadoSalic)
-- onde posso saber mais sobre o estado [C30](estadoSalic)
-- o que significa [D03](estadoSalic)
-- tenho dúvida sobre o estado [D03](estadoSalic)
-- o que é estado [D03](estadoSalic)
-- onde posso saber mais sobre o estado [D03](estadoSalic)
-- o que significa [D14](estadoSalic)
-- tenho dúvida sobre o estado [D14](estadoSalic)
-- o que é estado [D14](estadoSalic)
-- onde posso saber mais sobre o estado [D14](estadoSalic)
-- o que significa [D20](estadoSalic)
-- tenho dúvida sobre o estado [D20](estadoSalic)
-- o que é estado [D20](estadoSalic)
-- onde posso saber mais sobre o estado [D20](estadoSalic)
-- o que significa [D25](estadoSalic)
-- tenho dúvida sobre o estado [D25](estadoSalic)
-- o que é estado [D25](estadoSalic)
-- onde posso saber mais sobre o estado [D25](estadoSalic)
-- o que significa [D27](estadoSalic)
-- tenho dúvida sobre o estado [D27](estadoSalic)
-- o que é estado [D27](estadoSalic)
-- onde posso saber mais sobre o estado [D27](estadoSalic)
-- o que significa [E25](estadoSalic)
-- tenho dúvida sobre o estado [E25](estadoSalic)
-- o que é estado [E25](estadoSalic)
-- onde posso saber mais sobre o estado [E25](estadoSalic)
-- o que significa [E62](estadoSalic)
-- tenho dúvida sobre o estado [E62](estadoSalic)
-- o que é estado [E62](estadoSalic)
-- onde posso saber mais sobre o estado [E62](estadoSalic)
-- o que significa [E66](estadoSalic)
-- tenho dúvida sobre o estado [E66](estadoSalic)
-- o que é estado [E66](estadoSalic)
-- onde posso saber mais sobre o estado [E66](estadoSalic)
-- o que significa [E20](estadoSalic)
-- tenho dúvida sobre o estado [E20](estadoSalic)
-- o que é estado [E20](estadoSalic)
-- onde posso saber mais sobre o estado [E20](estadoSalic)
-- o que significa [E27](estadoSalic)
-- tenho dúvida sobre o estado [E27](estadoSalic)
-- o que é estado [E27](estadoSalic)
-- onde posso saber mais sobre o estado [E27](estadoSalic)
-- o que significa [E30](estadoSalic)
-- tenho dúvida sobre o estado [E30](estadoSalic)
-- o que é estado [E30](estadoSalic)
-- onde posso saber mais sobre o estado [E30](estadoSalic)
-- o que significa [E68](estadoSalic)
-- tenho dúvida sobre o estado [E68](estadoSalic)
-- o que é estado [E68](estadoSalic)
-- onde posso saber mais sobre o estado [E68](estadoSalic)
-- o que significa [E77](estadoSalic)
-- tenho dúvida sobre o estado [E77](estadoSalic)
-- o que é estado [E77](estadoSalic)
-- onde posso saber mais sobre o estado [E77](estadoSalic)
-- o que significa [L03](estadoSalic)
-- tenho dúvida sobre o estado [L03](estadoSalic)
-- o que é estado [L03](estadoSalic)
-- onde posso saber mais sobre o estado [L03](estadoSalic)
-- o que significa [L05](estadoSalic)
-- tenho dúvida sobre o estado [L05](estadoSalic)
-- o que é estado [L05](estadoSalic)
-- onde posso saber mais sobre o estado [L05](estadoSalic)
-- o que significa [L08](estadoSalic)
-- tenho dúvida sobre o estado [L08](estadoSalic)
-- o que é estado [L08](estadoSalic)
-- onde posso saber mais sobre o estado [L08](estadoSalic)
-- o que significa [L10](estadoSalic)
-- tenho dúvida sobre o estado [L10](estadoSalic)
-- o que é estado [L10](estadoSalic)
-- onde posso saber mais sobre o estado [L10](estadoSalic)
-- o que significa [L11](estadoSalic)
-- tenho dúvida sobre o estado [L11](estadoSalic)
-- o que é estado [L11](estadoSalic)
-- onde posso saber mais sobre o estado [L11](estadoSalic)
-- o que significa [D22](estadoSalic)
-- tenho dúvida sobre o estado [D22](estadoSalic)
-- o que é estado [D22](estadoSalic)
-- onde posso saber mais sobre o estado [D22](estadoSalic)
-- o que significa [D28](estadoSalic)
-- tenho dúvida sobre o estado [D28](estadoSalic)
-- o que é estado [D28](estadoSalic)
-- onde posso saber mais sobre o estado [D28](estadoSalic)
-- o que significa [D29](estadoSalic)
-- tenho dúvida sobre o estado [D29](estadoSalic)
-- o que é estado [D29](estadoSalic)
-- onde posso saber mais sobre o estado [D29](estadoSalic)
-- o que significa [E10](estadoSalic)
-- tenho dúvida sobre o estado [E10](estadoSalic)
-- o que é estado [E10](estadoSalic)
-- onde posso saber mais sobre o estado [E10](estadoSalic)
-- o que significa [E11](estadoSalic)
-- tenho dúvida sobre o estado [E11](estadoSalic)
-- o que é estado [E11](estadoSalic)
-- onde posso saber mais sobre o estado [E11](estadoSalic)
-- o que significa [E12](estadoSalic)
-- tenho dúvida sobre o estado [E12](estadoSalic)
-- o que é estado [E12](estadoSalic)
-- onde posso saber mais sobre o estado [E12](estadoSalic)
-- o que significa [E13](estadoSalic)
-- tenho dúvida sobre o estado [E13](estadoSalic)
-- o que é estado [E13](estadoSalic)
-- onde posso saber mais sobre o estado [E13](estadoSalic)
-- o que significa [E15](estadoSalic)
-- tenho dúvida sobre o estado [E15](estadoSalic)
-- o que é estado [E15](estadoSalic)
-- onde posso saber mais sobre o estado [E15](estadoSalic)
-- o que significa [E16](estadoSalic)
-- tenho dúvida sobre o estado [E16](estadoSalic)
-- o que é estado [E16](estadoSalic)
-- onde posso saber mais sobre o estado [E16](estadoSalic)
-- o que significa [E23](estadoSalic)
-- tenho dúvida sobre o estado [E23](estadoSalic)
-- o que é estado [E23](estadoSalic)
-- onde posso saber mais sobre o estado [E23](estadoSalic)
-- o que significa [E24](estadoSalic)
-- tenho dúvida sobre o estado [E24](estadoSalic)
-- o que é estado [E24](estadoSalic)
-- onde posso saber mais sobre o estado [E24](estadoSalic)
-- o que significa [E36](estadoSalic)
-- tenho dúvida sobre o estado [E36](estadoSalic)
-- o que é estado [E36](estadoSalic)
-- onde posso saber mais sobre o estado [E36](estadoSalic)
-- o que significa [E59](estadoSalic)
-- tenho dúvida sobre o estado [E59](estadoSalic)
-- o que é estado [E59](estadoSalic)
-- onde posso saber mais sobre o estado [E59](estadoSalic)
-- o que significa [E63](estadoSalic)
-- tenho dúvida sobre o estado [E63](estadoSalic)
-- o que é estado [E63](estadoSalic)
-- onde posso saber mais sobre o estado [E63](estadoSalic)
-- o que significa [E64](estadoSalic)
-- tenho dúvida sobre o estado [E64](estadoSalic)
-- o que é estado [E64](estadoSalic)
-- onde posso saber mais sobre o estado [E64](estadoSalic)
-- o que significa [E65](estadoSalic)
-- tenho dúvida sobre o estado [E65](estadoSalic)
-- o que é estado [E65](estadoSalic)
-- onde posso saber mais sobre o estado [E65](estadoSalic)
-- o que significa [E75](estadoSalic)
-- tenho dúvida sobre o estado [E75](estadoSalic)
-- o que é estado [E75](estadoSalic)
-- onde posso saber mais sobre o estado [E75](estadoSalic)
-- o que significa [E79](estadoSalic)
-- tenho dúvida sobre o estado [E79](estadoSalic)
-- o que é estado [E79](estadoSalic)
-- onde posso saber mais sobre o estado [E79](estadoSalic)
-- o que significa [E80](estadoSalic)
-- tenho dúvida sobre o estado [E80](estadoSalic)
-- o que é estado [E80](estadoSalic)
-- onde posso saber mais sobre o estado [E80](estadoSalic)
-- o que significa [E81](estadoSalic)
-- tenho dúvida sobre o estado [E81](estadoSalic)
-- o que é estado [E81](estadoSalic)
-- onde posso saber mais sobre o estado [E81](estadoSalic)
-- o que significa [E60](estadoSalic)
-- tenho dúvida sobre o estado [E60](estadoSalic)
-- o que é estado [E60](estadoSalic)
-- onde posso saber mais sobre o estado [E60](estadoSalic)
-- o que significa [E72](estadoSalic)
-- tenho dúvida sobre o estado [E72](estadoSalic)
-- o que é estado [E72](estadoSalic)
-- onde posso saber mais sobre o estado [E72](estadoSalic)
-- o que significa [E50](estadoSalic)
-- tenho dúvida sobre o estado [E50](estadoSalic)
-- o que é estado [E50](estadoSalic)
-- onde posso saber mais sobre o estado [E50](estadoSalic)
-- o que significa [L09](estadoSalic)
-- tenho dúvida sobre o estado [L09](estadoSalic)
-- o que é estado [L09](estadoSalic)
-- onde posso saber mais sobre o estado [L09](estadoSalic)
-- o que significa [D38](estadoSalic)
-- tenho dúvida sobre o estado [D38](estadoSalic)
-- o que é estado [D38](estadoSalic)
-- onde posso saber mais sobre o estado [D38](estadoSalic)
-- o que significa [E22](estadoSalic)
-- tenho dúvida sobre o estado [E22](estadoSalic)
-- o que é estado [E22](estadoSalic)
-- onde posso saber mais sobre o estado [E22](estadoSalic)
-- o que significa [E73](estadoSalic)
-- tenho dúvida sobre o estado [E73](estadoSalic)
-- o que é estado [E73](estadoSalic)
-- onde posso saber mais sobre o estado [E73](estadoSalic)
-- o que significa [E78](estadoSalic)
-- tenho dúvida sobre o estado [E78](estadoSalic)
-- o que é estado [E78](estadoSalic)
-- onde posso saber mais sobre o estado [E78](estadoSalic)
-- o que significa [E47](estadoSalic)
-- tenho dúvida sobre o estado [E47](estadoSalic)
-- o que é estado [E47](estadoSalic)
-- onde posso saber mais sobre o estado [E47](estadoSalic)
-- o que significa [L06](estadoSalic)
-- tenho dúvida sobre o estado [L06](estadoSalic)
-- o que é estado [L06](estadoSalic)
-- onde posso saber mais sobre o estado [L06](estadoSalic)
-
-## intent:oqueEhSalicRouana
-- oque é Rouana
-- o que significa Rouana
-## intent:oqueEhSalicLeiRouanet
-- oque é LeiRouanet
-- o que significa LeiRouanet
-## intent:oqueEhSalicMinc
-- oque é Minc
-- o que significa Minc
-## intent:oqueEhSalicSefic
-- oque é Sefic
-- o que significa Sefic
-## intent:oqueEhSalicProjeto
-- oque é Projeto
-- o que significa Projeto
-## intent:oqueEhSalicProposta
-- oque é Proposta
-- o que significa Proposta
-## intent:oqueEhSalicProponente
-- oque é Proponente
-- o que significa Proponente
-## intent:oqueEhSalicPreenchimento
+## intent:processo_preenchimento
 - oque é Preenchimento
 - o que significa Preenchimento
-## intent:oqueEhSalicAdmissibilidade
+
+## intent:processo_admissibilidade
 - oque é Admissibilidade
 - o que significa Admissibilidade
-## intent:oqueEhSalicAprovacao
+
+## intent:processo_aprovacao
 - oque é Aprovacao
 - o que significa Aprovacao
-## intent:oqueEhSalicExecucao
+
+## intent:processo_execucao
 - oque é Execucao
 - o que significa Execucao
-## intent:oqueEhSalicPrestacaoDeContas
-- oque é PrestacaoDeContas
-- o que significa PrestacaoDeContas
-## intent:oqueEhSalic
+
+## intent:processo_analise_de_resultados
+- o que é Prestacao De Contas
+- o que significa Prestacao De Contas
+
+## intent:processo_reativacao_de_proposta
+- Minha proposta foi indeferida, porém posso encaminhar pedido de reativação. Como proceder ?
+- Como encaminhar pedido de reativação ?
+- Como refazer o a reativação de pedido ?
+- O que fazer para refazer o encaminhamento do pedido de reativação ?
+- Pedido de reativação, como fazer ?
+- Reativar proposta
+- reativar minha proposta
+- reativação de proposta
+- como reativar proposta?
+- reativação da proposta
+- proposta indeferida, como reativar?
+- eu posso reativar uma proposta indeferida?
+- existe um meio de reativar uma proposta indeferida?
+- minha proposta foi rejeitada, como reativar ela?
+- posso fazer o pedido de reativação?
+- como reativar uma proposta?
+- como faço para reativar uma proposta?
+- como faço a reativação da minha proposta?
+- como reativo minha proposta?
+- qual o processo para a reativação da proposta?
+- como posso reativar minha proposta?
+- como posso reativar a proposta?
+- como posso reativar uma proposta?
+- como funciona a reativação de uma proposta?
+
+## intent:processo_envio_cnae
+- Qual é o prazo limite para envio do CNAE?
+- Até quando posso enviar o CNAE?
+- Tem algum prazo para enviar o CNAE?
+- prazo cnae
+- envio do CNAE
+- prazo para enviar CNAE
+- prazo de envio de CNAE?
+
+## intent:processo_desistir_recurso
+- Meu projeto foi enquadrado, como faço para desistir do prazo recursal ou para encaminhar recurso?
+- como é a desistência do prazo de recurso
+- Sobre o prazo de ecaminhamento de recurso, como desisto dele?
+- Existem algum jeito de desistir do prazo de recurso?
+- Após o enquadramento, como desisto do prazo de recurso?
+- Qual o prazo para desisitr de entrar com o recurso?
+- não quero entrar com o recurso, como posso desistir?
+- Quero desistir do prazo de recurso
+
+
+
+<!-- Definições -->
+## intent:definicao
+
+## intent:definicao_rouana
+- oque é Rouana
+- o que significa Rouana
+
+## intent:definicao_minc
+- oque é Minc
+- o que significa Minc
+## intent:definicao_sefic
+- oque é Sefic
+- o que significa Sefic
+## intent:definicao_projeto
+- oque é Projeto
+- o que significa Projeto
+## intent:definicao_proposta
+- oque é Proposta
+- o que significa Proposta
+## intent:definicao_proponente
+- oque é Proponente
+- o que significa Proponente
+
+## intent:definicao_salic
 - oque é SALIC
 - o que significa Salic
-## intent:oqueEhSalicVinculada
+## intent:definicao_vinculada
 - oque é Vinculada
 - o que significa Vinculada
 
-## intent:escolher_erros_salic
-- 4
-- quarta opção
-- quarto tópico
-- Tenho um erro
-- erro no salic
-- erro do salic
-- errros
-- Erros Salic
-- erros do salic
-- erros salic
-- quarta categoria
-- opção quatro
-- quatro
-- falha no salic
 
-## intent:escolher_prazo
-- 3
-- terceira opção
-- terceiro tópico
-- Data
-- prazo
-- prazos
-- Prazo
-- sobre prazo
-- data
-- sobre data
-- datas
-- prazos e datas
-- sobre prazos e datas
-- datas e prazos
-- escolha 3
-- na 3
-- opção três
-- três
-- categoria 3
+<!-- Salic -->
+## intent:salic
 
-## intent:escolher_preenchimento
-- 2
-- preenchimento do Salic
-- Preenchimento
-- de preenchimento
-- em preenchimento
-- preenchimento
-- salic
-- segunda opção
-- segundo tópico
-- tem um erro
-- acho que na 2
-- opção 2
-- na segunda
-- categoria 2
+## intent:salic_cadastro_de_usuario
+- como me cadastro no salic
+- como criar login no salic
+- como entrar no salic
+- qual o endereço do salic
+- o que eu preciso para cadastrar no salic
+- me cadastre no salic
 
-## intent:escolher_processo
-- 1
-- sobre processo
-- processo
-- Processo
-- estado do projeto
-- sobre estado
-- Estado
-- primeira opção
-- primeiro tópico
-- estado
-- processo do projeto
-- Estado do projeto
-- se encaixa na 1
-- um
-- opção um
-- categoriga um
+## intent:salic_cadastro_proponente
+- Como cadastrar o proponente via Salic ?
+- Como cadastro uma proponente no Salic ?
+- O que devo fazer para cadastrar um proponente ?
+- Cadastro de proponente ?
+- Como fazer cadastro de proponente?
+- Como fazer cadastro de um proponente?
+- Como fazer cadastro de uma proponente?
+- Cadastro de proponente no Salic
+- cadastrar proponente
+- cadastro de proponente
+- cadastro de um proponente
+- cadastro de uma proponente
+- cadastrar proponente no Salic
+- Como faço cadastro de proponente?
+- Como faço para cadastrar um proponente?
+
+## intent:salic_recuperacao_de_senha
+- Me cadastrei a muito tempo no Salic, mas não me recordo da senha de acesso. Como faço para resolver ?
+- Esqueci a senha do Salic, o que faço ?
+- Como recuperar senha do Salic ?
+- O que fazer quando se esquece a senha do Salic ?
+- Esqueci a senha de acesso, e agora ?
+- recuperação de senha
+- perdi minha senha do Salic
+- esqueci minha senha no Salic
+- gostaria de saber como mudar minha senha
+- mudança de senha
+- como mudar minha senha?
+- como realizar a mundaça de senha?
+- como realizo a mudança de senha?
+- como mudo minha senha?
+- como mudo a senha?
+- como troco minha senha?
+- como faço para trocar minha senha?
+- como faço para trocar a senha?
+
+
+## intent:salic_erros_salvamento_de_proposta
+- Perdi minhas alterações na proposta
+- O sistema não salvou minhas alterações na proposta
+- Preenchi minha proposta toda e fechei o sistema. Ao retornar percebi que a mesma não tinha sido salva. O que ocorreu?
+- Alterei minha proposta e a alteração não foi salva após fechar o sistema
+- O SALIC não salvou minhas alterações na proposta
+- Preenchi minha proposta, mas por algum motivo ela não foi salva. Como faço para recuperar meus dados?
+- Como faço para recuperar meus dados?
+- Como faço para recuperar minha proposta?
+- Como fazer para recuperar minha proposta?
+- minha proposta não foi salva
+- houve um erro ao salvar minha proposta
+- Perdi os dados da proposta no Salic, o que aconteceu?
+
+
+## intent:salic_erros_planilha_desapareceu
+- minha planilha sumiu
+- minha planilha desapareceu
+- não acho minha planilha
+- não encontro minha planilha
+- não acho mais minha planilha
+- planilha sumiu
+- planilha desapareceu
+- não consigo achar minha planilha
+- Minha planilha desapareceu!
+- Como recuperar minha planilha que sumiu?
+- Por que a planilha do meu projeto desapareceu do sistema?
+- Não tenho mais acesso a planilha do meu projeto! Por que?
+- A planilha orçamentária do meu projeto não aparece no Salic! Por que?
+- por que a planilha do meu projeto sumiu?
+
+## intent:salic_erros_vinculo_cpf_cnpj
+- Sou responsável por inserir a proposta no sistema, mas o sistema acusa como solicitação de vínculo pendente. Como resolver?
+- O sistema acusou como solicitação de vínculo pendente
+- Como vinculo um CPF a um CNPJ?
+- Como meu dirigente vincula meu CPF a pessoa jurídica do projeto?
+
+## intent:salic_erros_achar_proposta
+- Não consigo achar minha proposta no sistema, porém a mesma está ativa.
+- Como encontrar a minha proposta no sistema?
+- Não sei achar minha proposta
+- não acho minha proposta
+- não consigo achar minha proposta
+- não encontro minha proposta
+
+## intent:salic_preenchimento_campo_custo_auditoria
+- como eu preencho o campo Custo de Auditoria?
+- Custo de Auditoria
+- não sei como preencher o campo Custo de Auditoria
+- come devo preencher no campo Custo de Auditoria
+- custo de auditoria
+- não sei preencher custo de auditoria
+- como preencher o campo custo de auditoria
+- preencher Custo de Auditoria
+- o que colocar no Custo de auditoria?
+
+## intent:salic_preenchimento_cadastro_rubrica_advogado_contador
+- Como faço para cadastrar as rubricas de advogado e contador?
+- Cadastro de rubricas de advogado
+- Cadastro de rubricas de contador
+- cadastrar rubricas
+- rubricas de contador
+- rubricas de advogado
+- cadastrar rúbricas de advogado
+- cadastrar rúbricas de contador
+- como cadastro rubricas do meu contador?
+- como eu cadastro rubricas do meu contador?
+- como cadastro rubricas do meu advogado?
+- como cadastrar rubricas do meu advogado?
+- como cadastrar rubricas do advogado?
+- quero cadastrar rubricas de advogados 
+- cadastro de rubrica de advogados
+- como preencher rubrica de advogados?
+- quero preencher rubricas de contador
+- como preenche o campo rubricas de contador?
+- como enviar rubricas de advogados
+
+## intent:salic_preenchimento_valor_ingresso
+- O sistema informa que o custo por beneficiário não pode ultrapassar o valor de 250,00, mas não irei comercializar ingressos ou o ingresso não ultrapassa o valor citado. Como resolver?
+- Não irei comercializar ingressos ou o ingresso não ultrapassa o valor citado. Como resolver?
+- não vou comercializar ingressos
+- ingresso não ultrapassa o valor citado
+- não vou comercializar
+- meu ingresso ultrapassa o valor permitido, o que fazer?
+- não vou vender ingresso no meu projeto
+- o sistema acusa que o valor do ingresso excedeu o permitido
+- como calcula o valor do ingresso?
+- o ingresso do meu evento pode ser gratuito?
+- a minha peça pode ter ingressos gratuitos?
+
+## intent:salic_preenchimento_vinculo_cpf_proposta
+- Como faço para vincular uma proposta ao CPF do responsável?
+- Vincular proposta ao CPF
+- como vincular proposta ao cpf?
+- quero vincular proposta ao CPF
+
+## intent:salic_preenchimento_cadastro_agencia_bancaria
+- Agência bancária inválida
+- O sistema indica agência inválida
+- Não estou conseguindo cadastrar minha agência bancária
+- Como eu cadastro a agência bancária?
+- O campo de agência possui hífen?
+- Qual o formato do campo de agência bancária?
+- Deu erro ao cadastrar a agência
+- tenho duvidas sobre o formato do campo de agencia bancaria
+- Como é o formato do campo da agência bancária?
+
+
+<!-- Captação -->
+
+## intent:captacao_quando_captar
+- Quando poderei efetuar a captação de recursos do meu projeto ?
+- Captação de recursos, quando fazer ?
+- Qual é o momento para fazer a captação de recursos ?
+- Quando fazer a captação de recursos do projeto ?
+- Quando posso começar a captação de recursos da minha proposta ?
+- Quando começa a captação?
+- A partir de quando posso começar a captar recursos?
+- começar a captar
+- quando a captação estará liberada?
+- captar recursos do projeto
+- quero captar, quando posso iniciar?
+- quando começa a arrecadação de recursos?
+- quando começa a arrecadação de dinheiro?
+- quando eu começo a captar?
+- já enviei meu projeto, já posso captar?
+- quando preciso me preocupar com a captação?
+- Quando se iniciará a fase de captação?
+- a captação já pode ser feita?
+- em quanto tempo posso captar?
+- eu submeti um projeto e quero saber quando posso começar a captar dinheiro
+- como posso fazer para captar recursos?
+
+## intent:captacao_como_captar
+- como captar verba
+- como captar recursos
+- como faço para captar dinheiro
+
+
+<!-- Despedida -->
+
+##intent:despedida
+- Tchau obrigada
+- até logo
+- namaste
+- sayonara
+- até mais
+- até breve
+- falou, valeu
+- flw vlw
