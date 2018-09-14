@@ -67,7 +67,7 @@
 - como reativar uma proposta?
 
 ## intent:processo_prazo
-- tenho duvida sobre o prazo 
+- tenho duvida sobre o prazo
 - fale sobre o prazo
 - qual e o prazo
 - sabe o prazo

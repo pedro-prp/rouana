@@ -69,6 +69,8 @@
 - Que tipo de beneficios alguem recebe se incentivar um projeto
 - se eu incentivar o projeto, o que recebo?
 - que benefícios tem pra quem incentivar um projeto?
+
+## intent:lei_rouanet_porcentagem_de_deducao_do_imposto
 - Quanto o incentivador de projetos culturais pode deduzir de seu imposto de renda?
 - Incentivadores de projetos podem deduzir quanto de impostos de renda ?
 - Quanto de imposto de renda incentivadores conseguem deduzir de impostos ?
