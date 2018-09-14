@@ -5,7 +5,12 @@
 - opção salic
 - salic
 
-## intent:salic_cadastro_de_usuario
+## intent:salic_oque_eh
+- o que é o salic
+- o que significa o salic
+- sobre o sistema salic
+
+## intent:salic_cadastro_usuario
 - como me cadastro no salic
 - como criar login no salic
 - como entrar no salic
@@ -114,7 +119,6 @@
 - valor do ingresso excedeu o permitido
 - como calcula o valor do ingresso
 - o ingresso do evento pode ser gratuito
-
 
 ## intent:salic_preenchimento_vinculo_cpf_proposta
 - vincular uma proposta ao CPF do responsável
