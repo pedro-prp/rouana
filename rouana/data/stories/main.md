@@ -58,7 +58,7 @@
   - utter_cumprimentar
 * salic
   - utter_salic
-* salic_definicao
+* definicao_salic
   - utter_definicao_salic
 * salic_cadastro_usuario
   - utter_salic_cadastro_usuario

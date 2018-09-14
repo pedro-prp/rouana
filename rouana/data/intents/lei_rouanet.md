@@ -1,6 +1,6 @@
 <!-- Lei Rouanet -->
 
-## intent:lei_rouanet 
+## intent:lei_rouanet
 - quero falar sobre a lei rouanet
 - lei rouanet
 - me fale sobre a lei rouanet
