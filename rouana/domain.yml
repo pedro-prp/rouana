@@ -6,30 +6,18 @@ intents:
   - captacao_quando_captar
   - captacao_como_captar
 
-  - o_que_eh
   - processo_situacao_processo
-  - afirmar_curiosidades
-  - afirmar_projeto
-  - submissao_de_projeto
-  - afirmar
-  - negar
-  - extra
-  - curiosidades_quantidade_projetos
-  - curiosidades_beneficios_incentivo_projetos_culturais
-  - curiosidades_lei_rouanet_elegibilidade
-  - curiosidades_lei_rouanet_arrecadamento
-  - curiosidades_lei_rouanet_denuncia
-  - curiosidades_elegibilidade_de_empresa_para_beneficios
-  - curiosidades_receber_incetivo_de_parentes
-  - curiosidades_deducao_imposto_de_renda_incentivador
-  - escolher_processo
-  - escolher_preenchimento
-  - escolher_prazo
-  - escolher_erros_salic
-  - duvida_sobre_contexto
-  - oqueEhSalicRouana
-  - oqueEhSalicLeiRouanet
-  
+  - processo_como_funciona
+  - processo_definicao_etapas
+  - processo_preenchimento
+  - processo_admissibilidade
+  - processo_aprovacao
+  - processo_execucao
+  - processo_analise_de_resultados
+  - processo_reativacao_de_proposta
+  - processo_envio_cnae
+  - processo_desistir_recurso
+
   - definicao_tais
   - definicao_minc
   - definicao_sefic
@@ -38,12 +26,6 @@ intents:
   - definicao_proponente
   - definicao_salic
   - definicao_vinculada
-  
-  - oqueEhSalicPreenchimento
-  - oqueEhSalicAdmissibilidade
-  - oqueEhSalicAprovacao
-  - oqueEhSalicExecucao
-  - oqueEhSalicPrestacaoDeContas
 
 
 slots:
@@ -124,7 +106,7 @@ templates:
         Você pode perguntar de novo de outro jeito?
 
   utter_restart:
-    - text: | 
+    - text: |
         reiniciando =D
 
   utter_curiosidadesIndicacao:
@@ -135,9 +117,9 @@ templates:
           Você quer saber mais sobre a *Lei Rouanet*?
 
     - text: |
-          Você quer aprender mais sobre a *Lei Rouanet*?  
+          Você quer aprender mais sobre a *Lei Rouanet*?
 
-  utter_oqueEhSalic_A12:
+  utter_processo_situacao_processo_A12:
     - text: |
           O estado A12 acontece durante a fase de Admissibilidade, e significa aguardando complementação de documentos
 
@@ -145,7 +127,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69.
 
-  utter_oqueEhSalic_A14:
+  utter_processo_situacao_processo_A14:
     - text: |
           O estado A14 acontece durante a fase de Admissibilidade, e significa indeferido – não enquadramento nos objetivos e fins da Lei 8313/91 ou do Decreto 5761/06
 
@@ -153,7 +135,7 @@ templates:
 
           Para saber mais você pode consultar a Lei 8.313/1991, Art. 1º Instrução Normativa 05/2017, Art. 23
 
-  utter_oqueEhSalic_A20:
+  utter_processo_situacao_processo_A20:
     - text: |
           O estado A20 acontece durante a fase de Admissibilidade, e significa indeferido – projeto em duplicidade
 
@@ -161,7 +143,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 23, I, b)
 
-  utter_oqueEhSalic_A23:
+  utter_processo_situacao_processo_A23:
     - text: |
           O estado A23 acontece durante a fase de Admissibilidade, e significa indeferido – somatório dos projetos apresentados excede o limite permitiddo para pessoa física
 
@@ -169,7 +151,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 4
 
-  utter_oqueEhSalic_B01:
+  utter_processo_situacao_processo_B01:
     - text: |
           O estado B01 acontece durante a fase de Admissibilidade, e significa proposta transformada em projeto
 
@@ -177,7 +159,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 24 e 25
 
-  utter_oqueEhSalic_B14:
+  utter_processo_situacao_processo_B14:
     - text: |
           O estado B14 acontece durante a fase de Admissibilidade, e significa diligenciado – Parecer técnico
 
@@ -185,7 +167,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69
 
-  utter_oqueEhSalic_A13:
+  utter_processo_situacao_processo_A13:
     - text: |
           O estado A13 acontece durante a fase de Aprovação, e significa arquivado – solicitação de desistência do proponente
 
@@ -193,7 +175,7 @@ templates:
 
           Para saber mais você pode consultar a
 
-  utter_oqueEhSalic_A16:
+  utter_processo_situacao_processo_A16:
     - text: |
           O estado A16 acontece durante a fase de Aprovação, e significa indeferido – Projeto já realizado.
 
@@ -201,7 +183,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 23, I, b)
 
-  utter_oqueEhSalic_A17:
+  utter_processo_situacao_processo_A17:
     - text: |
           O estado A17 acontece durante a fase de Aprovação, e significa indeferido – não atendimento à diligência
 
@@ -209,7 +191,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69, § 3º
 
-  utter_oqueEhSalic_A42:
+  utter_processo_situacao_processo_A42:
     - text: |
           O estado A42 acontece durante a fase de Aprovação, e significa projeto arquivado – não atendimento à diligência técnica
 
@@ -217,7 +199,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69, § 3º
 
-  utter_oqueEhSalic_B11:
+  utter_processo_situacao_processo_B11:
     - text: |
           O estado B11 acontece durante a fase de Aprovação, e significa encaminhado para análise técnica
 
@@ -225,7 +207,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 26, §2º e Art. 27
 
-  utter_oqueEhSalic_B20:
+  utter_processo_situacao_processo_B20:
     - text: |
           O estado B20 acontece durante a fase de Aprovação, e significa projeto adequado à realidade de execução
 
@@ -233,7 +215,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/201, Art. 26
 
-  utter_oqueEhSalic_C09:
+  utter_processo_situacao_processo_C09:
     - text: |
           O estado C09 acontece durante a fase de Aprovação, e significa projeto fora da pauta – Proponente Inabilitado
 
@@ -241,7 +223,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/201, Art. 59
 
-  utter_oqueEhSalic_C10:
+  utter_processo_situacao_processo_C10:
     - text: |
           O estado C10 acontece durante a fase de Aprovação, e significa projeto incluído em pauta para avaliação da CNIC
 
@@ -249,7 +231,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 28
 
-  utter_oqueEhSalic_C20:
+  utter_processo_situacao_processo_C20:
     - text: |
           O estado C20 acontece durante a fase de Aprovação, e significa parecer técnico emitido
 
@@ -257,7 +239,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 27
 
-  utter_oqueEhSalic_C26:
+  utter_processo_situacao_processo_C26:
     - text: |
           O estado C26 acontece durante a fase de Aprovação, e significa projeto incluído na pauta da CNIC para reanálise/análise complementar
 
@@ -265,7 +247,7 @@ templates:
 
           Para saber mais você pode consultar a STF, Súmula nº 346/1963 (autotutela)
 
-  utter_oqueEhSalic_C30:
+  utter_processo_situacao_processo_C30:
     - text: |
           O estado C30 acontece durante a fase de Aprovação, e significa diligenciado – Comissão Nacional de Incentivo à Cultura – CNIC
 
@@ -273,7 +255,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69
 
-  utter_oqueEhSalic_D03:
+  utter_processo_situacao_processo_D03:
     - text: |
           O estado D03 acontece durante a fase de Aprovação, e significa projeto aprovado – aguardando análise documental
 
@@ -281,7 +263,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 28
 
-  utter_oqueEhSalic_D14:
+  utter_processo_situacao_processo_D14:
     - text: |
           O estado D14 acontece durante a fase de Aprovação, e significa indeferido
 
@@ -289,7 +271,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017
 
-  utter_oqueEhSalic_D20:
+  utter_processo_situacao_processo_D20:
     - text: |
           O estado D20 acontece durante a fase de Aprovação, e significa recurso
 
@@ -297,7 +279,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 67
 
-  utter_oqueEhSalic_D25:
+  utter_processo_situacao_processo_D25:
     - text: |
           O estado D25 acontece durante a fase de Aprovação, e significa diligenciado – Projeto aprovado – (Solicitação de Documentos)
 
@@ -305,7 +287,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69
 
-  utter_oqueEhSalic_D27:
+  utter_processo_situacao_processo_D27:
     - text: |
           O estado D27 acontece durante a fase de Aprovação, e significa encaminhado para inclusão em portaria
 
@@ -313,7 +295,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 25
 
-  utter_oqueEhSalic_E25:
+  utter_processo_situacao_processo_E25:
     - text: |
           O estado E25 acontece durante a fase de Avaliação do objeto, e significa análise de resposta de diligência – Objeto
 
@@ -321,7 +303,7 @@ templates:
 
           Para saber mais você pode consultar a Portaria Interministerial nº 424/2016, art. 59, III
 
-  utter_oqueEhSalic_E62:
+  utter_processo_situacao_processo_E62:
     - text: |
           O estado E62 acontece durante a fase de Avaliação do objeto, e significa diligenciado – na avaliação do relatório cumprimento de objeto
 
@@ -329,7 +311,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 47, §3º
 
-  utter_oqueEhSalic_E66:
+  utter_processo_situacao_processo_E66:
     - text: |
           O estado E66 acontece durante a fase de Avaliação do objeto, e significa inadimplente – por não responder diligência na avaliação do relatório cumprimento de objeto
 
@@ -337,7 +319,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 58, I
 
-  utter_oqueEhSalic_E20:
+  utter_processo_situacao_processo_E20:
     - text: |
           O estado E20 acontece durante a fase de Avaliação financeira, e significa inadimplente – não respondeu a diligência da Prestação de Contas
 
@@ -345,7 +327,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 69, § 3º, inc. III
 
-  utter_oqueEhSalic_E27:
+  utter_processo_situacao_processo_E27:
     - text: |
           O estado E27 acontece durante a fase de Avaliação financeira, e significa análise Financeira da Prestação de Contas
 
@@ -353,7 +335,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 50
 
-  utter_oqueEhSalic_E30:
+  utter_processo_situacao_processo_E30:
     - text: |
           O estado E30 acontece durante a fase de Avaliação financeira, e significa análise de resposta de diligência
 
@@ -361,7 +343,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 69
 
-  utter_oqueEhSalic_E68:
+  utter_processo_situacao_processo_E68:
     - text: |
           O estado E68 acontece durante a fase de Avaliação financeira, e significa aguarda análise financeira
 
@@ -369,7 +351,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 50
 
-  utter_oqueEhSalic_E77:
+  utter_processo_situacao_processo_E77:
     - text: |
           O estado E77 acontece durante a fase de Avaliação financeira, e significa aguarda laudo final
 
@@ -377,7 +359,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 53
 
-  utter_oqueEhSalic_L03:
+  utter_processo_situacao_processo_L03:
     - text: |
           O estado L03 acontece durante a fase de Avaliação financeira, e significa prestação de contas aprovada com ressalva formal e sem prejuízo
 
@@ -385,7 +367,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 51, inc. II e art. 53
 
-  utter_oqueEhSalic_L05:
+  utter_processo_situacao_processo_L05:
     - text: |
           O estado L05 acontece durante a fase de Avaliação financeira, e significa prestação de contas desaprovada com notificação de cobrança
 
@@ -393,7 +375,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 54, § 5°
 
-  utter_oqueEhSalic_L08:
+  utter_processo_situacao_processo_L08:
     - text: |
           O estado L08 acontece durante a fase de Avaliação financeira, e significa prestação de contas aprovada após ressarcimento ao erário.
 
@@ -401,7 +383,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 59, § 3°
 
-  utter_oqueEhSalic_L10:
+  utter_processo_situacao_processo_L10:
     - text: |
           O estado L10 acontece durante a fase de Avaliação financeira, e significa prestação de contas reprovada – Inabilitação Prescrita
 
@@ -409,7 +391,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 57
 
-  utter_oqueEhSalic_L11:
+  utter_processo_situacao_processo_L11:
     - text: |
           O estado L11 acontece durante a fase de Avaliação financeira, e significa prestação de contas reprovada – Inabilitação suspensa
 
@@ -417,7 +399,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 59
 
-  utter_oqueEhSalic_D22:
+  utter_processo_situacao_processo_D22:
     - text: |
           O estado D22 acontece durante a fase de Execução, e significa aguardando elaboração de portaria de Prorrogação
 
@@ -425,7 +407,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 33
 
-  utter_oqueEhSalic_D28:
+  utter_processo_situacao_processo_D28:
     - text: |
           O estado D28 acontece durante a fase de Execução, e significa encaminhado p/inclusão em portaria/complementação
 
@@ -433,7 +415,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 38
 
-  utter_oqueEhSalic_D29:
+  utter_processo_situacao_processo_D29:
     - text: |
           O estado D29 acontece durante a fase de Execução, e significa encaminhado p/inclusão em portaria/redução.
 
@@ -441,7 +423,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 39
 
-  utter_oqueEhSalic_E10:
+  utter_processo_situacao_processo_E10:
     - text: |
           O estado E10 acontece durante a fase de Execução, e significa autorizada a captação total dos recursos
 
@@ -449,7 +431,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 33
 
-  utter_oqueEhSalic_E11:
+  utter_processo_situacao_processo_E11:
     - text: |
           O estado E11 acontece durante a fase de Execução, e significa expirado o prazo de captação total
 
@@ -457,7 +439,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 33
 
-  utter_oqueEhSalic_E12:
+  utter_processo_situacao_processo_E12:
     - text: |
           O estado E12 acontece durante a fase de Execução, e significa autorizada a captação residual dos recursos
 
@@ -465,7 +447,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 33
 
-  utter_oqueEhSalic_E13:
+  utter_processo_situacao_processo_E13:
     - text: |
           O estado E13 acontece durante a fase de Execução, e significa projeto em execução – Encerrado prazo de captação
 
@@ -473,7 +455,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, arts. 33 e 34
 
-  utter_oqueEhSalic_E15:
+  utter_processo_situacao_processo_E15:
     - text: |
           O estado E15 acontece durante a fase de Execução, e significa expirado o prazo de captação parcial
 
@@ -481,7 +463,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 33
 
-  utter_oqueEhSalic_E16:
+  utter_processo_situacao_processo_E16:
     - text: |
           O estado E16 acontece durante a fase de Execução, e significa projeto encerrado por excesso de prazo sem captação
 
@@ -489,7 +471,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 52
 
-  utter_oqueEhSalic_E23:
+  utter_processo_situacao_processo_E23:
     - text: |
           O estado E23 acontece durante a fase de Execução, e significa inadimplente
 
@@ -497,7 +479,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 48, §1°
 
-  utter_oqueEhSalic_E24:
+  utter_processo_situacao_processo_E24:
     - text: |
           O estado E24 acontece durante a fase de Execução, e significa apresentou prestação de contas
 
@@ -505,7 +487,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 49
 
-  utter_oqueEhSalic_E36:
+  utter_processo_situacao_processo_E36:
     - text: |
           O estado E36 acontece durante a fase de Execução, e significa arquivado por ter 24 meses aprovação sem captação de recursos
 
@@ -513,7 +495,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 52
 
-  utter_oqueEhSalic_E59:
+  utter_processo_situacao_processo_E59:
     - text: |
           O estado E59 acontece durante a fase de Execução, e significa diligenciado – Readequação
 
@@ -521,7 +503,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Arts. 29 a 31
 
-  utter_oqueEhSalic_E63:
+  utter_processo_situacao_processo_E63:
     - text: |
           O estado E63 acontece durante a fase de Execução, e significa projeto arquivado – por excesso de prazo sem captação
 
@@ -529,7 +511,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 52
 
-  utter_oqueEhSalic_E64:
+  utter_processo_situacao_processo_E64:
     - text: |
           O estado E64 acontece durante a fase de Execução, e significa projeto arquivado – captação/execução encerradas
 
@@ -537,7 +519,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 52
 
-  utter_oqueEhSalic_E65:
+  utter_processo_situacao_processo_E65:
     - text: |
           O estado E65 acontece durante a fase de Execução, e significa projeto arquivado – solicitação de arquivamento, de projeto de incentivo fiscal, feito pelo proponente
 
@@ -545,7 +527,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 52
 
-  utter_oqueEhSalic_E75:
+  utter_processo_situacao_processo_E75:
     - text: |
           O estado E75 acontece durante a fase de Execução, e significa expirado o prazo de execução do projeto
 
@@ -553,7 +535,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Arts. 48 e 49
 
-  utter_oqueEhSalic_E79:
+  utter_processo_situacao_processo_E79:
     - text: |
           O estado E79 acontece durante a fase de Execução, e significa projeto não executado por insuficiência de captação de recursos
 
@@ -561,13 +543,13 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 52
 
-  utter_oqueEhSalic_E80:
+  utter_processo_situacao_processo_E80:
     - text: |
           O estado E80 acontece durante a fase de Execução, e significa inadimplente – Proponente notificado a apresentar prestação de contas
 
           E quando o MinC utiliza ele? Situação criada para diligenciar automaticamente o proponente que não entregou a prestação de contas final dentro do prazo regular
 
-  utter_oqueEhSalic_E81:
+  utter_processo_situacao_processo_E81:
     - text: |
           O estado E81 acontece durante a fase de Execução, e significa inadimplente – Não atendeu a notificação para apresentar prestação de contas
 
@@ -575,7 +557,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 48, §1º
 
-  utter_oqueEhSalic_E60:
+  utter_processo_situacao_processo_E60:
     - text: |
           O estado E60 acontece durante a fase de Fiscalização, e significa diligenciado – fiscalização
 
@@ -583,7 +565,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 69
 
-  utter_oqueEhSalic_E72:
+  utter_processo_situacao_processo_E72:
     - text: |
           O estado E72 acontece durante a fase de Fiscalização, e significa execução Suspensa de Forma Cautelar
 
@@ -591,7 +573,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, Art. 58, II
 
-  utter_oqueEhSalic_E50:
+  utter_processo_situacao_processo_E50:
     - text: |
           O estado E50 acontece durante a fase de Movimentação Financeira, e significa diligenciado – movimentação da conta corrente
 
@@ -599,7 +581,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, arts. 80 a 83
 
-  utter_oqueEhSalic_L09:
+  utter_processo_situacao_processo_L09:
     - text: |
           O estado L09 acontece durante a fase de Parcelamento, e significa débito Parcelado
 
@@ -607,7 +589,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 64
 
-  utter_oqueEhSalic_D38:
+  utter_processo_situacao_processo_D38:
     - text: |
           O estado D38 acontece durante a fase de Recomposição de dano ao erário, e significa cADIN – Inadimplente
 
@@ -615,7 +597,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 56
 
-  utter_oqueEhSalic_E22:
+  utter_processo_situacao_processo_E22:
     - text: |
           O estado E22 acontece durante a fase de Recomposição de dano ao erário, e significa instaurada Tomada de Contas Especial
 
@@ -623,7 +605,7 @@ templates:
 
           Para saber mais você pode consultar a IN TCU 71/2012, art. 4º
 
-  utter_oqueEhSalic_E73:
+  utter_processo_situacao_processo_E73:
     - text: |
           O estado E73 acontece durante a fase de Recomposição de dano ao erário, e significa tCE julgada pelo TCU
 
@@ -631,7 +613,7 @@ templates:
 
           Para saber mais você pode consultar a
 
-  utter_oqueEhSalic_E78:
+  utter_processo_situacao_processo_E78:
     - text: |
           O estado E78 acontece durante a fase de Recomposição de dano ao erário, e significa débito inferior ao valor mínimo para TCE
 
@@ -639,7 +621,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 56
 
-  utter_oqueEhSalic_E47:
+  utter_processo_situacao_processo_E47:
     - text: |
           O estado G47 acontece durante a fase de Recomposição de dano ao erário, e significa em processo de instauração de Tomada de Contas Especial
 
@@ -647,7 +629,7 @@ templates:
 
           Para saber mais você pode consultar a Instrução Normativa 05/2017, art. 56
 
-  utter_oqueEhSalic_L06:
+  utter_processo_situacao_processo_L06:
     - text: |
           O estado L06 acontece durante a fase de Recomposição de dano ao erário, e significa prestação de contas desaprovada com INDICATIVO para Tomada de Contas Especial
 
@@ -657,14 +639,14 @@ templates:
 
   utter_definicao_tais:
     - text: |
-          Uma assistente virtual é um programa de computador 
-          
-          criado para interagir com as pessoas. 
-          
+          Uma assistente virtual é um programa de computador
+
+          criado para interagir com as pessoas.
+
           Meu objetivo é sanar dúvidas sobre a lei Rouanet.
 
-          Em cada interação que temos aqui, eu aprendendo mais 
-          
+          Em cada interação que temos aqui, eu aprendendo mais
+
           para que a gente se comunique melhor.
 
           Obrigada por conversar comigo!
@@ -689,11 +671,11 @@ templates:
 
           artístico-culturais.
 
-  # TO DO        
+  # TO DO
   utter_definicao:
     - text: |
           Sei conceituar sobre o que é o MinC, Salic, Sefic, proposta, projeto e proponente,
-          
+
           assim como falar sobre mim.
 
   utter_definicao_minc:
@@ -726,29 +708,29 @@ templates:
 
           de projetos culturais.
 
-  utter_oqueEhSalicPreenchimento:
+  utter_processo_preenchimento:
     - text: |
           É a primeira fase da proposta, onde você preenche os formulários.
 
-  utter_oqueEhSalicAdmissibilidade:
+  utter_processo_admissibilidade:
     - text: |
           É a fase da proposta em que o MinC e a vinculada irão avaliar a
 
           proposta, para pedir correções ou aprova-la, gerando um projeto.
 
-  utter_oqueEhSalicAprovacao:
+  utter_processo_aprovacao:
     - text: |
           Aprovação é a fase onde o MinC e a vinculada
 
           estão julgando a validade do projeto
 
-  utter_oqueEhSalicExecucao:
+  utter_processo_execucao:
     - text: |
-          Execução é a fase do projeto que possui atividades 
-          
+          Execução é a fase do projeto que possui atividades
+
           como captação de recursos e realização do projeto.
 
-  utter_oqueEhSalicPrestacaoDeContas:
+  utter_processo_analise_resultados:
     - text: |
           É a fase do final do projeto, onde o proponente
 
@@ -802,34 +784,34 @@ templates:
   utter_geralExplicarDefinicaoPerfil:
     - text: |
           O que você pode saber sobre a *lei Rounet*:
-          
-          como ela foi criada, o que ela proporciona, 
-          
+
+          como ela foi criada, o que ela proporciona,
+
           de onde vem o dinheiro usado na lei, etc.
 
           o que você pode saber sobre *projetos*:
-          
+
           como funciona projeto,como submeter um projeto, etc.
 
           Do que você prefere falar?
 
-  utter_geralNovaProposta: 
+  utter_geralNovaProposta:
     - text: |
         Você já tem uma *proposta de projeto*?
 
     - text: |
         Você já fez uma *proposta de projeto*?
-    
+
     - text: |
         Você já criou uma *proposta de projeto*?
 
   utter_geralDuvidaExecucao:
      - text: |
-        Sua dúvida é sobre *captação de verba* 
+        Sua dúvida é sobre *captação de verba*
 
         para execução de um projeto?
      - text: |
-        Você quer saber como funciona a *captação de verba* 
+        Você quer saber como funciona a *captação de verba*
 
         para execução de um projeto?
      - text: |
@@ -851,9 +833,8 @@ templates:
 
           5. Em nenhuma das opções
 
-  utter_geralSubmissaoDeProjetos:
+  utter_processo_como_funciona:
     - text: |
-       - text: |
         Tudo bem. Aqui vai um resumo do processo
 
         A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
@@ -871,7 +852,7 @@ templates:
   utter_geralAviso:
     - text: |
           Você já preencheu uma proposta?
-    
+
     - text: |
           Você já tem uma proposta preenchida?
 
@@ -894,23 +875,23 @@ templates:
   utter_geralCadastroSalic:
     - text: |
         Você já tem cadastro no *SALIC*?
-    
-    - text: | 
+
+    - text: |
         Você já fez seu cadastro no *SALIC*?
-    
+
     - text: |
         você já se inscreveu no *SALIC*?
 
   utter_geralJaEhProponente:
 
     - text: |
-        Você já é um proponente? 
-    
-    - text: | 
+        Você já é um proponente?
+
+    - text: |
         Você já se cadastrou como proponente?
 
     - text: |
-        Você já se tornou um proponente?   
+        Você já se tornou um proponente?
 
   utter_geralCadastroProponenteIntroduzirContexto:
     - text: |
@@ -968,10 +949,10 @@ templates:
     - text: |
 
         Que bom! Vamos focar no seu projeto!
-        
+
         Você tem dúvidas sobre ele?
 
-    - text: | 
+    - text: |
         Que ótimo! Vamos focar no seu projeto!
 
         Que tal tirar dúvidas sobre ele?
@@ -1056,16 +1037,16 @@ templates:
         EBA!
 
         De qual assunto você quer saber?
-        
+
   utter_curiosidadesMaisNao:
     - text:
         Tudo bem, então você quer saber sobre *projetos e propostas*?
 
-    - text: 
+    - text:
         Ok, então você prefere tirar dúvidas sobre *projetos e propostas*?
 
-    - text: 
-        Beleza, então você quer sanar dúvidas sobre *projetos e propostas*?        
+    - text:
+        Beleza, então você quer sanar dúvidas sobre *projetos e propostas*?
 
   utter_curiosidadesFalarSobreProjetos:
     - text: |
@@ -1289,7 +1270,7 @@ templates:
 
           Assim que o projeto é publicado no Diário Oficial da União você pode começar a captar recursos.
 
-  utter_processoReativacaoDeProposta:
+  utter_processo_reativacao_de_proposta:
     - text: |
           Pra reativar uma proposta indeferida você deve enviar um pedido de reativação
 
@@ -1311,7 +1292,7 @@ templates:
 
           e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso
 
-  utter_prazoEnvioCnae:
+  utter_processo_envio_cnae:
     - text: |
           O proponente tem o prazo de 40 dias para responder a diligência 20+20 prorrogados automaticamente.
 
@@ -1319,7 +1300,7 @@ templates:
 
           Caso seja insuficiente, o proponente poderá anexar o protocolo da Receita de inserção do CNAE no Salic.
 
-  utter_prazoDesistirRecurso:
+  utter_processo_desistir_recurso:
     - text: |
           A partir do momento em que seu projeto foi enquadrado, iniciou-se o prazo de 10 dias corridos para recorrer ao enquadramento proposto para o projeto
 
@@ -1333,38 +1314,38 @@ templates:
         Olá, meu  nome é Taís, sou assistente virtual do MinC
 
          Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
-    
+
     - text: |
         Oi, eu sou a Taís, assistente virtual do MinC
 
          Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
-      
+
     - text: |
         Oi, sou assistente virtual do MinC, me chamo Taís
 
          Estou aqui para te ajudar a esclarecer dúvidas sobre a lei Rouanet
 
   utter_definir_perfil:
-    
+
     - text: |
         Suas dúvidas são sobre a *lei Rouanet* ou estão relacionadas à *propostas e projetos*?
 
     - text: |
         Você quer tirar dúvidas sobre a *lei Rouanet* ou sobre *propostas e projetos*?
-        
+
     - text: |
         Você quer se informar sobre a *lei Rouanet* ou sobre *propostas e projetos*?
 
   utter_explicar_definicao_perfil:
     - text: |
         O que você pode saber sobre a *lei Rounet*
-          
-        como ela foi criada, o que ela proporciona, 
-          
+
+        como ela foi criada, o que ela proporciona,
+
         de onde vem o dinheiro usado na lei, etc.
 
         o que você pode saber sobre *projetos*
-          
+
         como funciona projeto, como submeter um projeto, etc.
 
         Do que você prefere falar?
@@ -1399,10 +1380,10 @@ templates:
     - text:
         Tudo bem, então você quer saber sobre *projetos e propostas*?
 
-    - text: 
+    - text:
         Ok, então você prefere tirar dúvidas sobre *projetos e propostas*?
 
-    - text: 
+    - text:
         Beleza, então você quer sanar dúvidas sobre *projetos e propostas*?
 
   utter_curiosidades_falar_sobre_projetos:
@@ -1448,17 +1429,17 @@ templates:
 
     - text: |
         Você já fez uma *proposta de projeto*?
-    
+
     - text: |
         Você já criou uma *proposta de projeto*?
 
   utter_conhece_processo:
     - text: |
         Você já conhece as *etapas de um projeto* pela lei Rouanet?
-    
+
     - text: |
         Você já conhece *as fases de um projeto* pela lei Rouanet?
-    
+
     - text: |
         Você já conhece *o passo a passo de um projeto* pela lei Rouanet?
 
@@ -1470,10 +1451,10 @@ templates:
     - text: |
 
         Que bom! Vamos focar no seu projeto!
-        
+
         Você tem dúvidas sobre ele?
 
-    - text: | 
+    - text: |
         Que ótimo! Vamos focar no seu projeto!
 
         Que tal tirar dúvidas sobre ele?
@@ -1482,7 +1463,7 @@ templates:
         Que maravilha! Vamos focar no seu projeto!
 
         Quer sanar alguma dúvida sobre ele?
-        
+
   utter_duvida_execucao:
     - text: |
         Sua dúvida é sobre *captação de verba*
@@ -1490,7 +1471,7 @@ templates:
         para execução de um projeto?
 
     - text: |
-        Você quer saber como funciona a *captação de verba* 
+        Você quer saber como funciona a *captação de verba*
 
         para execução de um projeto?
 
@@ -1532,10 +1513,10 @@ templates:
   utter_cadastro_salic:
     - text: |
         Você já tem cadastro no *SALIC*?
-    
-    - text: | 
+
+    - text: |
         Você já fez seu cadastro no *SALIC*?
-    
+
     - text: |
         você já se inscreveu no *SALIC*?
 
@@ -1557,21 +1538,21 @@ templates:
 
   utter_ja_eh_proponente:
     - text: |
-        Você já é um proponente? 
-    
-    - text: | 
+        Você já é um proponente?
+
+    - text: |
         Você já se cadastrou como proponente?
 
     - text: |
-        Você já se tornou um proponente?   
+        Você já se tornou um proponente?
 
   utter_cadastro_salic_video:
     - text: |
-        O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura, e é por 
+        O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura, e é por
 
         ele que você cadastra a proposta e a acompanha
 
-        Se você encontrar dificuldades no momento do cadastro, pode assistir 
+        Se você encontrar dificuldades no momento do cadastro, pode assistir
 
         este vídeo, nele você pode observar o passo a passo para se cadastrar
 
@@ -1591,11 +1572,11 @@ templates:
 
         E depois clique em "Cadastrar"
 
-        Agora aguarde a chegada de um e-mail de confirmação. 
-        
+        Agora aguarde a chegada de um e-mail de confirmação.
+
         Este vai conter uma senha temporária
 
-        É interessante você alterar esta senha, por isso, no seu primeiro 
+        É interessante você alterar esta senha, por isso, no seu primeiro
 
         acesso, vá em "Usuário > Alterar Senha", para mudar a mesma,
 
@@ -1616,7 +1597,7 @@ templates:
         Clique em Administrativo e depois em cadastrar proponente. OU acesse esse link http://salic.cultura.gov.br/agente/agentes/incluiragente
 
         Se você for uma pessoa física você precisa atuar na área cultural
-        
+
         Caso você seja uma pessoa jurídica pública tem que atuar na área de administração indireta ou uma pessoa jurídica privada com ou sem fins lucrativos
 
   utter_cadastro_proponente_introduzir_contexto:
@@ -1641,11 +1622,11 @@ templates:
 
   utter_explicar_processo:
     - text: |
-        Na categoria de processos eu posso responder dúvidas à respeito 
+        Na categoria de processos eu posso responder dúvidas à respeito
 
         do fluxo de submissão do seu projeto.
 
-        Por exemplo, você pode me fazer perguntar à respeito de captação 
+        Por exemplo, você pode me fazer perguntar à respeito de captação
 
         de verbas ou sobre o estado do seu projeto.
 
@@ -1681,22 +1662,22 @@ templates:
 
         do fluxo de submissão do seu projeto, e o sobre o estado dele.
 
-        Em "Preenchimento" eu vou tirar dúvidas sobre o 
+        Em "Preenchimento" eu vou tirar dúvidas sobre o
 
-        preenchimento de propostas no Salic, campos em que você possa ter 
+        preenchimento de propostas no Salic, campos em que você possa ter
 
         dúvidas, ou como você pode preencher
 
-        Agora, em Datas e Prazos, eu consigo falar sobre prazos importantes 
+        Agora, em Datas e Prazos, eu consigo falar sobre prazos importantes
 
         para a aceitação e execução do seu projeto.
 
-        Por último, em erros do SALIC, posso falar sober eventuais erros que 
+        Por último, em erros do SALIC, posso falar sober eventuais erros que
 
         ocorrem durante a utilização do sistema
 
         Já que te expliquei, vou te dar as opçẽs de novo
-        
+
   utter_mais_alguma_pergunta:
     - text: |
         Você possui mais alguma dúvida?
@@ -1730,75 +1711,87 @@ templates:
     - text: |
         Para captar os recursos você deve achar incetivadores
 
+  #TODO
+  utter_processo_definicao_etapas:
+    - text: |
+        O processo possui cinco etapas:
+        - Preenchimento
+        - Aprovação
+        - Admissibilidade
+        - Execução
+        - Análise de Resultados
+
+        Você tem alguma dúvida sobre elas?
+
 actions:
   - utter_default
   - utter_restart
   - utter_curiosidadesIndicacao
-  - utter_oqueEhSalic_A12
-  - utter_oqueEhSalic_A14
-  - utter_oqueEhSalic_A20
-  - utter_oqueEhSalic_A23
-  - utter_oqueEhSalic_B01
-  - utter_oqueEhSalic_B14
-  - utter_oqueEhSalic_A13
-  - utter_oqueEhSalic_A16
-  - utter_oqueEhSalic_A17
-  - utter_oqueEhSalic_A42
-  - utter_oqueEhSalic_B11
-  - utter_oqueEhSalic_B20
-  - utter_oqueEhSalic_C09
-  - utter_oqueEhSalic_C10
-  - utter_oqueEhSalic_C20
-  - utter_oqueEhSalic_C26
-  - utter_oqueEhSalic_C30
-  - utter_oqueEhSalic_D03
-  - utter_oqueEhSalic_D14
-  - utter_oqueEhSalic_D20
-  - utter_oqueEhSalic_D25
-  - utter_oqueEhSalic_D27
-  - utter_oqueEhSalic_E25
-  - utter_oqueEhSalic_E62
-  - utter_oqueEhSalic_E66
-  - utter_oqueEhSalic_E20
-  - utter_oqueEhSalic_E27
-  - utter_oqueEhSalic_E30
-  - utter_oqueEhSalic_E68
-  - utter_oqueEhSalic_E77
-  - utter_oqueEhSalic_L03
-  - utter_oqueEhSalic_L05
-  - utter_oqueEhSalic_L08
-  - utter_oqueEhSalic_L10
-  - utter_oqueEhSalic_L11
-  - utter_oqueEhSalic_D22
-  - utter_oqueEhSalic_D28
-  - utter_oqueEhSalic_D29
-  - utter_oqueEhSalic_E10
-  - utter_oqueEhSalic_E11
-  - utter_oqueEhSalic_E12
-  - utter_oqueEhSalic_E13
-  - utter_oqueEhSalic_E15
-  - utter_oqueEhSalic_E16
-  - utter_oqueEhSalic_E23
-  - utter_oqueEhSalic_E24
-  - utter_oqueEhSalic_E36
-  - utter_oqueEhSalic_E59
-  - utter_oqueEhSalic_E63
-  - utter_oqueEhSalic_E64
-  - utter_oqueEhSalic_E65
-  - utter_oqueEhSalic_E75
-  - utter_oqueEhSalic_E79
-  - utter_oqueEhSalic_E80
-  - utter_oqueEhSalic_E81
-  - utter_oqueEhSalic_E60
-  - utter_oqueEhSalic_E72
-  - utter_oqueEhSalic_E50
-  - utter_oqueEhSalic_L09
-  - utter_oqueEhSalic_D38
-  - utter_oqueEhSalic_E22
-  - utter_oqueEhSalic_E73
-  - utter_oqueEhSalic_E78
-  - utter_oqueEhSalic_E47
-  - utter_oqueEhSalic_L06
+  - utter_processo_situacao_processo_A12
+  - utter_processo_situacao_processo_A14
+  - utter_processo_situacao_processo_A20
+  - utter_processo_situacao_processo_A23
+  - utter_processo_situacao_processo_B01
+  - utter_processo_situacao_processo_B14
+  - utter_processo_situacao_processo_A13
+  - utter_processo_situacao_processo_A16
+  - utter_processo_situacao_processo_A17
+  - utter_processo_situacao_processo_A42
+  - utter_processo_situacao_processo_B11
+  - utter_processo_situacao_processo_B20
+  - utter_processo_situacao_processo_C09
+  - utter_processo_situacao_processo_C10
+  - utter_processo_situacao_processo_C20
+  - utter_processo_situacao_processo_C26
+  - utter_processo_situacao_processo_C30
+  - utter_processo_situacao_processo_D03
+  - utter_processo_situacao_processo_D14
+  - utter_processo_situacao_processo_D20
+  - utter_processo_situacao_processo_D25
+  - utter_processo_situacao_processo_D27
+  - utter_processo_situacao_processo_E25
+  - utter_processo_situacao_processo_E62
+  - utter_processo_situacao_processo_E66
+  - utter_processo_situacao_processo_E20
+  - utter_processo_situacao_processo_E27
+  - utter_processo_situacao_processo_E30
+  - utter_processo_situacao_processo_E68
+  - utter_processo_situacao_processo_E77
+  - utter_processo_situacao_processo_L03
+  - utter_processo_situacao_processo_L05
+  - utter_processo_situacao_processo_L08
+  - utter_processo_situacao_processo_L10
+  - utter_processo_situacao_processo_L11
+  - utter_processo_situacao_processo_D22
+  - utter_processo_situacao_processo_D28
+  - utter_processo_situacao_processo_D29
+  - utter_processo_situacao_processo_E10
+  - utter_processo_situacao_processo_E11
+  - utter_processo_situacao_processo_E12
+  - utter_processo_situacao_processo_E13
+  - utter_processo_situacao_processo_E15
+  - utter_processo_situacao_processo_E16
+  - utter_processo_situacao_processo_E23
+  - utter_processo_situacao_processo_E24
+  - utter_processo_situacao_processo_E36
+  - utter_processo_situacao_processo_E59
+  - utter_processo_situacao_processo_E63
+  - utter_processo_situacao_processo_E64
+  - utter_processo_situacao_processo_E65
+  - utter_processo_situacao_processo_E75
+  - utter_processo_situacao_processo_E79
+  - utter_processo_situacao_processo_E80
+  - utter_processo_situacao_processo_E81
+  - utter_processo_situacao_processo_E60
+  - utter_processo_situacao_processo_E72
+  - utter_processo_situacao_processo_E50
+  - utter_processo_situacao_processo_L09
+  - utter_processo_situacao_processo_D38
+  - utter_processo_situacao_processo_E22
+  - utter_processo_situacao_processo_E73
+  - utter_processo_situacao_processo_E78
+  - utter_processo_situacao_processo_E47
+  - utter_processo_situacao_processo_L06
   - utter_definicao
   - utter_definicao_tais
   - utter_oqueEhSalicLeiRouanet
@@ -1807,11 +1800,11 @@ actions:
   - utter_definicao_projeto
   - utter_definicao_proposta
   - utter_definicao_proponente
-  - utter_oqueEhSalicPreenchimento
-  - utter_oqueEhSalicAdmissibilidade
-  - utter_oqueEhSalicAprovacao
-  - utter_oqueEhSalicExecucao
-  - utter_oqueEhSalicPrestacaoDeContas
+  - utter_processo_preenchimento
+  - utter_processo_admissibilidade
+  - utter_processo_aprovacao
+  - utter_processo_execucao
+  - utter_processo_analise_resultados
   - utter_cumprimentar
   - utter_definicao_salic
   - utter_definicao_vinculada
@@ -1822,7 +1815,7 @@ actions:
   - utter_geralCadastroSalic
   - utter_despedida
   - utter_geralDefinirContexto
-  - utter_geralSubmissaoDeProjetos
+  - utter_processo_como_funciona
   - utter_geralAviso
   - utter_geralIntroduzirExecucao
   - utter_geralJaEhProponente
@@ -1865,11 +1858,11 @@ actions:
   - utter_erroSalicErroAcharProposta
   - utter_processoExplicarProcesso
   - utter_processoProcessoCaptacaoDeRecursos
-  - utter_processoReativacaoDeProposta
+  - utter_processo_reativacao_de_proposta
   - utter_processoCadastroProponente
   - utter_prazoExplicarPrazo
-  - utter_prazoEnvioCnae
-  - utter_prazoDesistirRecurso
+  - utter_processo_envio_cnae
+  - utter_processo_desistir_recurso
   - utter_cumprimentar
   - utter_definir_perfil
   - utter_explicar_definicao_perfil
@@ -1905,3 +1898,4 @@ actions:
   - utter_captacao
   - utter_captacao_quando_captar
   - utter_captacao_como_captar
+  - utter_processo_definicao_etapas
