@@ -1,6 +1,6 @@
 intents:
   - cumprimentar
-  - despedida
+  - despedir
 
   - captacao
   - captacao_quando_captar
@@ -678,6 +678,28 @@ templates:
           para que a gente se comunique melhor.
 
           Obrigada por conversar comigo!
+  
+  utter_lei_rouanet:
+    - text: |
+          Sobre a lei Rouanet eu sei explicar:
+          
+          O que é a lei
+
+          Quem pode ser proponente
+
+          Origem do Dinheiro
+
+          Benefícios de Incentivar
+
+          Quantidade de Projetos
+
+          Quem pode incentivar
+
+          Denúncia
+
+  utter_lei_rouanet_mais:
+    - text: |
+          Deseja saber mais sobre a lei Rouanet?
 
   utter_lei_rouanet_o_que_eh:
     - text: |
@@ -758,7 +780,7 @@ templates:
 
           como captação de recursos e realização do projeto.
 
-  utter_processo_analise_resultados:
+  utter_processo_analise_de_resultados:
     - text: |
           É a fase do final do projeto, onde o proponente
 
@@ -781,23 +803,6 @@ templates:
           As vinculadas são órgãos associados ao MinC
 
           que avaliam o orçamento e adequação do projeto.
-
-  utter_cumprimentar:
-
-    - text: |
-        Olá, meu  nome é Taís, sou assistente virtual do MinC
-
-        Estou aqui para te ajudar a sanar dúvidas sobre a lei Rouanet
-
-    - text: |
-        Oi, eu sou a Taís, assistente virtual do MinC
-
-        Estou aqui para te ajudar a tirar dúvidas sobre a lei Rouanet
-
-    - text: |
-        Oi, sou assistente virtual do MinC, me chamo Taís
-
-        Estou aqui para te ajudar a esclarecer dúvidas sobre a lei Rouanet
 
   utter_geralDefinirPerfil:
     - text: |
@@ -1122,7 +1127,7 @@ templates:
 
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
 
-  utter_curiosidades_lei_rouanet_denuncia:
+  utter_lei_rouanet_denuncia:
     - text: |
           Para denunciar um projeto suspeito de irregularidades é preciso registrar uma denúncia para o Ministério Público Federal.
 
@@ -1286,11 +1291,19 @@ templates:
 
           propostas ativas no sistema
 
-  utter_processoExplicarProcesso:
+  utter_processo:
     - text: |
-          Na categoria de processos eu posso responder dúvidas à respeito do fluxo de submissão do seu projeto.
+          Na categoria de processos eu posso responder dúvidas sobre:
 
-          Por exemplo, você pode me fazer perguntar à respeito de captação de verbas ou sobre o estado do seu projeto.
+          Como Funciona
+
+          Situação do Processo
+          
+          Definição das Etapas
+          
+          Prazos
+          
+          Reativação da proposta
 
   utter_processoProcessoCaptacaoDeRecursos:
     - text: |
@@ -1354,82 +1367,82 @@ templates:
 
          Estou aqui para te ajudar a esclarecer dúvidas sobre a lei Rouanet
 
-  utter_definir_perfil:
+#   utter_definir_perfil:
 
-    - text: |
-        Suas dúvidas são sobre a *lei Rouanet* ou estão relacionadas à *propostas e projetos*?
+#     - text: |
+#         Suas dúvidas são sobre a *lei Rouanet* ou estão relacionadas à *propostas e projetos*?
 
-    - text: |
-        Você quer tirar dúvidas sobre a *lei Rouanet* ou sobre *propostas e projetos*?
+#     - text: |
+#         Você quer tirar dúvidas sobre a *lei Rouanet* ou sobre *propostas e projetos*?
 
-    - text: |
-        Você quer se informar sobre a *lei Rouanet* ou sobre *propostas e projetos*?
+#     - text: |
+#         Você quer se informar sobre a *lei Rouanet* ou sobre *propostas e projetos*?
 
-  utter_explicar_definicao_perfil:
-    - text: |
-        O que você pode saber sobre a *lei Rounet*
+#   utter_explicar_definicao_perfil:
+#     - text: |
+#         O que você pode saber sobre a *lei Rounet*
 
-        como ela foi criada, o que ela proporciona,
+#         como ela foi criada, o que ela proporciona,
 
-        de onde vem o dinheiro usado na lei, etc.
+#         de onde vem o dinheiro usado na lei, etc.
 
-        o que você pode saber sobre *projetos*
+#         o que você pode saber sobre *projetos*
 
-        como funciona projeto, como submeter um projeto, etc.
+#         como funciona projeto, como submeter um projeto, etc.
 
-        Do que você prefere falar?
+#         Do que você prefere falar?
 
-  utter_curiosidades_indicacao:
-    - text: |
-          Você quer saber algumas curiosidades sobre a *Lei Rouanet*?
+#   utter_curiosidades_indicacao:
+#     - text: |
+#           Você quer saber algumas curiosidades sobre a *Lei Rouanet*?
 
-    - text: |
-          Você quer saber mais sobre a *Lei Rouanet*?
+#     - text: |
+#           Você quer saber mais sobre a *Lei Rouanet*?
 
-    - text: |
-          Você quer aprender mais sobre a *Lei Rouanet*?
+#     - text: |
+#           Você quer aprender mais sobre a *Lei Rouanet*?
 
-  utter_curiosidades_mais_sim:
-    - text: |
-        EBA!
+#   utter_curiosidades_mais_sim:
+#     - text: |
+#         EBA!
 
-        O que você quer saber?
+#         O que você quer saber?
 
-    - text: |
-        EBA!
+#     - text: |
+#         EBA!
 
-        Do que você quer saber?
+#         Do que você quer saber?
 
-    - text: |
-        EBA!
+#     - text: |
+#         EBA!
 
-        De qual assunto você quer saber?
+#         De qual assunto você quer saber?
 
-  utter_curiosidades_mais_nao:
-    - text:
-        Tudo bem, então você quer saber sobre *projetos e propostas*?
+#   utter_curiosidades_mais_nao:
+#     - text:
+#         Tudo bem, então você quer saber sobre *projetos e propostas*?
 
-    - text:
-        Ok, então você prefere tirar dúvidas sobre *projetos e propostas*?
+#     - text:
+#         Ok, então você prefere tirar dúvidas sobre *projetos e propostas*?
 
-    - text:
-        Beleza, então você quer sanar dúvidas sobre *projetos e propostas*?
+#     - text:
+#         Beleza, então você quer sanar dúvidas sobre *projetos e propostas*?
 
-  utter_curiosidades_falar_sobre_projetos:
-    - text: |
-        Maravilha! É bom saber que você quer entender mais sobre propostas e projetos
+#   utter_curiosidades_falar_sobre_projetos:
+#     - text: |
+#         Maravilha! É bom saber que você quer entender mais sobre propostas e projetos
 
-  utter_aviso:
-    - text: |
-          Você já preencheu uma proposta?
+#   utter_aviso:
+#     - text: |
+#           Você já preencheu uma proposta?
 
-    - text: |
-        Você já tem uma proposta preenchida?
+#     - text: |
+#         Você já tem uma proposta preenchida?
 
-    - text: |
-          Você já possui uma proposta preenchida?
+#     - text: |
+#           Você já possui uma proposta preenchida?
 
-  utter_despedida:
+  utter_despedir:
     - text: |
         Foi um prazer te ajudar!
 
@@ -1452,274 +1465,264 @@ templates:
         Até mais!
 
 
-  utter_nova_proposta:
-    - text: |
-        Você já tem uma *proposta de projeto*?
+#   utter_nova_proposta:
+#     - text: |
+#         Você já tem uma *proposta de projeto*?
 
-    - text: |
-        Você já fez uma *proposta de projeto*?
+#     - text: |
+#         Você já fez uma *proposta de projeto*?
 
-    - text: |
-        Você já criou uma *proposta de projeto*?
+#     - text: |
+#         Você já criou uma *proposta de projeto*?
 
-  utter_conhece_processo:
-    - text: |
-        Você já conhece as *etapas de um projeto* pela lei Rouanet?
+#   utter_conhece_processo:
+#     - text: |
+#         Você já conhece as *etapas de um projeto* pela lei Rouanet?
 
-    - text: |
-        Você já conhece *as fases de um projeto* pela lei Rouanet?
+#     - text: |
+#         Você já conhece *as fases de um projeto* pela lei Rouanet?
 
-    - text: |
-        Você já conhece *o passo a passo de um projeto* pela lei Rouanet?
+#     - text: |
+#         Você já conhece *o passo a passo de um projeto* pela lei Rouanet?
 
-  utter_o_que_eh:
-    - text: |
-          o que é o que?
+#   utter_o_que_eh:
+#     - text: |
+#           o que é o que?
 
-  utter_introduzir_contexto_nova_proposta:
-    - text: |
+#   utter_introduzir_contexto_nova_proposta:
+#     - text: |
 
-        Que bom! Vamos focar no seu projeto!
+#         Que bom! Vamos focar no seu projeto!
 
-        Você tem dúvidas sobre ele?
+#         Você tem dúvidas sobre ele?
 
-    - text: |
-        Que ótimo! Vamos focar no seu projeto!
+#     - text: |
+#         Que ótimo! Vamos focar no seu projeto!
 
-        Que tal tirar dúvidas sobre ele?
+#         Que tal tirar dúvidas sobre ele?
 
-    - text: |
-        Que maravilha! Vamos focar no seu projeto!
+#     - text: |
+#         Que maravilha! Vamos focar no seu projeto!
 
-        Quer sanar alguma dúvida sobre ele?
+#         Quer sanar alguma dúvida sobre ele?
 
-  utter_duvida_execucao:
-    - text: |
-        Sua dúvida é sobre *captação de verba*
+#   utter_duvida_execucao:
+#     - text: |
+#         Sua dúvida é sobre *captação de verba*
 
-        para execução de um projeto?
+#         para execução de um projeto?
 
-    - text: |
-        Você quer saber como funciona a *captação de verba*
+#     - text: |
+#         Você quer saber como funciona a *captação de verba*
 
-        para execução de um projeto?
+#         para execução de um projeto?
 
-    - text: |
-        Você quer esclarecer dúvidas sobre *captação de verba*
+#     - text: |
+#         Você quer esclarecer dúvidas sobre *captação de verba*
 
-        para execução de um projeto?
+#         para execução de um projeto?
 
-  utter_introduzir_execucao:
-    - text: |
-        Eu ainda não aprendi a falar sobre um projeto que está em Execução ou
+#   utter_introduzir_execucao:
+#     - text: |
+#         Eu ainda não aprendi a falar sobre um projeto que está em Execução ou
 
-        em Prestação de Contas. Ainda estou aprendendo...
+#         em Prestação de Contas. Ainda estou aprendendo...
 
-        Em breve eu poderei responder sua dúvida.
+#         Em breve eu poderei responder sua dúvida.
 
-        Neste momento, eu recomendo que vocẽ entre em contato com as equipes da SEFIC
+#         Neste momento, eu recomendo que vocẽ entre em contato com as equipes da SEFIC
 
-        Execução > acompanhamento.incentivo@cultura.gov.br
+#         Execução > acompanhamento.incentivo@cultura.gov.br
 
-        Prestação de Contas > prestacaodecontas.incentivo@cultura.gov.br
+#         Prestação de Contas > prestacaodecontas.incentivo@cultura.gov.br
 
-  utter_introduzir_contexto_nao_execucao:
-    - text: |
-        Então suas dúvidas devem ser sobre outros assuntos
+#   utter_introduzir_contexto_nao_execucao:
+#     - text: |
+#         Então suas dúvidas devem ser sobre outros assuntos
 
-        Vamos sana-las juntos?
+#         Vamos sana-las juntos?
 
-    - text: |
-        Então suas perguntas devem ser sobre outros tópicos
+#     - text: |
+#         Então suas perguntas devem ser sobre outros tópicos
 
-        Vamos sana-las juntos?
+#         Vamos sana-las juntos?
 
-    - text: |
-        Então suas dúvids devem se encaixar em outra categoria
+#     - text: |
+#         Então suas dúvids devem se encaixar em outra categoria
 
-        vamos sana-las juntos?
+#         vamos sana-las juntos?
 
-  utter_cadastro_salic:
-    - text: |
-        Você já tem cadastro no *SALIC*?
+#   utter_cadastro_salic:
+#     - text: |
+#         Você já tem cadastro no *SALIC*?
 
-    - text: |
-        Você já fez seu cadastro no *SALIC*?
+#     - text: |
+#         Você já fez seu cadastro no *SALIC*?
 
-    - text: |
-        você já se inscreveu no *SALIC*?
+#     - text: |
+#         você já se inscreveu no *SALIC*?
 
-  utter_submissao_de_projetos:
-    - text: |
-        Tudo bem. Aqui vai um resumo do processo
+#   utter_submissao_de_projetos:
+#     - text: |
+#         Tudo bem. Aqui vai um resumo do processo
 
-        A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
+#         A pessoa responsável, chamada de proponente, insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.
 
-        Essa proposta é analisada pelo MinC. Se for aprovada, autoriza o proponente a captar recursos.
+#         Essa proposta é analisada pelo MinC. Se for aprovada, autoriza o proponente a captar recursos.
 
-        Assim que o valor mínimo for captado, o proponente pode começar a executar o projeto.
+#         Assim que o valor mínimo for captado, o proponente pode começar a executar o projeto.
 
-        Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
+#         Durante a execução o proponente deve prestar contas de acordo com os prazos definidos na Lei Rouanet.
 
-        A prestação de contas é analisada pelos técnicos do Ministério e se aprovada, permite que o proponente crie um novo projeto.
+#         A prestação de contas é analisada pelos técnicos do Ministério e se aprovada, permite que o proponente crie um novo projeto.
 
-        O primeiro passo para você particiar deste processo é ter cadastro no SALIC
+#         O primeiro passo para você particiar deste processo é ter cadastro no SALIC
 
-  utter_ja_eh_proponente:
-    - text: |
-        Você já é um proponente?
+#   utter_ja_eh_proponente:
+#     - text: |
+#         Você já é um proponente?
 
-    - text: |
-        Você já se cadastrou como proponente?
+#     - text: |
+#         Você já se cadastrou como proponente?
 
-    - text: |
-        Você já se tornou um proponente?
+#     - text: |
+#         Você já se tornou um proponente?
 
-  utter_cadastro_salic_video:
-    - text: |
-        O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura, e é por
+#   utter_cadastro_salic_video:
+#     - text: |
+#         O Salic é o Sistema de Apoio às Leis de Incentivo à Cultura, e é por
 
-        ele que você cadastra a proposta e a acompanha
+#         ele que você cadastra a proposta e a acompanha
 
-        Se você encontrar dificuldades no momento do cadastro, pode assistir
+#         Se você encontrar dificuldades no momento do cadastro, pode assistir
 
-        este vídeo, nele você pode observar o passo a passo para se cadastrar
+#         este vídeo, nele você pode observar o passo a passo para se cadastrar
 
-        https://youtu.be/rMGEZyIr1U8
+#         https://youtu.be/rMGEZyIr1U8
 
-        Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique? (Sim ou Não)
+#         Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique? (Sim ou Não)
 
-  utter_explicar_cadastro_salic:
-    - text: |
-        A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
+#   utter_explicar_cadastro_salic:
+#     - text: |
+#         A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
 
-        Então no formulário inicial, onde pede login e senha, você deve
+#         Então no formulário inicial, onde pede login e senha, você deve
 
-        clicar na opção "Não sou cadastrado", logo abaixo
+#         clicar na opção "Não sou cadastrado", logo abaixo
 
-        Preencha todos os campos corretamente, todos eles são obrigatórios.
+#         Preencha todos os campos corretamente, todos eles são obrigatórios.
 
-        E depois clique em "Cadastrar"
+#         E depois clique em "Cadastrar"
 
-        Agora aguarde a chegada de um e-mail de confirmação.
+#         Agora aguarde a chegada de um e-mail de confirmação.
 
-        Este vai conter uma senha temporária
+#         Este vai conter uma senha temporária
 
-        É interessante você alterar esta senha, por isso, no seu primeiro
+#         É interessante você alterar esta senha, por isso, no seu primeiro
 
-        acesso, vá em "Usuário > Alterar Senha", para mudar a mesma,
+#         acesso, vá em "Usuário > Alterar Senha", para mudar a mesma,
 
-        Agora que você já se cadastrou, o próximo passo cadastrar um proponente
+#         Agora que você já se cadastrou, o próximo passo cadastrar um proponente
 
-  utter_cadastro_salic_apos_video:
-    - text: |
-        Espero que o vídeo tenha ajudado
+#   utter_cadastro_salic_apos_video:
+#     - text: |
+#         Espero que o vídeo tenha ajudado
 
-        Agora que você já se cadastrou, o próximo passo cadastrar um proponente
+#         Agora que você já se cadastrou, o próximo passo cadastrar um proponente
 
-  utter_inscricao_proponente:
-    - text: |
-        Para inscrever um proponente, ou se tornar um proponente, você deve
+#   utter_inscricao_proponente:
+#     - text: |
+#         Para inscrever um proponente, ou se tornar um proponente, você deve
 
-        Acessar o SALIC e efetuar o login
+#         Acessar o SALIC e efetuar o login
 
-        Clique em Administrativo e depois em cadastrar proponente. OU acesse esse link http://salic.cultura.gov.br/agente/agentes/incluiragente
+#         Clique em Administrativo e depois em cadastrar proponente. OU acesse esse link http://salic.cultura.gov.br/agente/agentes/incluiragente
 
-        Se você for uma pessoa física você precisa atuar na área cultural
+#         Se você for uma pessoa física você precisa atuar na área cultural
 
-        Caso você seja uma pessoa jurídica pública tem que atuar na área de administração indireta ou uma pessoa jurídica privada com ou sem fins lucrativos
+#         Caso você seja uma pessoa jurídica pública tem que atuar na área de administração indireta ou uma pessoa jurídica privada com ou sem fins lucrativos
 
-  utter_cadastro_proponente_introduzir_contexto:
-    - text: |
-        Maravilha!
+#   utter_cadastro_proponente_introduzir_contexto:
+#     - text: |
+#         Maravilha!
 
-        Agora eu posso tentar esclarer algumas de suas dúvidas
+#         Agora eu posso tentar esclarer algumas de suas dúvidas
 
-  utter_definir_contexto:
-    - text: |
-        Onde sua pergunta se encaixa melhor
+#   utter_definir_contexto:
+#     - text: |
+#         Onde sua pergunta se encaixa melhor
 
-        1. Processo e estado do projeto
+#         1. Processo e estado do projeto
 
-        2. Preenchimento de proposta
+#         2. Preenchimento de proposta
 
-        3. Datas e Prazos
+#         3. Datas e Prazos
 
-        4. Erros do SALIC
+#         4. Erros do SALIC
 
-        5. Não sei bem onde se encaixa
+#         5. Não sei bem onde se encaixa
 
-  utter_explicar_processo:
-    - text: |
-        Na categoria de processos eu posso responder dúvidas à respeito
+#   utter_explicar_processo:
+#     - text: |
+#         Na categoria de processos eu posso responder dúvidas à respeito
 
-        do fluxo de submissão do seu projeto.
+#         do fluxo de submissão do seu projeto.
 
-        Por exemplo, você pode me fazer perguntar à respeito de captação
+#         Por exemplo, você pode me fazer perguntar à respeito de captação
 
-        de verbas ou sobre o estado do seu projeto.
+#         de verbas ou sobre o estado do seu projeto.
 
-  utter_ainda_nao_aprendi:
-    - text: |
-        Eu ainda não aprendi a falar sobre este tópico...
+#   utter_ainda_nao_aprendi:
+#     - text: |
+#         Eu ainda não aprendi a falar sobre este tópico...
 
-        Em breve eu poderei responder sua dúvida
+#         Em breve eu poderei responder sua dúvida
 
-        Neste momento, eu recomendo que vocẽ entre em contato com as equipes da SEFIC > http://rouanet.cultura.gov.br/fale-conosco/
+#         Neste momento, eu recomendo que vocẽ entre em contato com as equipes da SEFIC > http://rouanet.cultura.gov.br/fale-conosco/
 
-  utter_explicar_preenchimento:
-    - text: |
-        Nesta etapa eu posso responder dúvidas sobre o preenchimento de propostas no SALIC
+#   utter_explicar_erros_salic:
+#     - text: |
+#         Nesta etapa eu posso responder dúvidas sobre eventuais erros do
 
-  utter_explicar_prazo:
-    - text: |
-        Nesta etapa posso responder suas dúvidas a respeito de Datas
+#         sistema SALIC. Como planilha desaparecida, perda dos dados
 
-        e Prazos do seu projeto. Como envio do CNAE e desistência de recurso
+#         preenchidos e recuperação de senha
 
-  utter_explicar_erros_salic:
-    - text: |
-        Nesta etapa eu posso responder dúvidas sobre eventuais erros do
+#   utter_explicar_contextos:
+#     - text: |
+#         Na categoria "Processo" eu responderei a respeito
 
-        sistema SALIC. Como planilha desaparecida, perda dos dados
+#         do fluxo de submissão do seu projeto, e o sobre o estado dele.
 
-        preenchidos e recuperação de senha
+#         Em "Preenchimento" eu vou tirar dúvidas sobre o
 
-  utter_explicar_contextos:
-    - text: |
-        Na categoria "Processo" eu responderei a respeito
+#         preenchimento de propostas no Salic, campos em que você possa ter
 
-        do fluxo de submissão do seu projeto, e o sobre o estado dele.
+#         dúvidas, ou como você pode preencher
 
-        Em "Preenchimento" eu vou tirar dúvidas sobre o
+#         Agora, em Datas e Prazos, eu consigo falar sobre prazos importantes
 
-        preenchimento de propostas no Salic, campos em que você possa ter
+#         para a aceitação e execução do seu projeto.
 
-        dúvidas, ou como você pode preencher
+#         Por último, em erros do SALIC, posso falar sober eventuais erros que
 
-        Agora, em Datas e Prazos, eu consigo falar sobre prazos importantes
+#         ocorrem durante a utilização do sistema
 
-        para a aceitação e execução do seu projeto.
+#         Já que te expliquei, vou te dar as opçẽs de novo
 
-        Por último, em erros do SALIC, posso falar sober eventuais erros que
+#   utter_mais_alguma_pergunta:
+#     - text: |
+#         Você possui mais alguma dúvida?
 
-        ocorrem durante a utilização do sistema
+#     - text: |
+#         Você tem mais alguma dúvida?
 
-        Já que te expliquei, vou te dar as opçẽs de novo
+#     - text: |
+#         Você tem mais alguma pergunta?
 
-  utter_mais_alguma_pergunta:
-    - text: |
-        Você possui mais alguma dúvida?
-
-    - text: |
-        Você tem mais alguma dúvida?
-
-    - text: |
-        Você tem mais alguma pergunta?
-
-  utter_mais_perguntas_afirmativa:
-    - text: |
-        Que bom! Espero estar ajudando
+#   utter_mais_perguntas_afirmativa:
+#     - text: |
+#         Que bom! Espero estar ajudando
 
   utter_captacao:
     - text: |
@@ -1766,7 +1769,7 @@ templates:
 actions:
   - utter_default
   - utter_restart
-  - utter_curiosidadesIndicacao
+#   - utter_curiosidadesIndicacao
   - utter_processo_situacao_processo_A12
   - utter_processo_situacao_processo_A14
   - utter_processo_situacao_processo_A20
@@ -1836,7 +1839,7 @@ actions:
   - utter_definicao_tais
   - utter_lei_rouanet_o_que_eh
   - utter_definicao_minc
-  - utter_definicaoefic
+  - utter_definicao_sefic
   - utter_definicao_projeto
   - utter_definicao_proposta
   - utter_definicao_proponente
@@ -1844,38 +1847,40 @@ actions:
   - utter_processo_admissibilidade
   - utter_processo_aprovacao
   - utter_processo_execucao
-  - utter_processo_analise_resultados
+  - utter_processo_analise_de_resultados
   - utter_cumprimentar
   - utter_definicao_salic
   - utter_definicao_vinculada
-  - utter_geralDefinirPerfil
-  - utter_geralExplicarDefinicaoPerfil
-  - utter_geralNovaProposta
-  - utter_geralDuvidaExecucao
-  - utter_geralCadastroSalic
-  - utter_despedida
-  - utter_geralDefinirContexto
+#   - utter_geralDefinirPerfil
+#   - utter_geralExplicarDefinicaoPerfil
+#   - utter_geralNovaProposta
+#   - utter_geralDuvidaExecucao
+#   - utter_geralCadastroSalic
+  - utter_despedir
+#   - utter_geralDefinirContexto
   - utter_processo_como_funciona
-  - utter_geralAviso
-  - utter_geralIntroduzirExecucao
-  - utter_geralJaEhProponente
-  - utter_geralCadastroProponenteIntroduzirContexto
-  - utter_geralCadastroSalicVideo
-  - utter_salic_cadastro_de_usuario
-  - utter_geralCadastroSalicAposVideo
-  - utter_geralInscricaoProponente
-  - utter_geralIntroduzirContextoNovaProposta
-  - utter_geralIntroduzirContextoNaoExecucao
-  - utter_geralMaisAlgumaPergunta
-  - utter_geralMaisPerguntasAfirmativa
-  - utter_geralExplicarContextos
-  - utter_geralEscolheuContextoErrado
-  - utter_geralAindaNaoAprendi
-  - utter_geralExtra
-  - utter_curiosidadesMais
-  - utter_curiosidadesMaisSim
-  - utter_curiosidadesMaisNao
-  - utter_curiosidadesFalarSobreProjetos
+#   - utter_geralAviso
+#   - utter_geralIntroduzirExecucao
+#   - utter_geralJaEhProponente
+#   - utter_geralCadastroProponenteIntroduzirContexto
+#   - utter_geralCadastroSalicVideo
+  - utter_salic_cadastro_usuario
+#   - utter_geralCadastroSalicAposVideo
+#   - utter_geralInscricaoProponente
+#   - utter_geralIntroduzirContextoNovaProposta
+#   - utter_geralIntroduzirContextoNaoExecucao
+#   - utter_geralMaisAlgumaPergunta
+#   - utter_geralMaisPerguntasAfirmativa
+#   - utter_geralExplicarContextos
+#   - utter_geralEscolheuContextoErrado
+#   - utter_geralAindaNaoAprendi
+#   - utter_geralExtra
+#   - utter_curiosidadesMais
+#   - utter_curiosidadesMaisSim
+#   - utter_curiosidadesMaisNao
+#   - utter_curiosidadesFalarSobreProjetos
+  - utter_lei_rouanet
+  - utter_lei_rouanet_mais
   - utter_lei_rouanet_quantidade_de_projetos
   - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
   - utter_lei_rouanet_quem_pode_ser_proponente
@@ -1885,7 +1890,7 @@ actions:
   - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
   - utter_salic_preenchimento
   - utter_salic_preenchimento_campo_custo_auditoria
-  - utter_preenchimentoVinculoDePropostas
+#   - utter_preenchimentoVinculoDePropostas
   - utter_salic_preenchimento_valor_ingresso
   - utter_salic_preenchimento_vinculo_cpf_proposta
   - utter_salic_preenchimento_cadastro_agencia_bancaria
@@ -1895,45 +1900,44 @@ actions:
   - utter_salic_recuperacao_de_senha
   - utter_salic_erros_vinculo_cpf_cnpj
   - utter_salic_erros_achar_proposta
-  - utter_processoExplicarProcesso
-  - utter_processoProcessoCaptacaoDeRecursos
+  - utter_processo
+#   - utter_processoProcessoCaptacaoDeRecursos
   - utter_processo_reativacao_de_proposta
   - utter_salic_cadastro_proponente
-  - utter_prazoExplicarPrazo
+  - utter_processo_prazo
   - utter_processo_prazo_envio_cnae
   - utter_processo_prazo_desistir_recurso
-  - utter_cumprimentar
-  - utter_definir_perfil
-  - utter_explicar_definicao_perfil
-  - utter_curiosidades_indicacao
-  - utter_curiosidades_mais_sim
-  - utter_curiosidades_mais_nao
-  - utter_curiosidades_falar_sobre_projetos
-  - utter_aviso
-  - utter_nova_proposta
-  - utter_conhece_processo
-  - utter_o_que_eh
-  - utter_introduzir_contexto_nova_proposta
-  - utter_duvida_execucao
-  - utter_introduzir_execucao
-  - utter_introduzir_contexto_nao_execucao
-  - utter_cadastro_salic
-  - utter_submissao_de_projetos
-  - utter_ja_eh_proponente
-  - utter_cadastro_salic_video
-  - utter_explicar_cadastro_salic
-  - utter_cadastro_salic_apos_video
-  - utter_inscricao_proponente
-  - utter_cadastro_proponente_introduzir_contexto
-  - utter_definir_contexto
-  - utter_explicar_processo
-  - utter_ainda_nao_aprendi
-  - utter_explicar_preenchimento
-  - utter_explicar_prazo
-  - utter_explicar_erros_salic
-  - utter_explicar_contextos
-  - utter_mais_alguma_pergunta
-  - utter_mais_perguntas_afirmativa
+#   - utter_definir_perfil
+#   - utter_explicar_definicao_perfil
+#   - utter_curiosidades_indicacao
+#   - utter_curiosidades_mais_sim
+#   - utter_curiosidades_mais_nao
+#   - utter_curiosidades_falar_sobre_projetos
+#   - utter_aviso
+#   - utter_nova_proposta
+#   - utter_conhece_processo
+# #   - utter_o_que_eh
+#   - utter_introduzir_contexto_nova_proposta
+#   - utter_duvida_execucao
+#   - utter_introduzir_execucao
+#   - utter_introduzir_contexto_nao_execucao
+#   - utter_cadastro_salic
+#   - utter_submissao_de_projetos
+#   - utter_ja_eh_proponente
+#   - utter_cadastro_salic_video
+#   - utter_explicar_cadastro_salic
+#   - utter_cadastro_salic_apos_video
+#   - utter_inscricao_proponente
+#   - utter_cadastro_proponente_introduzir_contexto
+# #   - utter_definir_contexto
+#   - utter_explicar_processo
+#   - utter_ainda_nao_aprendi
+#   - utter_explicar_preenchimento
+#   - utter_explicar_prazo
+#   - utter_explicar_erros_salic
+#   - utter_explicar_contextos
+#   - utter_mais_alguma_pergunta
+#   - utter_mais_perguntas_afirmativa
   - utter_captacao
   - utter_captacao_quando_captar
   - utter_captacao_como_captar

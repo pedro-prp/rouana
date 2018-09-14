@@ -58,8 +58,8 @@
   - utter_cumprimentar
 * salic
   - utter_salic
-* salic_oque_eh
-  - utter_salic_oque_eh
+* salic_definicao
+  - utter_definicao_salic
 * salic_cadastro_usuario
   - utter_salic_cadastro_usuario
 * salic_cadastro_proponente
@@ -86,8 +86,8 @@
   - utter_salic
 * salic_erros
   - utter_salic_erros
-* salic_erros_salic_erros_salvamento_de_proposta
-  - utter_salic_erros_salic_erros_salvamento_de_proposta
+* salic_erros_salvamento_de_proposta
+  - utter_salic_erros_salvamento_de_proposta
 * salic_erros_achar_proposta
   - utter_salic_erros_achar_proposta
 * despedir
@@ -192,7 +192,6 @@
 ## path_processo_situacao
 * cumprimentar
   - utter_cumprimentar
-  - utter_definir_perfil
 * processo
   - utter_processo
 * processo_situacao_processo{"situacao_processo":"A12"}

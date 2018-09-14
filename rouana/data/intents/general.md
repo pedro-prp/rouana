@@ -17,9 +17,9 @@
 - opa tudo bem
 - pode me tirar uma dúvida?
 
-<!-- Despedida -->
+<!-- Despedir -->
 
-##intent:despedida
+##intent:despedir
 - Tchau obrigada
 - até logo
 - namaste
