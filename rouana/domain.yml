@@ -29,7 +29,7 @@ intents:
   - lei_rouanet_quantidade_de_projetos
   - lei_rouanet_quem_pode_incentivar
   - lei_rouanet_denuncia
-  
+
   - definicao_tais
   - definicao_minc
   - definicao_sefic
@@ -38,6 +38,22 @@ intents:
   - definicao_proponente
   - definicao_salic
   - definicao_vinculada
+
+  - salic
+  - salic_cadastro_de_usuario
+  - salic_cadastro_proponente
+  - salic_recuperacao_de_senha
+  - salic_erros
+  - salic_erros_salvamento_de_proposta
+  - salic_erros_planilha_desapareceu
+  - salic_erros_vinculo_cpf_cnpj
+  - salic_erros_achar_proposta
+  - salic_preenchimento
+  - salic_preenchimento_campo_custo_auditoria
+  - salic_preenchimento_cadastro_rubrica_advogado_contador
+  - salic_preenchimento_valor_ingresso
+  - salic_preenchimento_vinculo_cpf_proposta
+  - salic_preenchimento_cadastro_agencia_bancaria
 
 
 slots:
@@ -923,7 +939,7 @@ templates:
 
           Caso você não possa ver o vídeo, eu posso te explicar. Quer que eu te explique? (Sim ou Não)
 
-  utter_geralExplicarCadastroSalic:
+  utter_salic_cadastro_usuario:
     - text: |
           A primeira coisa que você deve fazer é acessar o SALIC no site http://salic.cultura.gov.br
 
@@ -1156,13 +1172,14 @@ templates:
 
           Lei 9.874/99: http://www.planalto.gov.br/ccivil_03/leis/l9874.htm
 
-  utter_geralExplicarPreenchimento:
+  #TODO
+  utter_salic_preenchimento:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre o preenchimento de
 
           propostas no SALIC
 
-  utter_preenchimentoCampoCustoAuditoria:
+  utter_salic_preenchimento_campo_custo_auditoria:
     - text: |
           Este campo não precisa ser preenchido agora, isso vai ser preenchido na prestação de contas.
 
@@ -1178,7 +1195,7 @@ templates:
 
           contábil e jurídica.
 
-  utter_preenchimentoValorIngresso:
+  utter_salic_preenchimento_valor_ingresso:
     - text: |
           Esse valor é usado para conferir a viabilidade do projeto e não
 
@@ -1192,7 +1209,7 @@ templates:
 
           de público.
 
-  utter_preenchimentoVinculoCpfProposta:
+  utter_salic_preenchimento_vinculo_cpf_proposta:
     - text: |
           O dirigente do projeto deve acessar o sistema e seguir os passos:
 
@@ -1208,13 +1225,14 @@ templates:
 
           3- Por último... clica também no botão Vincular
 
-  utter_preenchimentoAgenciaBancaria:
+  utter_salic_preenchimento_cadastro_agencia_bancaria:
     - text: |
           A agência bancária deve ser do banco do Brasil, deve conter 5
 
           dígitos, sem hifens, pontos ou letras
 
-  utter_geralExplicarErrosSalic:
+  #TODO
+  utter_salic_erros:
     - text: |
           Nesta etapa eu posso responder dúvidas sobre eventuais erros do
 
@@ -1222,13 +1240,13 @@ templates:
 
           preenchidos e recuperação de senha
 
-  utter_erroSalicPlanilhaDesaparecida:
+  utter_salic_erros_planilha_desapareceu:
     - text: |
           Ao excluir um produto do plano de distribuição a planilha vai ser
 
           \"zerada\" e o proponente deverá refazê-la.
 
-  utter_erroSalicErroSalvamento:
+  utter_salic_erros_salvamento_de_proposta:
     - text: |
           Esse erro aconteceu por exceder o tempo logado no sistema.
 
@@ -1236,7 +1254,7 @@ templates:
 
           Não esqueça de ir salvando a cada passo do preenchimento.
 
-  utter_erroSalicRecuperacaoDeSenha:
+  utter_salic_recuperacao_de_senha:
     - text: |
           Ah isso acontece com todo mundo ;)
 
@@ -1248,7 +1266,7 @@ templates:
 
           senhasalic@cultura.gov.br
 
-  utter_erroSalicErroVinculoCpfCnpj:
+  utter_salic_erros_vinculo_cpf_cnpj:
     - text: |
           Apenas o dirigente da instituição é quem pode vincular uma
 
@@ -1256,7 +1274,7 @@ templates:
 
           o dirigente deve entrar com login e senha e aceitar o vínculo
 
-  utter_erroSalicErroAcharProposta:
+  utter_salic_erros_achar_proposta:
     - text: |
           Selecione o CPF ou CNPJ que deseja como proponente e liste a proposta
 
@@ -1290,7 +1308,7 @@ templates:
 
           E aí é só aguardar uma resposta
 
-  utter_processoCadastroProponente:
+  utter_salic_cadastro_proponente:
     - text: |
           Basta você entrar no Salic...
 
@@ -1734,6 +1752,17 @@ templates:
 
         Você tem alguma dúvida sobre elas?
 
+  #TODO
+  utter_salic:
+    - text: |
+        Posso tirar dúvidas sobre o SALIC, por exemplo, como se cadastrar, como recuperar senha, e sobre alguns erros do sistema.
+
+  utter_salic_preenchimento_cadastro_rubrica_advogado_contador:
+    - text: |
+        Você deve ir em:
+        Orçamento do projeto > Custos por produto > Clicar no produto desejado
+        Clicar no Local de realização > por último na aba Assessoria contábil e jurídica.
+
 actions:
   - utter_default
   - utter_restart
@@ -1832,7 +1861,7 @@ actions:
   - utter_geralJaEhProponente
   - utter_geralCadastroProponenteIntroduzirContexto
   - utter_geralCadastroSalicVideo
-  - utter_geralExplicarCadastroSalic
+  - utter_salic_cadastro_de_usuario
   - utter_geralCadastroSalicAposVideo
   - utter_geralInscricaoProponente
   - utter_geralIntroduzirContextoNovaProposta
@@ -1854,22 +1883,22 @@ actions:
   - utter_lei_rouanet_denuncia
   - utter_lei_rouanet_quem_pode_incentivar
   - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
-  - utter_geralExplicarPreenchimento
-  - utter_preenchimentoCampoCustoAuditoria
+  - utter_salic_preenchimento
+  - utter_salic_preenchimento_campo_custo_auditoria
   - utter_preenchimentoVinculoDePropostas
-  - utter_preenchimentoValorIngresso
-  - utter_preenchimentoVinculoCpfProposta
-  - utter_preenchimentoAgenciaBancaria
-  - utter_geralExplicarErrosSalic
-  - utter_erroSalicPlanilhaDesaparecida
-  - utter_erroSalicErroSalvamento
-  - utter_erroSalicRecuperacaoDeSenha
-  - utter_erroSalicErroVinculoCpfCnpj
-  - utter_erroSalicErroAcharProposta
+  - utter_salic_preenchimento_valor_ingresso
+  - utter_salic_preenchimento_vinculo_cpf_proposta
+  - utter_salic_preenchimento_cadastro_agencia_bancaria
+  - utter_salic_erros
+  - utter_salic_erros_planilha_desapareceu
+  - utter_salic_erros_salvamento_de_proposta
+  - utter_salic_recuperacao_de_senha
+  - utter_salic_erros_vinculo_cpf_cnpj
+  - utter_salic_erros_achar_proposta
   - utter_processoExplicarProcesso
   - utter_processoProcessoCaptacaoDeRecursos
   - utter_processo_reativacao_de_proposta
-  - utter_processoCadastroProponente
+  - utter_salic_cadastro_proponente
   - utter_prazoExplicarPrazo
   - utter_processo_prazo_envio_cnae
   - utter_processo_prazo_desistir_recurso
@@ -1909,3 +1938,5 @@ actions:
   - utter_captacao_quando_captar
   - utter_captacao_como_captar
   - utter_processo_definicao_etapas
+  - utter_salic
+  - utter_salic_preenchimento_cadastro_rubrica_advogado_contador
