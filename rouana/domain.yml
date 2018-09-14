@@ -20,6 +20,16 @@ intents:
   - processo_prazo_desistir_recurso
   - processo_situacao_processo
 
+  - lei_rouanet
+  - lei_rouanet_o_que_eh
+  - lei_rouanet_quem_pode_ser_proponente
+  - lei_rouanet_origem_do_dinheiro
+  - lei_rouanet_beneficios_incentivo_projetos_culturais
+  - lei_rouanet_porcentagem_de_deducao_do_imposto
+  - lei_rouanet_quantidade_de_projetos
+  - lei_rouanet_quem_pode_incentivar
+  - lei_rouanet_denuncia
+  
   - definicao_tais
   - definicao_minc
   - definicao_sefic
@@ -653,7 +663,7 @@ templates:
 
           Obrigada por conversar comigo!
 
-  utter_oqueEhSalicLeiRouanet:
+  utter_lei_rouanet_o_que_eh:
     - text: |
           A Lei 8.313/91, Lei Rouanet, é o principal
 
@@ -1054,7 +1064,7 @@ templates:
     - text: |
           Maravilha! É bom saber que você quer entender mais sobre propostas e projetos
 
-  utter_curiosidadesQuantidadeProjetos:
+  utter_lei_rouanet_quantidade_de_projetos:
     - text: |
           Até o momento foram enviadas mais de 240.000 propostas, das quais mais de 89.000 foram aprovadas, se tornando projetos.
 
@@ -1062,7 +1072,7 @@ templates:
 
           Além disso, mais de 69.000 fornecedores foram contratados pelos proponentes.
 
-  utter_curiosidadesBeneficiosIncentivoProjetosCulturais:
+  utter_lei_rouanet_beneficios_incentivo_projetos_culturais:
     - text: |
           O principal benefício de incentivar projetos culturais é dar a chance para sociedade usufruir das mais diversas manifestações culturais que talvez nunca fossem possíveis sem incentivo.
 
@@ -1070,7 +1080,7 @@ templates:
 
           É claro que essa dedução do imposto de renda acontece nas condições estabelecidas na legislação vigente, e está limitada a 4% do imposto devido
 
-  utter_curiosidadesLeiRouanetElegibilidade:
+  utter_lei_rouanet_quem_pode_ser_proponente:
     - text: |
           Todo projeto cultural, de qualquer artista, produtor e agente cultural brasileiro, pode se beneficiar desta Lei e se candidatar à captação de recursos de renúncia fiscal.
 
@@ -1086,7 +1096,7 @@ templates:
 
           (empresas, cooperativas, fundações, ONGs, organizações culturais etc.)
 
-  utter_curiosidadesLeiRouanetArrecadamento:
+  utter_lei_rouanet_origem_do_dinheiro:
     - text: |
           O mecanismo de incentivos fiscais da Lei Rouanet é uma forma de estimular o apoio da iniciativa privada ao setor cultural.
 
@@ -1096,20 +1106,18 @@ templates:
 
           Atualmente, mais de 3 mil projetos são apoiados a cada ano por meio desta lei.
 
-  utter_curiosidadesLeiRouanetDenuncia:
+  utter_curiosidades_lei_rouanet_denuncia:
     - text: |
           Para denunciar um projeto suspeito de irregularidades é preciso registrar uma denúncia para o Ministério Público Federal.
 
           Sua denúncia pode ser feita no site do ministério público no link: http://aplicativos.pgr.mpf.mp.br/ouvidoria/portal/cadastro.html?tipoServico=2 ,ou pelo aplicativo do MPF na opção de \"Registrar denúncia ou solicitação\".
 
-  utter_curiosidadesElegibilidadeDeEmpresaParaBeneficios:
+  utter_lei_rouanet_quem_pode_incentivar:
     - text: |
           Somente as Pessoas Jurídicas tributadas com base no Lucro Real podem descontar as doações ou patrocínios do imposto de renda observando sempre o limite máximo de 4% do imposto devido
 
           Se você quiser saber mais sobre quais Pessoas Jurídicas devem fazer a apuração do lucro real confira o artigo 246, do Decreto 3.000 de 26 de março de 1999 que \"Regulamenta a tributação, fiscalização, arrecadação e administração do Imposto sobre a Renda e Proventos de Qualquer Natureza\"
 
-  utter_curiosidadesReceberIncetivoDeParentes:
-    - text: |
           Olha, alguns familiares não podem incentivar projetos:
 
           - o cônjuge
@@ -1118,7 +1126,7 @@ templates:
 
           - e os dependentes… tanto do doador, quanto do patrocinador, dos titulares, administradores, acionistas ou sócios de pessoa jurídica vinculada ao doador ou patrocinador, na data da operação, ou nos 12 meses anteriores.
 
-  utter_curiosidadesDeducaoImpostoDeRendaIncentivador:
+  utter_lei_rouanet_porcentagem_de_deducao_do_imposto:
     - text: |
           Atualmente, existem 2 situações descritas na Lei 8313/91:
 
@@ -1797,7 +1805,7 @@ actions:
   - utter_processo_situacao_processo_L06
   - utter_definicao
   - utter_definicao_tais
-  - utter_oqueEhSalicLeiRouanet
+  - utter_lei_rouanet_o_que_eh
   - utter_definicao_minc
   - utter_definicaoefic
   - utter_definicao_projeto
@@ -1839,14 +1847,13 @@ actions:
   - utter_curiosidadesMaisSim
   - utter_curiosidadesMaisNao
   - utter_curiosidadesFalarSobreProjetos
-  - utter_curiosidadesQuantidadeProjetos
-  - utter_curiosidadesBeneficiosIncentivoProjetosCulturais
-  - utter_curiosidadesLeiRouanetElegibilidade
-  - utter_curiosidadesLeiRouanetArrecadamento
-  - utter_curiosidadesLeiRouanetDenuncia
-  - utter_curiosidadesElegibilidadeDeEmpresaParaBeneficios
-  - utter_curiosidadesReceberIncetivoDeParentes
-  - utter_curiosidadesDeducaoImpostoDeRendaIncentivador
+  - utter_lei_rouanet_quantidade_de_projetos
+  - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
+  - utter_lei_rouanet_quem_pode_ser_proponente
+  - utter_lei_rouanet_origem_do_dinheiro
+  - utter_lei_rouanet_denuncia
+  - utter_lei_rouanet_quem_pode_incentivar
+  - utter_lei_rouanet_porcentagem_de_deducao_do_imposto
   - utter_geralExplicarPreenchimento
   - utter_preenchimentoCampoCustoAuditoria
   - utter_preenchimentoVinculoDePropostas
