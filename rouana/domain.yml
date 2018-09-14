@@ -6,7 +6,7 @@ intents:
   - captacao_quando_captar
   - captacao_como_captar
 
-  - processo_situacao_processo
+  - processo
   - processo_como_funciona
   - processo_definicao_etapas
   - processo_preenchimento
@@ -15,8 +15,10 @@ intents:
   - processo_execucao
   - processo_analise_de_resultados
   - processo_reativacao_de_proposta
-  - processo_envio_cnae
-  - processo_desistir_recurso
+  - processo_prazo
+  - processo_prazo_envio_cnae
+  - processo_prazo_desistir_recurso
+  - processo_situacao_processo
 
   - definicao_tais
   - definicao_minc
@@ -1286,13 +1288,14 @@ templates:
 
           clicar em Administrativo > Cadastrar proponente e preencher todos os dados
 
-  utter_prazoExplicarPrazo:
+  #TODO
+  utter_processo_prazo:
     - text: |
-          Nesta etapa posso responder suas dúvidas a respeito de Datas
+          Posso responder suas dúvidas a respeito de Datas
 
           e Prazos do seu projeto. Como: envio do CNAE e desistência de recurso
 
-  utter_processo_envio_cnae:
+  utter_processo_prazo_envio_cnae:
     - text: |
           O proponente tem o prazo de 40 dias para responder a diligência 20+20 prorrogados automaticamente.
 
@@ -1300,7 +1303,7 @@ templates:
 
           Caso seja insuficiente, o proponente poderá anexar o protocolo da Receita de inserção do CNAE no Salic.
 
-  utter_processo_desistir_recurso:
+  utter_processo_prazo_desistir_recurso:
     - text: |
           A partir do momento em que seu projeto foi enquadrado, iniciou-se o prazo de 10 dias corridos para recorrer ao enquadramento proposto para o projeto
 
@@ -1861,8 +1864,8 @@ actions:
   - utter_processo_reativacao_de_proposta
   - utter_processoCadastroProponente
   - utter_prazoExplicarPrazo
-  - utter_processo_envio_cnae
-  - utter_processo_desistir_recurso
+  - utter_processo_prazo_envio_cnae
+  - utter_processo_prazo_desistir_recurso
   - utter_cumprimentar
   - utter_definir_perfil
   - utter_explicar_definicao_perfil
