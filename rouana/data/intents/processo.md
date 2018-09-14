@@ -1,4 +1,97 @@
 <!-- Processo -->
+## intent:processo
+- quero falar sobre processo
+- vamos para processo
+- processo
+- acho que é processo
+
+## intent:processo_como_funciona
+- como funciona o processo
+- como funciona a lei rouanet
+- como faço para enviar um projeto
+- como é o processo de envio de projeto
+- como criar um projeto
+- como mandar um projeto
+
+## intent:processo_definicao_etapas
+- fale sobre a definição das etapas
+- quantas etapas tem
+- me fale sobre as etapas
+
+## intent:processo_preenchimento
+- o que é Preenchimento
+- sobre preenchimento
+- defina Preenchimento
+- o que devo fazer no preenchimento
+
+## intent:processo_admissibilidade
+- o que é admissibilidade
+- sobre admissibilidade
+- defina admissibilidade
+- o que acontece na admissibilidade
+
+## intent:processo_aprovacao
+- o que é aprovação
+- sobre aprovação
+- defina aprovação
+- o que acontece na aprovação
+
+## intent:processo_execucao
+- o que é execução
+- sobre execução
+- defina execução
+- o que devo fazer no execução
+
+## intent:processo_analise_de_resultados
+- o que é análise de resultados
+- o que é prestação de contas
+- sobre análise de resultados
+- sobre prestação de contas
+- defina análise de resultados
+- defina prestação de contas
+- o que devo fazer no análise de resultados
+- o que devo fazer no prestação de contas
+
+## intent:processo_reativacao_de_proposta
+- posso encaminhar pedido de reativação
+- Como encaminhar pedido de reativação
+- Como refazer a reativação de pedido
+- refazer o encaminhamento do pedido de reativação
+- Pedido de reativação
+- Reativar proposta
+- proposta indeferida como reativar
+- posso reativar uma proposta indeferida
+- existe um meio de reativar uma proposta indeferida?
+- minha proposta foi rejeitada, como reativar ela?
+- posso fazer o pedido de reativação?
+- como reativar uma proposta?
+
+## intent:processo_prazo
+- tenho duvida sobre o prazo 
+- fale sobre o prazo
+- qual e o prazo
+- sabe o prazo
+
+## intent:processo_prazo_envio_cnae
+- Qual é o prazo limite para envio do CNAE
+- Até quando posso enviar o CNAE
+- Tem algum prazo para enviar o CNAE
+- prazo cnae
+- envio do CNAE
+- prazo para enviar CNAE
+- prazo de envio de CNAE
+
+## intent:processo_prazo_desistir_recurso
+- desistir do prazo recursal
+- desistir do recurso
+- prazo pra encaminhar recurso
+- como é a desistência do prazo de recurso
+- Sobre o prazo de ecaminhamento de recurso, como desisto dele
+- da pra desistir do prazo de recurso
+- Após o enquadramento, como desisto do prazo de recurso?
+- Qual o prazo para desisitr de entrar com o recurso?
+- não quero entrar com o recurso
+- Quero desistir do prazo de recurso
 
 ## intent:processo_situacao_processo
 - o que significa [A12](situacao_processo)
@@ -258,79 +351,3 @@
 - tenho dúvida sobre o estado [L06](situacao_processo)
 - o que é estado [L06](situacao_processo)
 - onde posso saber mais sobre o estado [L06](situacao_processo)
-
-## intent:processo_como_funciona
-- como funciona o processo
-- como faço para enviar um projeto
-- como é o processo de envio de projeto
-- como criar um projeto
-
-## intent:processo_definicao_etapas
-- quantas etapas tem o processo?
-- quais são as etapas do processo
-- me fale sobre as etapas
-
-## intent:processo_preenchimento
-- oque é Preenchimento
-- o que significa Preenchimento
-
-## intent:processo_admissibilidade
-- oque é Admissibilidade
-- o que significa Admissibilidade
-
-## intent:processo_aprovacao
-- oque é Aprovacao
-- o que significa Aprovacao
-
-## intent:processo_execucao
-- oque é Execucao
-- o que significa Execucao
-
-## intent:processo_analise_de_resultados
-- o que é Prestacao De Contas
-- o que significa Prestacao De Contas
-
-## intent:processo_reativacao_de_proposta
-- Minha proposta foi indeferida, porém posso encaminhar pedido de reativação. Como proceder ?
-- Como encaminhar pedido de reativação ?
-- Como refazer o a reativação de pedido ?
-- O que fazer para refazer o encaminhamento do pedido de reativação ?
-- Pedido de reativação, como fazer ?
-- Reativar proposta
-- reativar minha proposta
-- reativação de proposta
-- como reativar proposta?
-- reativação da proposta
-- proposta indeferida, como reativar?
-- eu posso reativar uma proposta indeferida?
-- existe um meio de reativar uma proposta indeferida?
-- minha proposta foi rejeitada, como reativar ela?
-- posso fazer o pedido de reativação?
-- como reativar uma proposta?
-- como faço para reativar uma proposta?
-- como faço a reativação da minha proposta?
-- como reativo minha proposta?
-- qual o processo para a reativação da proposta?
-- como posso reativar minha proposta?
-- como posso reativar a proposta?
-- como posso reativar uma proposta?
-- como funciona a reativação de uma proposta?
-
-## intent:processo_envio_cnae
-- Qual é o prazo limite para envio do CNAE?
-- Até quando posso enviar o CNAE?
-- Tem algum prazo para enviar o CNAE?
-- prazo cnae
-- envio do CNAE
-- prazo para enviar CNAE
-- prazo de envio de CNAE?
-
-## intent:processo_desistir_recurso
-- Meu projeto foi enquadrado, como faço para desistir do prazo recursal ou para encaminhar recurso?
-- como é a desistência do prazo de recurso
-- Sobre o prazo de ecaminhamento de recurso, como desisto dele?
-- Existem algum jeito de desistir do prazo de recurso?
-- Após o enquadramento, como desisto do prazo de recurso?
-- Qual o prazo para desisitr de entrar com o recurso?
-- não quero entrar com o recurso, como posso desistir?
-- Quero desistir do prazo de recurso
