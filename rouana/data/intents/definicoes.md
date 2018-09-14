@@ -2,6 +2,7 @@
 ## intent:definicao
 - o que você sabe conceituar
 - quais definições você conhece
+- definicoes
 
 ## intent:definicao_tais
 - o que é Tais
@@ -49,5 +50,6 @@
 - Salic é sigla de que
 
 ## intent:definicao_vinculada
-- oque é Vinculada
+- o que é Vinculada
 - o que significa Vinculada
+- sobre vinculada
