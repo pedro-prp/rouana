@@ -4,11 +4,28 @@
 - quero falar sobre a lei rouanet
 - lei rouanet
 - me fale sobre a lei rouanet
+- opção lei rouanet
+- o que é a lei rouanet
+- como é feita a lei rouanet
 
 ## intent:lei_rouanet_o_que_eh
 - o que é Lei Rouanet
 - o que significa Lei Rouanet
 - Explique a lei rouanet
+- o que é Lei Rouanet
+- o que significa Lei Rouanet
+- Explique a lei rouanet
+- o que é Lei Rouanet
+- o que significa Lei Rouanet
+- Explique a lei rouanet
+- o que é Lei Rouanet
+- o que significa Lei Rouanet
+- Explique a lei rouanet
+- o que é Lei Rouanet
+- o que significa Lei Rouanet
+- Explique a lei rouanet
+- fale sobre a lei rouanet
+- rouanet
 
 ## intent:lei_rouanet_quem_pode_ser_proponente
 - quem pode se inscrever na lei rouanet?

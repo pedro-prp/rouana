@@ -17,12 +17,12 @@ def train_dialogue(domain_file='domain.yml',
                    model_path='models/dialogue',
                    training_data_file='data/stories'):
     fallback = FallbackPolicy(fallback_action_name="utter_default",
-                              core_threshold=0.20,
-                              nlu_threshold=0.20)
+                              core_threshold=0.11,
+                              nlu_threshold=0.11)
 
     agent = Agent(
         domain_file,
-        policies=[MemoizationPolicy(max_history=3), KerasPolicy(), fallback]
+        policies=[KerasPolicy(), AugmentedMemoizationPolicy(max_history=4), fallback]
     )
 
 
@@ -30,8 +30,8 @@ def train_dialogue(domain_file='domain.yml',
     agent.train(
         training_data,
         epochs=TRAINING_EPOCHS,
-        batch_size=120,
-        validation_split=0.25
+        batch_size=256,
+        validation_split=0.20
     )
 
     agent.persist(model_path)
