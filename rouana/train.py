@@ -25,7 +25,7 @@ def train_dialogue(domain_file='domain.yml',
         policies=[KerasPolicy(),MemoizationPolicy(max_history=3)]
     )
 
-    training_data = agent.load_data(training_data_file)
+    training_data = agent.load_data(training_data_file,augmentation_factor=0)
     agent.train(
         training_data,
         epochs=TRAINING_EPOCHS,

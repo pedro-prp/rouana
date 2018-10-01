@@ -5,11 +5,6 @@
 - opção salic
 - salic
 
-## intent:salic_oque_eh
-- o que é o salic
-- o que significa o salic
-- sobre o sistema salic
-
 ## intent:salic_cadastro_usuario
 - como me cadastro no salic
 - como criar login no salic
