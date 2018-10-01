@@ -25,7 +25,7 @@
 - o que significa Sefic
 - Sefic é um orgão
 - Sefic é do ministério
-- o que é a sigla Sefic 
+- o que é a sigla Sefic
 
 ## intent:definicao_projeto
 - o que é Projeto

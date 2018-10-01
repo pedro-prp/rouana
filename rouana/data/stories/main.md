@@ -1,26 +1,22 @@
 ## path_lei_rouanet.1
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * lei_rouanet
   - utter_lei_rouanet
 * lei_rouanet_o_que_eh
   - utter_lei_rouanet_o_que_eh
   - utter_lei_rouanet_mais
-* lei_rouanet_quem_pode_ser_proponente
-  - utter_lei_rouanet_quem_pode_ser_proponente
-  - utter_lei_rouanet_mais
-* lei_rouanet_beneficios_incentivo_projetos_culturais
-  - utter_lei_rouanet_beneficios_incentivo_projetos_culturais
-  - utter_lei_rouanet_mais
-* lei_rouanet_origem_do_dinheiro
-  - utter_lei_rouanet_origem_do_dinheiro
-  - utter_lei_rouanet_mais
+  - utter_menu
+* out_of_scope
+  - utter_default
 * despedir
   - utter_despedir
 
 ## path_lei_rouanet.2
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * lei_rouanet
   - utter_lei_rouanet
 * lei_rouanet_o_que_eh
@@ -35,12 +31,19 @@
 * lei_rouanet_denuncia
   - utter_lei_rouanet_denuncia
   - utter_lei_rouanet_mais
+* out_of_scope
+  - utter_default
+  - utter_menu
 * despedir
   - utter_despedir
 
   ## path_lei_rouanet.3
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * lei_rouanet
   - utter_lei_rouanet
 * lei_rouanet_denuncia
@@ -52,10 +55,13 @@
 * despedir
   - utter_despedir
 
-
 ## path_salic.1
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * salic
   - utter_salic
 * definicao_salic
@@ -74,6 +80,10 @@
   - utter_salic
 * salic_cadastro_usuario
   - utter_salic_cadastro_usuario
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * salic_recuperacao_de_senha
   - utter_salic_recuperacao_de_senha
 * despedir
@@ -84,6 +94,10 @@
   - utter_cumprimentar
 * salic
   - utter_salic
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * salic_erros
   - utter_salic_erros
 * salic_erros_salvamento_de_proposta
@@ -96,8 +110,13 @@
 ## path_salic.4
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * salic
   - utter_salic
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * salic_preenchimento
   - utter_salic_preenchimento
 * salic_preenchimento_cadastro_agencia_bancaria
@@ -108,20 +127,30 @@
 ## path_salic.5
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * salic
   - utter_salic
 * salic_preenchimento
   - utter_salic_preenchimento
 * salic_preenchimento_valor_ingresso
   - utter_salic_preenchimento_valor_ingresso
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * despedir
   - utter_despedir
 
 ## path_processo.1
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * processo
   - utter_processo
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu
 * processo_como_funciona
   - utter_processo_como_funciona
 * processo_definicao_etapas
@@ -134,6 +163,7 @@
 ## path_processo.2
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * processo
   - utter_processo
 * processo_admissibilidade
@@ -144,6 +174,7 @@
 ## path_processo.3
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * processo
   - utter_processo
 * processo_execucao
@@ -154,6 +185,7 @@
 ## path_processo.4
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * processo
   - utter_processo
 * processo_analise_de_resultados
@@ -164,6 +196,7 @@
 ## path_processo.5
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * processo
   - utter_processo
 * processo_prazo
@@ -178,6 +211,7 @@
 ## path_lei_rouanet_processo.1
 * cumprimentar
   - utter_cumprimentar
+  - utter_menu
 * lei_rouanet
   - utter_lei_rouanet
 * lei_rouanet_o_que_eh
@@ -188,4 +222,7 @@
   - utter_processo_como_funciona
 * despedir
   - utter_despedir
-
+  - utter_menu
+* out_of_scope
+  - utter_default
+  - utter_menu

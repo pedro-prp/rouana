@@ -1,6 +1,7 @@
 intents:
   - cumprimentar
   - despedir
+  - out_of_scope
 
   - captacao
   - captacao_quando_captar
@@ -54,7 +55,6 @@ intents:
   - salic_preenchimento_valor_ingresso
   - salic_preenchimento_vinculo_cpf_proposta
   - salic_preenchimento_cadastro_agencia_bancaria
-
 
 entities:
  - situacao_processo
@@ -1203,7 +1203,14 @@ templates:
         - Análise de Resultados
 
         Você tem alguma dúvida sobre elas?
-
+  utter_menu:
+    - text: | 
+        Podemos falar sobre:
+        - A Lei Rouanet
+        - O SALIC
+        - O Processo
+        - Definições
+        - Captação
   #TODO
   utter_salic:
     - text: |
@@ -1220,7 +1227,8 @@ actions:
   - utter_restart
   - utter_cumprimentar
   - utter_despedir
-
+  - utter_menu
+  
   - utter_captacao
   - utter_captacao_quando_captar
   - utter_captacao_como_captar
