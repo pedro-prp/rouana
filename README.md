@@ -1,7 +1,16 @@
 # Tais - Assistente Virtual da Cultura
 
+A Taís é uma assistente virtual desenvolvida pelo LAPPIS - Laboratório Avançado
+de Produção, Pesquisa e Inovação em Software (FGA/UnB), em parceria com o
+Ministério da Cultura.
 
-## Ambiente RocketChat
+O nome é uma sigla para Tecnologia de Aprendizado Interativo do Salic.
+Ela tem como objetivo ajudar cidadãs e cidadãos a tirar dúvidas sobre a lei
+Rouanet e sobre o incentivo a projetos culturais.
+
+## Ambiente
+
+### RocketChat
 
 ```sh
 sudo docker-compose up -d rocketchat
@@ -27,22 +36,58 @@ Condition: Visitor time on site
     Value: 3
 Action: Send Message
  Value: Impersonate next agent from queue
- Value: Olá, meu nome é Taís, sou assistente virtual do MinC! Você quer conversar sobre incentivo à cultura?
+ Value: Olá, meu nome é Taís, sou assistente virtual do MinC! Você quer conversar sobre incentivo à cultura? 
 ```
 
+O valor `http://localhost:8080/` deve ser a URL de acesso da Taís.
 
-## Testes
+#### Instalação
 
-### Conversa no console
+Para colocar a Taís em um site você precisa inserir o seguinte Javascript na sua página
+
+```js
+<!-- Start of Rocket.Chat Livechat Script -->
+<script type="text/javascript">
+(function(w, d, s, u) {
+
+    // !!! Mudar para o seu host AQUI !!!
+    host = 'http://localhost:3000';
+    // !!! ^^^^^^^^^^^^^^^^^^^^^^^^^^ !!!
+
+    w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+    var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+    j.async = true; j.src = host + '/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
+    h.parentNode.insertBefore(j, h);
+})(window, document, 'script', host + '/livechat');
+</script>
+<!-- End of Rocket.Chat Livechat Script -->
+```
+
+**Atenção**: Você precisa alterar a variavel `host` dentro do código acima para a url do site onde estará
+o seu Rocket.Chat.
+
+### Console
 
 ```sh
-sudo docker build -t rouana -f docker/Dockerfile .
+sudo docker build -t rouana -f docker/tais/Dockerfile .
 sudo docker run --rm --name rouana -it -v $PWD/rouana:/rouana rouana python train.py
 ```
 
-### Teste de confiabilidade de frases
+## Site do Beta
 
-```sh
-sudo docker run --rm --name rouana -it -v $PWD/rouana:/rouana rouana python confidence.py
+### Ambiente de Desenvolvimento
+
+#### Setup
+
+```
+sudo docker-compose run --rm web python manage.py migrate
+sudo docker-compose run --rm web python manage.py createsuperuser
 ```
 
+#### Execução
+
+```
+sudo docker-compose up -d web
+```
+
+Você pode acessar o site por padrão na url `localhost:8000`

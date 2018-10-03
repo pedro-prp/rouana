@@ -2,7 +2,7 @@ version: '2'
 
 services:
   rocketchat:
-    image: rocket.chat:0.68.3
+    image: rocket.chat:0.69.2
     restart: unless-stopped
     volumes:
       - ./uploads:/app/uploads
@@ -28,22 +28,43 @@ services:
     build:
       context: .
       dockerfile: ./docker/tais/Dockerfile
+    restart: unless-stopped
     environment:
       - TRAINING_EPOCHS=300
-      - ROUANA_PORT=5005
       - CREDENTIALS=/rouana/credentials.yml
-    ports:
-      - 5005:5005
+      - ROCKETCHAT_URL=rocketchat:3000
+      - MAX_TYPING_TIME=8
+      - MIN_TYPING_TIME=1
+      - WORDS_PER_SECOND_TYPING=10
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin
+      - TAIS_USERNAME=tais
+      - TAIS_PASSWORD=tais
     volumes:
       - ./rouana:/rouana
+      - ./scripts:/scripts
     depends_on:
       - rocketchat
 
-  landing-page:
+  web:
     build:
       context: .
-      dockerfile: ./docker/landing_page/Dockerfile
+      dockerfile: ./docker/web/Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=8000
+      - ROCKETCHAT_URL=http://localhost:3000
+      - ALLOWED_HOSTS=localhost
+      - PREFIX_URL=
+    volumes:
+      - ./web:/web
     ports:
       - 8000:8000
+    depends_on:
+      - webdb
+
+  webdb:
+    image: postgres:10.5
+    restart: unless-stopped
     volumes:
-      - ./landing_page:/landing_page
+      - ./web/postgres-data:/var/lib/postgresql/data

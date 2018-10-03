@@ -1,6 +1,7 @@
 import logging
 import threading
 import queue
+import os
 
 
 from rasa_core.channels.channel import InputChannel, UserMessage, OutputChannel
@@ -18,10 +19,18 @@ class RocketChatBot(OutputChannel):
         self.username = user
         self.connector = Driver(url=server , ssl=ssl)
         self.users = {}
+        self.user = user
+        self.password = password
+
+        self.logged_in = False
 
         self.connector.connect()
-        self.connector.login(user=user, password=password,
-                             callback=self._login_callback)
+        self.login()
+
+    def login(self):
+        if not self.logged_in:
+            self.connector.login(user=self.user, password=self.password,
+                                 callback=self._login_callback)
 
     """
     Internal callback handlers
@@ -31,6 +40,7 @@ class RocketChatBot(OutputChannel):
             logger.error('[-] callback error:')
             logger.error(error)
         else:
+            self.logged_in = True
             logger.info("[+] callback success")
             logger.debug(data)
             self.connector.subscribe_to_messages()
@@ -71,13 +81,16 @@ class RocketChatInput(InputChannel):
         self._record_messages(message_handler)
 
     def _record_messages(self, on_message):
-        while self.rocketchat_bot.connector.connect:
-            if not self.message_queue.empty():
+        while True:
+            if self.rocketchat_bot.logged_in and not self.message_queue.empty():
                 msg = self.message_queue.get()
 
                 on_message(
                     UserMessage(msg['msg'], self.rocketchat_bot, msg['rid'])
                 )
+            else:
+                self.rocketchat_bot.login()
+
 
     def register_message(self, bot, message):
         self.message_queue.put(message)
@@ -89,6 +102,7 @@ class RocketchatHandleMessages:
         self.messages = []
         self.message_index = 0
         self.bot = bot
+        self.is_typing = False
 
     def send_message(self):
         msg = self.messages[self.message_index]
@@ -99,33 +113,49 @@ class RocketchatHandleMessages:
         self.bot.connector.send_message(self.rid, msg['message'])
 
         if self.message_index == len(self.messages):
-            logger.info('deactivate typing for {}'.format(self.rid))
+            if self.is_typing:
+                logger.info('deactivate typing for {}'.format(self.rid))
 
-            self.bot.connector.call(
-                'stream-notify-room',
-                [self.rid + '/typing', self.bot.username, False]
-            )
+                self.bot.connector.call(
+                    'stream-notify-room',
+                    [self.rid + '/typing', self.bot.username, False],
+                    self.deactivate_typing
+                )
 
             self.messages = []
             self.message_index = 0
 
     def add_message(self, message):
-        logger.info('activate typing for {}'.format(self.rid))
-        self.bot.connector.call(
-            'stream-notify-room',
-            [self.rid + '/typing', self.bot.username, True]
-        )
+        if not self.is_typing:
+            logger.info('activate typing for {}'.format(self.rid))
 
-        wait_time = 1
+            self.bot.connector.call(
+                'stream-notify-room',
+                [self.rid + '/typing', self.bot.username, True],
+                self.activate_typing
+            )
+
+        wait_time = int(os.getenv('MIN_TYPING_TIME', 1))
+        max_time = int(os.getenv('MAX_TYPING_TIME', 10))
 
         if len(self.messages) != 0:
             last_msg = self.messages[-1]
             n_words = len(last_msg['message'].split(' '))
 
-            words_per_sec = 5
-            wait_time = max(1, n_words // words_per_sec) + last_msg['time']
+            words_per_sec = int(os.getenv('WORDS_PER_SECOND_TYPING', 5))
+            wait_time = min(max_time,
+                max(1, n_words // words_per_sec)
+            ) + last_msg['time']
 
         threading.Timer(wait_time, self.send_message).start()
 
         logger.info('[ ] schedule message {}: {}'.format(self.rid, message))
         self.messages.append({'message': message, 'time': wait_time})
+
+    def activate_typing(self, error, data):
+        if not error:
+            self.is_typing = True
+
+    def deactivate_typing(self, error, data):
+        if not error:
+            self.is_typing = False
