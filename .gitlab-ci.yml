@@ -22,7 +22,7 @@ build stable:
     - docker push $WEB_STABLE_IMAGE
   only:
     - tags
-  environment: development
+  environment: production
   tags:
     - docker
 
@@ -53,7 +53,7 @@ build latest:
     - docker build -f docker/web/Dockerfile -t $WEB_LATEST_IMAGE .
     - docker push $WEB_LATEST_IMAGE
   only:
-    - /develop/
+    - /master/
   environment: development
   tags:
     - docker
