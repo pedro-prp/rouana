@@ -24,7 +24,7 @@ intents:
   - lei_rouanet_porcentagem_de_deducao_do_imposto
   - lei_rouanet_quantidade_de_projetos
   - lei_rouanet_quem_pode_incentivar
-  - lei_rouanet_denuncia
+  
 
   - processo
   - processo_como_funciona
@@ -1204,7 +1204,7 @@ templates:
 
         Você tem alguma dúvida sobre elas?
   utter_menu:
-    - text: | 
+    - text: |
         Podemos falar sobre:
         - A Lei Rouanet
         - O SALIC
@@ -1228,7 +1228,7 @@ actions:
   - utter_cumprimentar
   - utter_despedir
   - utter_menu
-  
+
   - utter_captacao
   - utter_captacao_quando_captar
   - utter_captacao_como_captar
