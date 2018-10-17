@@ -18,7 +18,7 @@ def train_dialogue(domain_file='domain.yml',
                    training_data_file='data/stories'):
     fallback = FallbackPolicy(fallback_action_name="utter_default",
                               core_threshold=0.65,
-                              nlu_threshold=0.7)
+                              nlu_threshold=0.8)
 
     agent = Agent(
         domain_file,

@@ -155,3 +155,42 @@
 - quero saber se meus parentes podem ser beneficiados
 - meus familiares podem incentivar meu projeto?
 - a família pode incentivar projetos?
+
+
+## intent:lei_rouanet_denuncia
+
+- quero denunciar um projeto
+- quero registrar uma denuncia
+- como faço uma denuncia
+- como funciona a denuncia
+- uso do dinheiro da lei de forma indevida
+- uso do dinheiro de forma ilegal
+- com quem eu falo para denunciar
+- tenho um projeto para denunciar
+- utiliza o dinheiro de forma ilegal
+- identifiquei uma irregularidade
+- tem algo errado no projeto
+- gostaria de saber como denunciar
+- qual o processo de denuncia
+- e possivel fazer uma denuncia
+- dinheiro do projeto ilegal
+- denuncia
+- denunciar
+- denuncia via ouvidoria
+- denunciar fraude
+- denunciar dirigente
+- denunciar projeto
+- denuncia de projeto ilegal
+- dinheiro ilegal
+- dinheiro indevido
+- dinheiro de forma ilegal
+- dinheiro de forma indevida
+- denuncias anonimas
+- processo de denuncia
+- mecanismo de denuncia
+- fazer uma denuncia
+- registrar denuncia
+- projeto ilegal
+- posso denunciar
+- cometer irregularidade
+- roubo

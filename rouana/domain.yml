@@ -15,6 +15,7 @@ intents:
   - definicao_proponente
   - definicao_salic
   - definicao_vinculada
+  - lei_rouanet_denuncia
 
   - lei_rouanet
   - lei_rouanet_o_que_eh
@@ -24,7 +25,7 @@ intents:
   - lei_rouanet_porcentagem_de_deducao_do_imposto
   - lei_rouanet_quantidade_de_projetos
   - lei_rouanet_quem_pode_incentivar
-  
+
 
   - processo
   - processo_como_funciona

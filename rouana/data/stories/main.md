@@ -14,6 +14,11 @@
   - utter_lei_rouanet_mais
   - utter_menu
 
+
+## path_lei_rouanet.10.1
+  * lei_rouanet_denuncia
+    - utter_lei_rouanet_denuncia
+
 ## path_salic.1
 * salic
   - utter_salic
