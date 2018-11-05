@@ -15,7 +15,7 @@ run apt-get remove --purge -y git         && \
 add ./rouana /rouana
 workdir /rouana
 
-env TRAINING_EPOCHS=900                    \
+env TRAINING_EPOCHS=200                    \
     CREDENTIALS="/rouana/credentials.yml"
 
 cmd python train-rocketchat.py

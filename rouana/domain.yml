@@ -7,15 +7,16 @@ intents:
   - captacao_quando_captar
   - captacao_como_captar
 
+  - definicao
   - definicao_tais
   - definicao_minc
+  - definicao_cnic
   - definicao_sefic
   - definicao_projeto
   - definicao_proposta
   - definicao_proponente
   - definicao_salic
   - definicao_vinculada
-  - lei_rouanet_denuncia
 
   - lei_rouanet
   - lei_rouanet_o_que_eh
@@ -25,7 +26,7 @@ intents:
   - lei_rouanet_porcentagem_de_deducao_do_imposto
   - lei_rouanet_quantidade_de_projetos
   - lei_rouanet_quem_pode_incentivar
-
+  - lei_rouanet_denuncia
 
   - processo
   - processo_como_funciona
@@ -728,6 +729,12 @@ templates:
 
           monitoramento dos projetos submetidos.
 
+  utter_definicao_cnic:
+    - text: |
+          O Conselho Nacional de Incentivo à Cultura (CNIC) é responsável por
+
+          selecionar e aprovar os projetos para captação.
+
   utter_definicao_sefic:
     - text: |
           A (Secretaria de Fomento e Incentivo à Cultura) planeja,
@@ -1237,6 +1244,7 @@ actions:
   - utter_definicao
   - utter_definicao_tais
   - utter_definicao_minc
+  - utter_definicao_cnic
   - utter_definicao_sefic
   - utter_definicao_projeto
   - utter_definicao_proposta
