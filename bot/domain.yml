@@ -1166,12 +1166,11 @@ templates:
 
           Ambas as manifestações se dão por via da aba \"recurso\" no Menu ao lado esquerdo da tela do projeto, no Salic
 
-
   utter_cumprimentar:
     - text: |
-      Oi, sou assistente virtual do MinC, me chamo Tais. Seja bem-vindo!
+          Oi, sou assistente virtual do MinC, me chamo Tais. Seja bem-vindo!
 
-      O meu trabalho é te ajudar a esclarecer dúvidas sobre a lei Rouanet.
+          O meu trabalho é te ajudar a esclarecer dúvidas sobre a lei Rouanet.
 
   utter_manter_conversa:
     - text: |
@@ -1184,7 +1183,7 @@ templates:
 
         O que mais você gostaria de saber?
 
-    - text:
+    - text: |
         Busquei essas informações fresquinhas pra você... Espero que tenha sido útil,
 
         mais alguma pergunta?
@@ -1230,7 +1229,7 @@ templates:
     - text: |
          A Lei Rouanet tem muitas informações importantes,
 
-        fique à vontade para perguntar mais (:
+         fique à vontade para perguntar mais : )
 
     - text: |
          Me pergunte mais sobre a lei de incentivo cultural :)

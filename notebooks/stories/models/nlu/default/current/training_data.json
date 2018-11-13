@@ -1,0 +1,6097 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "processo",
+        "text": "quero falar sobre processo"
+      },
+      {
+        "intent": "processo",
+        "text": "vamos para processo"
+      },
+      {
+        "intent": "processo",
+        "text": "processo"
+      },
+      {
+        "intent": "processo",
+        "text": "acho que é processo"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "que data devo apresentar proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "qual data devo me inscrever"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "que época devo enviar proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "quando posso apresentar proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "qual periodo para apresentar proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "qual periodo para apresentar projeto"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "qual o periodo de submissao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "quando posso enviar projeto"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "quando posso submeter uma proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "periodo para submissao de proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "periodo de submissao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "inscrever proposta"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "inscrever projeto"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "data inscriçao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "data para enviar"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "epoca inscriçao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "prazo inscriçao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "prazo submissao"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "prazo enviar"
+      },
+      {
+        "intent": "processo_periodo",
+        "text": "prazo envio"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como funciona o processo"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como funciona a lei rouanet"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como faço para enviar um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como é o processo de envio de projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como criar um projeto"
+      },
+      {
+        "intent": "processo_como_funciona",
+        "text": "como mandar um projeto"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "fale sobre a definição das etapas"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "quantas etapas tem"
+      },
+      {
+        "intent": "processo_definicao_etapas",
+        "text": "me fale sobre as etapas"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "o que é Preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "sobre preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "defina Preenchimento"
+      },
+      {
+        "intent": "processo_preenchimento",
+        "text": "o que devo fazer no preenchimento"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "o que é admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "sobre admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "defina admissibilidade"
+      },
+      {
+        "intent": "processo_admissibilidade",
+        "text": "o que acontece na admissibilidade"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "o que é aprovação"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "sobre aprovação"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "defina aprovação"
+      },
+      {
+        "intent": "processo_aprovacao",
+        "text": "o que acontece na aprovação"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "o que é execução"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "sobre execução"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "defina execução"
+      },
+      {
+        "intent": "processo_execucao",
+        "text": "o que devo fazer no execução"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que é análise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que é prestação de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "sobre análise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "sobre prestação de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "defina análise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "defina prestação de contas"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que devo fazer no análise de resultados"
+      },
+      {
+        "intent": "processo_analise_de_resultados",
+        "text": "o que devo fazer no prestação de contas"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso encaminhar pedido de reativação"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "Como encaminhar pedido de reativação"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "Como refazer a reativação de pedido"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "refazer o encaminhamento do pedido de reativação"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "Pedido de reativação"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "Reativar proposta"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "proposta indeferida como reativar"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso reativar uma proposta indeferida"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "existe um meio de reativar uma proposta indeferida?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "minha proposta foi rejeitada, como reativar ela?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "posso fazer o pedido de reativação?"
+      },
+      {
+        "intent": "processo_reativacao_de_proposta",
+        "text": "como reativar uma proposta?"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "tenho duvida sobre o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "fale sobre o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "qual e o prazo"
+      },
+      {
+        "intent": "processo_prazo",
+        "text": "sabe o prazo"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "Qual é o prazo limite para envio do CNAE"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "Até quando posso enviar o CNAE"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "Tem algum prazo para enviar o CNAE"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo cnae"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "envio do CNAE"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo para enviar CNAE"
+      },
+      {
+        "intent": "processo_prazo_envio_cnae",
+        "text": "prazo de envio de CNAE"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "desistir do prazo recursal"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "desistir do recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "prazo pra encaminhar recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "como é a desistência do prazo de recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "Sobre o prazo de ecaminhamento de recurso, como desisto dele"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "da pra desistir do prazo de recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "Após o enquadramento, como desisto do prazo de recurso?"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "Qual o prazo para desisitr de entrar com o recurso?"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "não quero entrar com o recurso"
+      },
+      {
+        "intent": "processo_prazo_desistir_recurso",
+        "text": "Quero desistir do prazo de recurso"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A12",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A12"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "B01",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa B01"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "B01",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado B01"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "B01",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado B01"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "B01",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado B01"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "B14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa B14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "B14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado B14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "B14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado B14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "B14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado B14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A17",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A17"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A17",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A17"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A17",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A17"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A17",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A17"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "A42",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa A42"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "A42",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado A42"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "A42",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado A42"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "A42",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado A42"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "B11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa B11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "B11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado B11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "B11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado B11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "B11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado B11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "B20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa B20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "B20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado B20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "B20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado B20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "B20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado B20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "C09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa C09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "C09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado C09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "C09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado C09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "C09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado C09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "C10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa C10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "C10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado C10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "C10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado C10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "C10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado C10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "C20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa C20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "C20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado C20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "C20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado C20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "C20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado C20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "C26",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa C26"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "C26",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado C26"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "C26",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado C26"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "C26",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado C26"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "C30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa C30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "C30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado C30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "C30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado C30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "C30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado C30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D14",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D14"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E25",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E25"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E62",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E62"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E62",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E62"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E62",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E62"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E62",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E62"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E66",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E66"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E66",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E66"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E66",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E66"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E66",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E66"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E20",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E20"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E27",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E27"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E30",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E30"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E68",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E68"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E68",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E68"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E68",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E68"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E68",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E68"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E77",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E77"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E77",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E77"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E77",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E77"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E77",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E77"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L03",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L03"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L05",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L05"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L05",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L05"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L05",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L05"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L05",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L05"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L08",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L08"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L08",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L08"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L08",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L08"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L08",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L08"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D28",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D28"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D28",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D28"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D28",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D28"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D28",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D28"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D29",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D29"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D29",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D29"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D29",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D29"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D29",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D29"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E10",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E10"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E11",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E11"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E12",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E12"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E12",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E12"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E12",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E12"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E12",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E12"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E13",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E13"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E15",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E15"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E15",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E15"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E15",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E15"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E15",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E15"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E16",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E16"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E23",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E23"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E24",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E24"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E24",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E24"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E24",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E24"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E24",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E24"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E36",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E36"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E36",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E36"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E36",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E36"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E36",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E36"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E59",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E59"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E59",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E59"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E59",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E59"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E59",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E59"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E63",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E63"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E63",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E63"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E63",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E63"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E63",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E63"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E64",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E64"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E64",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E64"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E64",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E64"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E64",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E64"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E65",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E65"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E65",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E65"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E65",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E65"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E65",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E65"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E75",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E75"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E75",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E75"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E75",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E75"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E75",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E75"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E79",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E79"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E79",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E79"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E79",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E79"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E79",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E79"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E80",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E80"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E80",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E80"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E80",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E80"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E80",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E80"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E81",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E81"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E81",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E81"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E81",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E81"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E81",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E81"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E60",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E60"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E60",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E60"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E60",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E60"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E60",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E60"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E72",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E72"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E72",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E72"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E72",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E72"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E72",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E72"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E50",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E50"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E50",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E50"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E50",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E50"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E50",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E50"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L09",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L09"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "D38",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa D38"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "D38",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado D38"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "D38",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado D38"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "D38",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado D38"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E22",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E22"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E73",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E73"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E73",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E73"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E73",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E73"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E73",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E73"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E78",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E78"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E78",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E78"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E78",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E78"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E78",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E78"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "E47",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa E47"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "E47",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado E47"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "E47",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado E47"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "E47",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado E47"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "L06",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que significa L06"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 28,
+            "end": 31,
+            "value": "L06",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "tenho dúvida sobre o estado L06"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "L06",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "o que é estado L06"
+      },
+      {
+        "intent": "processo_situacao_processo",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "L06",
+            "entity": "situacao_processo"
+          }
+        ],
+        "text": "onde posso saber mais sobre o estado L06"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "onde está o diheiro"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "onde está o pablo vittar"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "vagabundos"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "bandidos"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "corrupção"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "deus é fiel"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "qual é o seu sexo"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "você esta aonde?"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "voce torce pra qual time"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "como esta o tempo"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola tais, como vai"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, tudo bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "como vai"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oi, como vai voce"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "como vao as coisas"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "com licenca"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "tudo bom"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "posso falar com voce"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "pode me tirar uma duvida"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "gostaria de tirar uma duvida"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "ola tais"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "to bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "tranquilo"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "estou bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "estou otimo"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "muito bem"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "bom dia"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa tarde"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "boa noite"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "olá"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oie"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "oiee"
+      },
+      {
+        "intent": "cumprimentar",
+        "text": "opa tudo bem"
+      },
+      {
+        "intent": "despedir",
+        "text": "Tchau obrigada"
+      },
+      {
+        "intent": "despedir",
+        "text": "até logo"
+      },
+      {
+        "intent": "despedir",
+        "text": "namaste"
+      },
+      {
+        "intent": "despedir",
+        "text": "sayonara"
+      },
+      {
+        "intent": "despedir",
+        "text": "até mais"
+      },
+      {
+        "intent": "despedir",
+        "text": "até breve"
+      },
+      {
+        "intent": "despedir",
+        "text": "falou, valeu"
+      },
+      {
+        "intent": "despedir",
+        "text": "flw vlw"
+      },
+      {
+        "intent": "afirmar",
+        "text": "se não for incomodo"
+      },
+      {
+        "intent": "afirmar",
+        "text": "claro que sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "posso sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sei bastante"
+      },
+      {
+        "intent": "afirmar",
+        "text": "preenchi sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria de saber mais"
+      },
+      {
+        "intent": "afirmar",
+        "text": "gostaria de mais detalhes"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ja preenchi uma proposta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sim, preenchi minha proposta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "quero"
+      },
+      {
+        "intent": "afirmar",
+        "text": "por favor"
+      },
+      {
+        "intent": "afirmar",
+        "text": "tudo bem"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ja"
+      },
+      {
+        "intent": "afirmar",
+        "text": "já"
+      },
+      {
+        "intent": "afirmar",
+        "text": "sim"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ta"
+      },
+      {
+        "intent": "afirmar",
+        "text": "ok"
+      },
+      {
+        "intent": "afirmar",
+        "text": "claro"
+      },
+      {
+        "intent": "afirmar",
+        "text": "confirmo"
+      },
+      {
+        "intent": "negar",
+        "text": "não sei onde a minha pergunta se encaixa"
+      },
+      {
+        "intent": "negar",
+        "text": "nao quero saber mais"
+      },
+      {
+        "intent": "negar",
+        "text": "quero falar sobre outra coisa"
+      },
+      {
+        "intent": "negar",
+        "text": "não quero saber de mais nada"
+      },
+      {
+        "intent": "negar",
+        "text": "nao era isso, me enganei"
+      },
+      {
+        "intent": "negar",
+        "text": "não quero falar sobre isso"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda nao sei escolher um tópico"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda não pensei sobre isso"
+      },
+      {
+        "intent": "negar",
+        "text": "nao sei do que quero falar"
+      },
+      {
+        "intent": "negar",
+        "text": "não sei do que quero conversar"
+      },
+      {
+        "intent": "negar",
+        "text": "nunca"
+      },
+      {
+        "intent": "negar",
+        "text": "nao"
+      },
+      {
+        "intent": "negar",
+        "text": "não sei"
+      },
+      {
+        "intent": "negar",
+        "text": "nao conheco"
+      },
+      {
+        "intent": "negar",
+        "text": "não quero"
+      },
+      {
+        "intent": "negar",
+        "text": "nao tenho certeza"
+      },
+      {
+        "intent": "negar",
+        "text": "escolhi errado"
+      },
+      {
+        "intent": "negar",
+        "text": "falei errado"
+      },
+      {
+        "intent": "negar",
+        "text": "duvida"
+      },
+      {
+        "intent": "negar",
+        "text": "ainda não sei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "quero aprender mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "quero saber mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "pretendo saber mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "gostaria de aprender mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "gostaria de saber mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "possuo curiosidades sobre a lei rouanet"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "creio que sobre a lei rouanet"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "quero falar sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "vamos falar sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "me fale da lei rouanet"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "mais sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "aprender sobre a lei rouanet"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "sobre a lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "lei"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "rouanet"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "curiosidades"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "sobre a Lei eu acho"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "aprender mais"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "saber mais"
+      },
+      {
+        "intent": "afirmar_curiosidades",
+        "text": "aprender mais"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "prefiro conversar sobre criaçao e andamento de projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "gostaria de saber sobre criacao e andamento de projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "sobre criacao e andamento de projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "criacao e andamento de projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "conversar sobre proposta"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "conversar sobre projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "prefiro falar sobre proposta"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "prefiro falar sobre projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "conversar sobre projetos"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "conversar sobre proposta"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "projeto"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "proposta"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "criação"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "andamento"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "criacao de projeto"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "andamento de projeto"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "criaçao e andamento"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "sobre proposta"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "sobre projeto"
+      },
+      {
+        "intent": "afirmar_projeto",
+        "text": "sobre criacao"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como funciona"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "me diga mais"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "não entendi"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "nao entendi"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "não é isso"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "nao eh isso"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "como assim"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "e como funciona"
+      },
+      {
+        "intent": "diga_mais",
+        "text": "e como faco isso"
+      },
+      {
+        "intent": "captacao",
+        "text": "quero falar sobre captacao"
+      },
+      {
+        "intent": "captacao",
+        "text": "tenho duvidas sobre captacao"
+      },
+      {
+        "intent": "captacao",
+        "text": "você sabe falar sobre captacao"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Quando poderei efetuar a captação de recursos do meu projeto ?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Captação de recursos, quando fazer ?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Qual é o momento para fazer a captação de recursos ?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Quando fazer a captação de recursos do projeto ?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Quando posso começar a captação de recursos da minha proposta ?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Quando começa a captação?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "A partir de quando posso começar a captar recursos?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando a captação estará liberada?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "captar recursos do projeto"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quero captar, quando posso iniciar?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando começa a arrecadação de dinheiro?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando eu começo a captar?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "já enviei meu projeto, já posso captar?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "quando preciso me preocupar com a captação?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "Quando se iniciará a fase de captação?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "a captação já pode ser feita?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "em quanto tempo posso captar?"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "eu submeti um projeto e quero saber quando posso começar a captar dinheiro"
+      },
+      {
+        "intent": "captacao_quando_captar",
+        "text": "como posso fazer para captar recursos?"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o próprio proponente do projeto pode captar os recursos para a sua execução"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o proponente pode captar o dinheiro para execucao"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quem pode ir captar o dinheiro para fazer o projeto"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "pode contratar alguém pra captar dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "depois de aprovado quem vai pegar o dinheiro liberado"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "posso contratar alguém pra captar pra mim"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quero contratar alguem pra captar recurso"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "posso terceirizar a captacao de recursos"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "o proponente pode receber dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "quanto o proponete pode ser pago"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente captação"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente dinheiro"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "terceirizar captacao"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente pagamento"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "pagamento proponente"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente recebimento"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente captar"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "contratar captação"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente receber"
+      },
+      {
+        "intent": "captacao_como_captar",
+        "text": "proponente ser pago"
+      },
+      {
+        "intent": "salic",
+        "text": "me fale sobre o salic"
+      },
+      {
+        "intent": "salic",
+        "text": "quero saber sobre o salic"
+      },
+      {
+        "intent": "salic",
+        "text": "opção salic"
+      },
+      {
+        "intent": "salic",
+        "text": "salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como me cadastro no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como criar login no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "como entrar no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "qual o endereço do salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "o que eu preciso para cadastrar no salic"
+      },
+      {
+        "intent": "salic_cadastro_usuario",
+        "text": "me cadastre no salic"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "Como cadastrar o proponente via Salic ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "O que devo fazer para cadastrar um proponente ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "Cadastro de proponente ?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "Como fazer cadastro de proponente?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "Como fazer cadastro de um proponente?"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "cadastrar proponente"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "cadastro de proponente"
+      },
+      {
+        "intent": "salic_cadastro_proponente",
+        "text": "Como faço para cadastrar um proponente?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "não me recordo da senha de acesso"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "Esqueci a senha do Salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "Como recuperar senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "recuperação de senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "perdi minha senha do Salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "esqueci minha senha no Salic"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "gostaria de saber como mudar minha senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "mudança de senha"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como realizo a mudança de senha?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como mudo a senha?"
+      },
+      {
+        "intent": "salic_recuperacao_de_senha",
+        "text": "como troco minha senha?"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "sobre erros de sistema"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "erros do salic"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "problemas de sistema"
+      },
+      {
+        "intent": "salic_erros",
+        "text": "problemas no salic"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "Perdi minhas alterações na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "não salvou minhas alterações na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "proposta não foi salva"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "alteração não foi salva após fechar"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "O SALIC não salvou minhas alterações na proposta"
+      },
+      {
+        "intent": "salic_erros_salvamento_de_proposta",
+        "text": "houve um erro ao gravar minha proposta"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "minha planilha sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "minha planilha desapareceu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "não acho minha planilha"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "não encontro minha planilha"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "planilha desapareceu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "Como recuperar minha planilha que sumiu?"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "A planilha orçamentária sumiu"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "A planilha orçamentária não aparece"
+      },
+      {
+        "intent": "salic_erros_planilha_desapareceu",
+        "text": "perdi a planilha orçamentária"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "solicitação de vínculo pendente"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "O sistema acusou como solicitação de vínculo pendente"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "vinculo um CPF a um CNPJ?"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "vincular cpf cnpj"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar CPF a pessoa jurídica"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar pessoa fisica a pessoa jurídica"
+      },
+      {
+        "intent": "salic_erros_vinculo_cpf_cnpj",
+        "text": "associar pessoa fisica a CNPJ"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "Não consigo achar minha proposta no sistema"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "Como encontrar a minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "Não sei achar minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "não acho minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "não consigo buscar minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "não encontro minha proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "encontrar proposta"
+      },
+      {
+        "intent": "salic_erros_achar_proposta",
+        "text": "perdi a proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "Sobre o preenchimento"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "instruções de preenchimento"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "quero preencher proposta"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "instruir preenchimento"
+      },
+      {
+        "intent": "salic_preenchimento",
+        "text": "como preencho"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "campo Custo de Auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "como preencher o campo Custo de Auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_campo_custo_auditoria",
+        "text": "o que colocar no Custo de auditoria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "cadastrar as rubricas de advogado e contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "Cadastro de rubricas de advogado"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "Cadastro de rubricas de contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "incluir rubricas"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "rubricas de contador"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "rubricas de advogado"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_rubrica_advogado_contador",
+        "text": "como enviar rubricas de advogados"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ultrapassar o valor do ingresso"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "Não irei comercializar ingressos"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ingresso não ultrapassa o valor citado"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "não vou comercializar ingressos"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "ingresso não ultrapassa o máximo por beneficiário"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "meu ingresso ultrapassa o valor permitido"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "não vou vender ingresso no meu projeto"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "valor do ingresso excedeu o permitido"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "como calcula o valor do ingresso"
+      },
+      {
+        "intent": "salic_preenchimento_valor_ingresso",
+        "text": "o ingresso do evento pode ser gratuito"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular uma proposta ao CPF do responsável"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "Vincular proposta ao CPF"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "como vincular proposta a pessoa fisica"
+      },
+      {
+        "intent": "salic_preenchimento_vinculo_cpf_proposta",
+        "text": "vincular pessoa física e proposta"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "Agência bancária inválida"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "O sistema indica agência inválida"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "cadastrar minha agência bancária"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "Como eu cadastro a agência"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "O campo de agência possui hífen"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "Qual o formato do campo de agência bancária"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "Deu erro ao cadastrar a agência"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "tenho duvidas sobre o formato do campo de agencia bancaria"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "Como é o formato do campo da agência bancária"
+      },
+      {
+        "intent": "salic_preenchimento_cadastro_agencia_bancaria",
+        "text": "qual banco"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "quero falar sobre a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet",
+        "text": "me fale sobre a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que é lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "ruane",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que significa ruane"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "lei ruanê",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "Explique a lei ruanê"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "lei ruanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que é lei ruanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que significa lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "Explique a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "lei rouane",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que é lei rouane"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que significa lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "Explique a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que é lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que significa lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "Explique a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que é lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "o que significa lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "Explique a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "fale sobre a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "lei rouanet",
+            "entity": "lei_rouanet"
+          }
+        ],
+        "text": "lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_o_que_eh",
+        "text": "Lei de Incentivo a Cultura"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode se inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode participar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero me inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "posso me inscrever na lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero participar da lei"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero me inscrever"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "eu posso usar a lei"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode se aplicar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero me tornar um proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "eu posso participar da lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quero ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como ser proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "quem pode propor"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como me inscrever"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "como me tornar proponente"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "elegibilidade"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "inscrever"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "participar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "aplicar"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_ser_proponente",
+        "text": "usar a lei"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto dinheiro a lei movimenta"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto dinheiro a lei rouanet arrecada"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "De onde vem o dinheiro da lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "de onde vem o dinheiro usado na Lei"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o dinheiro da lei rouanet é público"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "Porque os cidadãos tem que pagar pelos projetos da lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "a lei rouanet usa dinheiro de empresas?"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "eu como cidadão posso contribuir para um projeto"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quanto a lei ja arrecadou?"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "o dinheiro da lei é privado ou público"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "dinheiro"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadou"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadar"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "arrecadado"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "pagar"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "de onde vem"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quem paga"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "quem patrocina"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "pecúnia"
+      },
+      {
+        "intent": "lei_rouanet_origem_do_dinheiro",
+        "text": "capital"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "tem beneficio para quem incentiva projeto"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "tem algum benefício em incentivar projetos"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "que tipo de beneficios recebe ao incentivar"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "que beneficios tem para quem incentiva"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "um incentivador pode receber beneficio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "qual é a vantagem de incentivar"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais as vantagens de ser incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais as vantagens para o patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais os beneficios de ser incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "quais os beneficios de um patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "incentivo fiscal federal"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "beneficiados"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "benefício"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patrocínio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patrocinio"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "incentivador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "patrocinador"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "vantagem"
+      },
+      {
+        "intent": "lei_rouanet_beneficios_incentivo_projetos_culturais",
+        "text": "ganha"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "incentivadores de projetos podem deduzir quanto de impostos de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "quanto de imposto de renda incentivadores conseguem deduzir de impostos"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual valor um incentivador consegue deduzir de imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "caso eu incentive um projeto quanto eu vou abater do meu IR"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "quanto é o abatimento no IR caso haja algum incentivo"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual a porcentagem do imposto que vou abater após incentivar projetos"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual é o desconto que recebo no IR ao incentivar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "qual a dedução de imposto de renda para incentivadores"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "Se eu incentivar eu vou ter dedução no meu imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "sou incentivador, quanto posso receber como dedução de imposto de renda??"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "imposto de renda"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "imposto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "dedução"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "deduzir"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "inferir"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "porcentagem"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "desconto"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "abatimento"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "abater"
+      },
+      {
+        "intent": "lei_rouanet_porcentagem_de_deducao_do_imposto",
+        "text": "taxa"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos foram aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos foram incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos participaram"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos passaram pela lei"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos usam a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos ja tiveram incentivo"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantos projetos a lei rouanet aprovou"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantidade de projetos incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "quantidade de projetos aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "qual estatistica de projetos participantes"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "estatistica de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos que captaram recursos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos participantes"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos incentivados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos agraciados"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "projetos em execução"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "media de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "numero de projetos"
+      },
+      {
+        "intent": "lei_rouanet_quantidade_de_projetos",
+        "text": "aprovados"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Qualquer empresa pode se beneficiar de incentivos fiscais, apoiando projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Quais empresas podem se beneficiar ao apoiar projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Que tipos de empresas podem se beneficiar ao apoiar projetos culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Apoiando projetos culturais, qualquer empresa se beneficia"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Empresas que se beneficiam ao apoiar projeto culturais"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "Tenho uma empresa e quero particiar da lei rouanet, como eu sei se posso"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "qual o critério de elegibilidade para pessoas jurídicas"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "toda empresa pode usar a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "tem alguma execeção para uma empresa não utilizar a lei rouanet"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "quais a regras de elegibilidade no caso de empresas"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "empresa"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "elegibilidade como pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "participação empresa"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "corporação"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "organização"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "firma"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "estabelecimento"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "instituição"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "firma"
+      },
+      {
+        "intent": "lei_rouanet_quem_pode_incentivar",
+        "text": "companhia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "quero denunciar um projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "quero registrar uma denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "como faço uma denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "como funciona a denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "qual o processo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "uso do dinheiro de forma ilegal"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "tenho um projeto para denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "identifiquei uma irregularidade"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "tem algo errado no projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "gostaria de saber como denunciar"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denuncia via ouvidoria"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar fraude"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar dirigente"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "denunciar projeto"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "dinheiro ilegal"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "dinheiro indevido"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "processo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "mecanismo de denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "registrar denuncia"
+      },
+      {
+        "intent": "lei_rouanet_denuncia",
+        "text": "projeto ilegal"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus parentes podem incentivar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus pais e tios podem incentivar meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "tem problema parentes incentivarem projetos"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "tenho parentes que desejam incentivar meus projetos, tem alguma restrição"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "parentes incentivando meus projetos. Tem problema"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "tem problema meu irmão ou irmã, tio ou tia, primo ou prima, mãe ou pai incentivar meus projetos"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "minha irmã quer incetivar meu projeto, tem problema"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meu projeto pode ser incentivado pela minha família?"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "meus familiares podem incentivar meu projeto?"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "quero saber se meus parentes podem ajudar a financiar o meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivado"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "incentivo"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "familiares"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "família"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "parente"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "ajudar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "financiar"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "estimular"
+      },
+      {
+        "intent": "lei_rouanet_receber_incetivo_de_parentes",
+        "text": "pais"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "existe valor maximo para minha proposta"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "qual e o valor maximo de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "minha proposta pode atingir qual valor"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "maior valor para um projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "maior valor de um projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "posso ter quantas propostas apresentadas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "quantos projetos posso ter"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "tem limite de abertura de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "quantos projetos posso ter em meu nome"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "ha um valor maximo por projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "valor maximo de projeto"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "valor maximo de proposta"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "maxima de projetos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "quantidade de propostas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "valor maximo por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "quantidade maxima"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "valor maximo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "valor por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "quantidade por ano"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_projeto",
+        "text": "ultrapassar o limite"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "uma pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "sobre pessoa fisica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "um artista"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "microempresario"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "sobre os dois perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "primeira opção"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "primeiro tópico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "se encaixa na 1"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "saber de tudo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "empresas em geral"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "perfis em geral"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "MEI"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "geral"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "escolha 3"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "vai na 3"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "opção três"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "três"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_fisica",
+        "text": "categoria 3"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "sou uma pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "tenho uma empresa"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "sou empresario individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "empresario individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "empresa individual de responsabilidade limitada"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "pessoa juridica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "EIRELI"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "segunda opção"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "segundo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "sociedade limitada"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "juridica"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "empresa individual"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "acho que na 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "opção 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "opcao dois"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "na segunda"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "na 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "quero a 2"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_pessoa_juridica",
+        "text": "dois"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "saber sobre todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "ver todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "quero todas as opções"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "quero saber tudo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "sobre os dois tópicos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "terceira opção"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "terceiro tópico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "todas as opcoes"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "todas as empresas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "todos os perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "mostrar opções"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "mostrar perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "mostrar tópicos"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "todas"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "perfis"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "opções"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "tudo"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "tópico"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "perfil"
+      },
+      {
+        "intent": "lei_rouanet_valor_maximo_geral",
+        "text": "todas"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente (autor do projeto) é remunerado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "ha limite para remuneração do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "existe remuneração para o proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "quanto e a remuneraçao do proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente recebe algo"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente ganha alguma coisa"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "qual o valor que recebe o proponente"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente tem remuneracao"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente recebe um salario"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "o proponente tem direito a honorários"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "remuneração"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "remunerado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "honorário"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "salário"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "pagamento"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "valor"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "recebe"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "ordenado"
+      },
+      {
+        "intent": "lei_rouanet_remuneracao_proponente",
+        "text": "rendimento"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "os produtos culturais podem ser comercializados"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "os ingressos podem ser comercializados"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "há um limite de preço a ser executado por produto realizado com apoio de incentivo fiscal"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "por quanto devo vender os ingressos do meu projeto"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como funciona a comercialização de ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual deve ser o preço dos ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "por qunto devo cobrar meus ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "venda de ingresso"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "valor da entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "comercialização da entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "comercialização do ingresso"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como vender a entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual deve ser o preço da entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como estabelecer preços de ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "por qual valor devo vender a entrada"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "pode ter entradas gratuitas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "como devo distribuir os ingressos"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "quantos ingressos podem ser de graça"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "há um limite de preço das entradas"
+      },
+      {
+        "intent": "lei_rouanet_comercializacao_de_ingressos",
+        "text": "qual o limite de valor das entradas"
+      },
+      {
+        "intent": "definicao",
+        "text": "o que você sabe conceituar"
+      },
+      {
+        "intent": "definicao",
+        "text": "quais definições você conhece"
+      },
+      {
+        "intent": "definicao",
+        "text": "definicoes"
+      },
+      {
+        "intent": "definicao",
+        "text": "definições"
+      },
+      {
+        "intent": "definicao",
+        "text": "qual é a definição"
+      },
+      {
+        "intent": "definicao",
+        "text": "sobre definições"
+      },
+      {
+        "intent": "definicao",
+        "text": "sobre definição"
+      },
+      {
+        "intent": "definicao",
+        "text": "o que significa"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que é Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "o que significa Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "quem é você"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "por que esse nome"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "da onde surgiu Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "qual significado de Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "por que seu nome é Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "qual é seu nome"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "definição de Tais"
+      },
+      {
+        "intent": "definicao_tais",
+        "text": "defina tais"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que é Minc"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que significa Minc"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "MinC é o ministério"
+      },
+      {
+        "intent": "definicao_minc",
+        "text": "o que a sigla Minc significa"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que é CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que significa CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "quem é a CNIC"
+      },
+      {
+        "intent": "definicao_cnic",
+        "text": "o que significa a sigla CNIC"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que é Sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que significa Sefic"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "Sefic é um orgão"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "Sefic é do ministério"
+      },
+      {
+        "intent": "definicao_sefic",
+        "text": "o que é a sigla Sefic"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "o que é Projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "o que significa Projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "como caracteriza um projeto"
+      },
+      {
+        "intent": "definicao_projeto",
+        "text": "por que é um projeto"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "o que é Proposta"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "o que significa Proposta"
+      },
+      {
+        "intent": "definicao_proposta",
+        "text": "como caracteriza uma proposta"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que é Proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que significa Proponente"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "o que um proponente faz"
+      },
+      {
+        "intent": "definicao_proponente",
+        "text": "quem é proponente"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "o que é SALIC"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "o que significa Salic"
+      },
+      {
+        "intent": "definicao_salic",
+        "text": "Salic é sigla de que"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que é Vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "o que significa Vinculada"
+      },
+      {
+        "intent": "definicao_vinculada",
+        "text": "sobre vinculada"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "lei_rouanet",
+        "synonyms": [
+          "lei rouanet",
+          "Lei Rouanet",
+          "Lei de Incentivo a Cultura",
+          "ruane",
+          "ruanê",
+          "ruanet",
+          "rouane",
+          "rouanê",
+          "Lei ruane",
+          "Lei ruanê",
+          "lei ruanet",
+          "lei rouane",
+          "lei rouanê",
+          "lei adnet"
+        ]
+      }
+    ]
+  }
+}
