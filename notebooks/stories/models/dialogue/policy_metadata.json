@@ -1,0 +1,35 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "lei_rouanet",
+        "situacao_processo"
+      ]
+    },
+    "utter_manter_conversa": {
+      "slots": []
+    },
+    "utter_processo_como_funciona": {
+      "slots": []
+    },
+    "utter_default": {
+      "slots": []
+    },
+    "utter_despedir": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.12",
+  "python": "3.6.6",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ]
+}
